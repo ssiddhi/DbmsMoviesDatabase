@@ -1,0 +1,7 @@
+Which is the highest budget movie released between 1986 to 2000?
+select m.movie_id, m.name, m.year, f.budget from finances f natural join movies m where m.year between 1999 and 2012 and f.budget is not null order by f.budget desc limit 1;
+ movie_id |                   name                   | year |  budget   
+----------+------------------------------------------+------+-----------
+     2448 | Pirates of the Caribbean: at World's End | 2007 | 300000000
+(1 row)
+

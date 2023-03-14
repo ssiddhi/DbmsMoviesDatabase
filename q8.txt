@@ -1,0 +1,9 @@
+Create a view for the Walt Disney Productions and their total gross income.
+CREATE VIEW prod_view AS select P.company, sum(F.gross) As gross_income FROM produced P NATURAL JOIN finances F where company=Walt Disney Productions GROUP BY P.company;
+SELECT * FROM prod_view;
+CREATE VIEW
+         company         | gross_income 
+-------------------------+--------------
+ Walt Disney Productions |    111104811
+(1 row)
+

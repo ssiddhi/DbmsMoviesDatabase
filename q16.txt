@@ -1,0 +1,7 @@
+How many numbers of movies got released between the years 1985 and 2000 which has the same writer and director?
+SELECT COUNT(movie_id) FROM wrote NATURAL JOIN directed NATURAL JOIN movies WHERE year BETWEEN 1985 AND 2000;
+ count 
+-------
+   793
+(1 row)
+

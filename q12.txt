@@ -1,0 +1,591 @@
+List actors that have starred in more than one movie under a company.
+SELECT C.member_id, C.first, C.last, P.company, COUNT(S.movie_id) AS num_movies FROM Casts C NATURAL JOIN starred_in S NATURAL JOIN produced P GROUP BY C.member_id, P.company HAVING COUNT(S.movie_id) > 1;
+ member_id |      first      |      last      |                   company                   | num_movies 
+-----------+-----------------+----------------+---------------------------------------------+------------
+      6511 | Bridget         | Fonda          | Warner Bros.                                |          2
+      6635 | Cameron         | Diaz           | Columbia Pictures                           |          4
+         7 | Aamir           | Khan           | Aamir Khan Productions                      |          3
+      1834 | Martin          | Lawrence       | Columbia Pictures                           |          2
+      2371 | Robert De       | Niro           | Universal Pictures                          |          3
+      6714 | Hulk            | Hogan          | New Line Cinema                             |          3
+      6935 | Jennifer Love   | Hewitt         | Columbia Pictures                           |          2
+      1512 | Joseph          | Gordon-Levitt  | Columbia Pictures                           |          2
+      7647 | Ralph           | Macchio        | Columbia Pictures                           |          3
+      1172 | James           | Franco         | Columbia Pictures                           |          2
+       229 | Ben             | Affleck        | Paramount Pictures                          |          3
+      6445 | Kate            | Hudson         | Universal Pictures                          |          2
+      7644 | Andrew          | McCarthy       | Gladden Entertainment                       |          2
+      6985 | Charlize        | Theron         | Focus Features                              |          2
+      6654 | Jeff            | Goldblum       | Universal Pictures                          |          2
+      7630 | Natasha         | Henstridge     | Metro-Goldwyn-Mayer (MGM)                   |          2
+      7365 | Henry           | Cavill         | Warner Bros.                                |          2
+      7781 | Brigitte        | Lin            | Jet Tone Production                         |          2
+      6429 | Channing        | Tatum          | Columbia Pictures                           |          2
+      7668 | Chris           | Brown          | Screen Gems                                 |          2
+      2371 | Robert De       | Niro           | Tribeca Productions                         |          2
+      6834 | Chris           | Pratt          | Warner Bros.                                |          2
+       229 | Ben             | Affleck        | Warner Bros.                                |          5
+      6224 | GÃ©rard         | Depardieu      | Film Par Film                               |          2
+      6527 | Tim             | Allen          | Revolution Studios                          |          2
+      6207 | Michael         | Douglas        | Paramount Pictures                          |          2
+      6724 | Brendan         | Fraser         | Universal Pictures                          |          4
+      4573 | Nia             | Vardalos       | Gold Circle Films                           |          2
+      6558 | Debra           | Winger         | Recorded Picture Company (RPC)              |          2
+      6261 | Arnold          | Schwarzenegger | Twentieth Century Fox                       |          2
+      6526 | Michael J.      | Fox            | Columbia Pictures                           |          2
+       969 | George          | Clooney        | Universal Pictures                          |          3
+      6374 | Al              | Pacino         | Paramount Pictures                          |          2
+      2377 | Robert          | Englund        | New Line Cinema                             |          5
+      6234 | Julia           | Roberts        | Revolution Studios                          |          2
+      6485 | Nick            | Nolte          | Touchstone Pictures                         |          3
+       780 | Dustin          | Hoffman        | Warner Bros.                                |          2
+      7424 | Mark            | Hamill         | Lucasfilm                                   |          2
+      6298 | Milla           | Jovovich       | Screen Gems                                 |          5
+      6264 | Johnny          | Depp           | GK Films                                    |          2
+      6597 | Hayden          | Christensen    | Lucasfilm                                   |          2
+      6528 | Kristen         | Stewart        | Summit Entertainment                        |          4
+      6761 | Amanda          | Seyfried       | Summit Entertainment                        |          2
+      6456 | Melanie         | Griffith       | Hollywood Pictures                          |          2
+      8523 | Jeffrey         | Combs          | Empire Pictures                             |          2
+      6257 | Tom             | Berenger       | Columbia Pictures                           |          2
+      6518 | Robin           | Williams       | Columbia Pictures                           |          2
+      6327 | Mark            | Wahlberg       | Twentieth Century Fox                       |          2
+      6337 | Jamie Lee       | Curtis         | Dimension Films                             |          2
+       168 | Anthony         | Perkins        | Universal Pictures                          |          2
+      6796 | Hugh            | Grant          | Castle Rock Entertainment                   |          3
+      6580 | John            | Cusack         | Columbia Pictures                           |          2
+      2704 | Takeshi         | Kitano         | Bandai Visual Company                       |          3
+      6712 | Zac             | Efron          | Universal Pictures                          |          2
+      6395 | Dwayne          | Johnson        | Universal Pictures                          |          2
+      2476 | Sally           | Field          | Columbia Pictures                           |          2
+      6290 | Tom             | Cruise         | Warner Bros.                                |          3
+      6245 | Gene            | Hackman        | Twentieth Century Fox                       |          2
+      7025 | Patrick         | Wilson         | FilmDistrict                                |          2
+      7527 | Terry           | O'Quinn        | Incorporated Television Company (ITC)       |          2
+       315 | Bradley         | Cooper         | Warner Bros.                                |          2
+      6401 | Reese           | Witherspoon    | Metro-Goldwyn-Mayer (MGM)                   |          3
+      7130 | Michael         | Saquella       | Cactus Blue Entertainment                   |          2
+      5109 | Rowan           | Atkinson       | Universal Pictures                          |          4
+      6479 | Sean            | Connery        | Hollywood Pictures                          |          2
+      6369 | Zach            | Galligan       | Warner Bros.                                |          2
+      2665 | Steven          | Seagal         | Warner Bros.                                |          7
+      7650 | Louis           | Gossett        | Carolco Pictures                            |          2
+      4057 | Steve           | Martin         | Twentieth Century Fox                       |          2
+      6501 | Kevin           | Bacon          | Paramount Pictures                          |          3
+      2812 | Tommy Lee       | Jones          | Columbia Pictures                           |          2
+      6246 | Dennis          | Quaid          | Twentieth Century Fox                       |          4
+      1577 | Keanu           | Reeves         | Company Films                               |          2
+      7241 | Samy            | Naceri         | ARP SÃ©lection                              |          2
+      6971 | Sarah Jessica   | Parker         | New Line Cinema                             |          3
+       811 | Emilio          | Estevez        | Morgan Creek Entertainment                  |          3
+      6163 | Chuck           | Norris         | Cannon Films                                |          2
+      6183 | Ryan            | Reynolds       | Twentieth Century Fox                       |          2
+      1881 | Mel             | Gibson         | Icon Entertainment International            |          4
+      1141 | Jack            | Nicholson      | Columbia Pictures                           |          2
+      1881 | Mel             | Gibson         | Universal Pictures                          |          2
+      2050 | Nicolas         | Cage           | Universal Pictures                          |          2
+      6656 | Pierce          | Brosnan        | Eon Productions                             |          3
+      5158 | Bruce           | Willis         | Touchstone Pictures                         |          3
+      6843 | Heather         | Langenkamp     | New Line Cinema                             |          3
+       561 | Dan             | Aykroyd        | Universal Pictures                          |          2
+      7164 | Christopher     | Reid           | Jackson/McHenry Company,The                 |          3
+      6412 | Jake            | Gyllenhaal     | Lionsgate                                   |          2
+      6510 | Shailene        | Woodley        | Summit Entertainment                        |          2
+      2696 | Sylvester       | Stallone       | Universal Pictures                          |          3
+      6264 | Johnny          | Depp           | Warner Bros.                                |          3
+      2696 | Sylvester       | Stallone       | United Artists                              |          2
+      6214 | Leonardo        | DiCaprio       | Warner Bros.                                |          5
+      6196 | John            | Travolta       | Twentieth Century Fox                       |          2
+      6310 | Sandra          | Bullock        | Warner Bros.                                |          3
+      8393 | Michael B.      | Jordan         | Metro-Goldwyn-Mayer (MGM)                   |          2
+      2972 | Will            | Ferrell        | Dreamworks Pictures                         |          2
+      5212 | Damon           | Wayans         | Universal Pictures                          |          2
+      1241 | Jean-Claude Van | Damme          | Universal Pictures                          |          2
+      6519 | Richard         | Dreyfuss       | Touchstone Pictures                         |          3
+      8574 | Ioan            | Gruffudd       | Twentieth Century Fox                       |          2
+      6631 | Sigourney       | Weaver         | Twentieth Century Fox                       |          2
+      6794 | Hugh            | Jackman        | Twentieth Century Fox                       |          3
+      1577 | Keanu           | Reeves         | Warner Bros.                                |          7
+      2252 |                 | Prince         | Warner Bros.                                |          2
+      6232 | Harrison        | Ford           | Warner Bros.                                |          4
+      6258 | Demi            | Moore          | Columbia Pictures                           |          3
+      6851 | Daisy           | Ridley         | Walt Disney Pictures                        |          2
+      6417 | Lindsay         | Lohan          | Walt Disney Pictures                        |          2
+       771 | Drew            | Barrymore      | Fox 2000 Pictures                           |          2
+      7445 | John C.         | Reilly         | Walt Disney Animation Studios               |          2
+      6685 | Alec            | Baldwin        | Universal Pictures                          |          2
+      6240 | Bubba           | Smith          | Warner Bros.                                |          2
+      6794 | Hugh            | Jackman        | Universal Pictures                          |          2
+       792 | Eddie           | Murphy         | Twentieth Century Fox                       |          3
+      6232 | Harrison        | Ford           | Mace Neufeld Productions                    |          2
+      6685 | Alec            | Baldwin        | Castle Rock Entertainment                   |          2
+      2787 | Tom             | Hanks          | Universal Pictures                          |          3
+      6195 | Vin             | Diesel         | Universal Pictures                          |          7
+      2396 | Robert          | Redford        | Universal Pictures                          |          2
+      6573 | Liam            | Neeson         | EuropaCorp                                  |          3
+      6539 | Jim             | Carrey         | Universal Pictures                          |          4
+      6724 | Brendan         | Fraser         | Twentieth Century Fox                       |          3
+      6183 | Ryan            | Reynolds       | Universal Pictures                          |          2
+      6482 | Michael         | Dudikoff       | The Cannon Group                            |          3
+      6232 | Harrison        | Ford           | Paramount Pictures                          |          6
+      6088 | Owen            | Wilson         | New Line Cinema                             |          2
+      6276 | Brad            | Pitt           | Universal Pictures                          |          3
+      6444 | Jude            | Law            | Paramount Pictures                          |          2
+      2050 | Nicolas         | Cage           | Walt Disney Pictures                        |          3
+      1577 | Keanu           | Reeves         | Twentieth Century Fox                       |          2
+      7554 | Breckin         | Meyer          | Twentieth Century Fox                       |          2
+      6532 | Wesley          | Snipes         | New Line Cinema                             |          3
+      1607 | Kevin           | Costner        | Warner Bros.                                |          6
+       841 | Ewan            | McGregor       | BBC Films                                   |          2
+      7598 | Alexa           | PenaVega       | Dimension Films                             |          2
+      6740 | Jesse           | Eisenberg      | Twentieth Century Fox Animation             |          2
+      6458 | Val             | Kilmer         | Warner Bros.                                |          2
+       234 | Ben             | Stiller        | Universal Pictures                          |          5
+      1144 | Jackie          | Chan           | Touchstone Pictures                         |          2
+      2972 | Will            | Ferrell        | Paramount Pictures                          |          3
+      6404 | David           | Duchovny       | Twentieth Century Fox                       |          2
+       150 | Angelina        | Jolie          | Paramount Pictures                          |          2
+      6207 | Michael         | Douglas        | Warner Bros.                                |          2
+      6624 | Leslie          | Nielsen        | Paramount Pictures                          |          3
+      7690 | Janet           | Jackson        | Lionsgate                                   |          2
+       234 | Ben             | Stiller        | DreamWorks Animation                        |          2
+      7100 | Morris          | Chestnut       | Screen Gems                                 |          2
+      6402 | Matthew         | McConaughey    | Paramount Pictures                          |          3
+      6446 | Robert          | Downey         | Marvel Studios                              |          5
+      6548 | Steve           | Carell         | Universal Pictures                          |          5
+      8326 | Scout           | Taylor-Compton | Dimension Films                             |          2
+      6395 | Dwayne          | Johnson        | Metro-Goldwyn-Mayer (MGM)                   |          2
+      6310 | Sandra          | Bullock        | Twentieth Century Fox                       |          2
+      6290 | Tom             | Cruise         | Twentieth Century Fox                       |          2
+      6334 | Chevy           | Chase          | National Lampoon                            |          2
+      6229 | Jane            | Fonda          | IPC Films                                   |          2
+      6336 | Jason           | Biggs          | Universal Pictures                          |          3
+       771 | Drew            | Barrymore      | Columbia Pictures                           |          2
+      4238 | Matt            | Damon          | Warner Bros.                                |          3
+      4057 | Steve           | Martin         | Aspen Film Society                          |          2
+      7617 | Kristoffer      | Joner          | Fantefilm                                   |          2
+      7351 | Idris           | Elba           | Warner Bros.                                |          2
+      6533 | RenÃ©e          | Zellweger      | Miramax                                     |          2
+      2320 | Richard         | Pryor          | Paramount Pictures                          |          2
+      1596 | Kenneth         | Branagh        | Renaissance Films                           |          2
+      6327 | Mark            | Wahlberg       | Closest to the Hole Productions             |          2
+      6545 | Uma             | Thurman        | Miramax                                     |          2
+      7044 | Emily           | Blunt          | Lionsgate                                   |          2
+      2050 | Nicolas         | Cage           | Atlas Entertainment                         |          2
+      1144 | Jackie          | Chan           | Golden Way Films Ltd.                       |          2
+      4057 | Steve           | Martin         | Paramount Pictures                          |          2
+      7599 | Mads            | Mikkelsen      | Zentropa Entertainments                     |          2
+      6614 | Jason           | Statham        | Lionsgate                                   |          3
+       780 | Dustin          | Hoffman        | Columbia Pictures                           |          2
+      6283 | Gary            | Oldman         | Hemdale                                     |          2
+      6657 | Patrick         | Stewart        | Twentieth Century Fox                       |          4
+      2608 | Stephen         | Chow           | Columbia Pictures Film Production Asia      |          2
+      6740 | Jesse           | Eisenberg      | Summit Entertainment                        |          2
+      6527 | Tim             | Allen          | Walt Disney Pictures                        |          4
+      2050 | Nicolas         | Cage           | Paramount Pictures                          |          4
+      7030 | Anna            | Faris          | Dimension Films                             |          4
+      6285 | Natalie         | Portman        | Paramount Pictures                          |          2
+      6618 | Kathleen        | Turner         | TriStar Pictures                            |          2
+      7030 | Anna            | Faris          | Columbia Pictures                           |          2
+       710 | Denzel          | Washington     | Twentieth Century Fox                       |          2
+      8675 | Mia             | Farrow         | Jack Rollins & Charles H. Joffe Productions |          3
+      6327 | Mark            | Wahlberg       | Universal Pictures                          |          3
+      6985 | Charlize        | Theron         | Paramount Pictures                          |          2
+      7209 | Elijah          | Wood           | New Line Cinema                             |          3
+      6937 | Ashton          | Kutcher        | Twentieth Century Fox                       |          2
+       485 | Christopher     | Guest          | Castle Rock Entertainment                   |          2
+      6666 | Tom             | Selleck        | Touchstone Pictures                         |          2
+      6638 | Kang-ho         | Song           | Barunson E&A                                |          2
+       710 | Denzel          | Washington     | Fox 2000 Pictures                           |          2
+      4238 | Matt            | Damon          | Universal Pictures                          |          6
+      6446 | Robert          | Downey         | Warner Bros.                                |          5
+      6207 | Michael         | Douglas        | Twentieth Century Fox                       |          5
+      7339 | James           | Duval          | Blurco                                      |          2
+      6290 | Tom             | Cruise         | Metro-Goldwyn-Mayer (MGM)                   |          2
+       234 | Ben             | Stiller        | Twentieth Century Fox                       |          6
+      1316 | Jim             | Henson         | Henson Associates (HA)                      |          2
+      6246 | Dennis          | Quaid          | Universal Pictures                          |          3
+      7274 | Helen           | Mirren         | Miramax                                     |          3
+      1881 | Mel             | Gibson         | Kennedy Miller Productions                  |          2
+      6261 | Arnold          | Schwarzenegger | Universal Pictures                          |          4
+      2179 | Peter           | Berg           | A&M Films                                   |          2
+       710 | Denzel          | Washington     | Metro-Goldwyn-Mayer (MGM)                   |          2
+      6196 | John            | Travolta       | TriStar Pictures                            |          3
+      6264 | Johnny          | Depp           | Walt Disney Pictures                        |          6
+      3006 | Jennifer Jason  | Leigh          | CiBy 2000                                   |          2
+      5158 | Bruce           | Willis         | Cheyenne Enterprises                        |          2
+      6496 | Shah Rukh       | Khan           | Dharma Productions                          |          4
+      7531 | Robert          | Carradine      | Twentieth Century Fox                       |          2
+      7621 | Sarah           | Miles          | Columbia Pictures                           |          2
+      6334 | Chevy           | Chase          | Warner Bros.                                |          5
+      2320 | Richard         | Pryor          | Columbia Pictures                           |          4
+      4057 | Steve           | Martin         | Universal Pictures                          |          2
+      6183 | Ryan            | Reynolds       | Warner Bros.                                |          2
+      1577 | Keanu           | Reeves         | Summit Entertainment                        |          2
+      6799 | Logan           | Lerman         | Fox 2000 Pictures                           |          2
+      6261 | Arnold          | Schwarzenegger | Warner Bros.                                |          2
+      6739 | Ray             | Romano         | Twentieth Century Fox Animation             |          2
+      2787 | Tom             | Hanks          | Touchstone Pictures                         |          3
+      2812 | Tommy Lee       | Jones          | Revolution Studios                          |          2
+      6568 | Jason           | Lee            | Fox 2000 Pictures                           |          3
+      6285 | Natalie         | Portman        | Columbia Pictures                           |          2
+      6214 | Leonardo        | DiCaprio       | Dreamworks Pictures                         |          2
+      6485 | Nick            | Nolte          | Paramount Pictures                          |          2
+      6177 | Harvey          | Keitel         | Miramax                                     |          2
+      6539 | Jim             | Carrey         | Twentieth Century Fox                       |          2
+      6526 | Michael J.      | Fox            | Universal Pictures                          |          6
+      6163 | Chuck           | Norris         | The Cannon Group                            |          3
+      6796 | Hugh            | Grant          | Columbia Pictures                           |          2
+      6276 | Brad            | Pitt           | New Regency Productions                     |          2
+      6532 | Wesley          | Snipes         | Universal Pictures                          |          2
+      6946 | Tobin           | Bell           | Twisted Pictures                            |          4
+      6261 | Arnold          | Schwarzenegger | Carolco Pictures                            |          3
+      8395 |                 | Prabhas        | Arka Mediaworks                             |          2
+      6539 | Jim             | Carrey         | Morgan Creek Entertainment                  |          2
+      8303 | Henry           | Thomas         | Universal Pictures                          |          2
+      6189 | Charlie         | Sheen          | Orion Pictures                              |          2
+      5788 | Vince           | Vaughn         | Universal Pictures                          |          3
+      6695 | Tim             | Matheson       | Orion Pictures                              |          2
+      7395 | Shirley         | MacLaine       | TriStar Pictures                            |          2
+      2972 | Will            | Ferrell        | New Line Cinema                             |          2
+      6273 | Rachel          | Weisz          | BBC Films                                   |          2
+      6209 | Richard         | Gere           | Metro-Goldwyn-Mayer (MGM)                   |          2
+      6522 | Bill            | Murray         | Touchstone Pictures                         |          2
+      6516 | Steve           | Guttenberg     | Warner Bros.                                |          2
+      6749 | Mia             | Wasikowska     | Walt Disney Pictures                        |          2
+      3774 | Seth            | Rogen          | Columbia Pictures                           |          2
+      7269 | Jennifer        | Garner         | Columbia Pictures                           |          2
+      6412 | Jake            | Gyllenhaal     | Universal Pictures                          |          2
+      2841 | Tyler           | Perry          | The Tyler Perry Company                     |          2
+       710 | Denzel          | Washington     | Universal Pictures                          |          6
+      6803 | Goldie          | Hawn           | Hawn / Sylbert Movie Company                |          3
+      6472 | Jonathan Taylor | Thomas         | Walt Disney Pictures                        |          2
+      6527 | Tim             | Allen          | Touchstone Pictures                         |          2
+      6230 | Meryl           | Streep         | Universal Pictures                          |          4
+      1110 | Ice             | Cube           | Universal Pictures                          |          2
+      6479 | Sean            | Connery        | Twentieth Century Fox                       |          2
+      6290 | Tom             | Cruise         | Universal Pictures                          |          2
+      6248 | Anthony         | Hopkins        | Merchant Ivory Productions                  |          2
+      1241 | Jean-Claude Van | Damme          | Columbia Pictures                           |          2
+      6943 | Jennifer        | Lawrence       | Lionsgate                                   |          3
+      2371 | Robert De       | Niro           | Warner Bros.                                |          4
+      7168 | Stellan         | SkarsgÃ¥rd     | Morgan Creek Entertainment                  |          2
+      2371 | Robert De       | Niro           | Paramount Pictures                          |          3
+      2841 | Tyler           | Perry          | Lions Gate Films                            |          2
+      1217 | Jason           | Bateman        | Aggregate Films                             |          2
+      2534 | Sean            | Penn           | Warner Bros.                                |          2
+      6579 | Whoopi          | Goldberg       | Touchstone Pictures                         |          2
+      6426 | Kate            | Beckinsale     | Screen Gems                                 |          4
+      2320 | Richard         | Pryor          | Universal Pictures                          |          2
+      4955 | Jack            | Black          | Twentieth Century Fox                       |          2
+      1339 | Jodie           | Foster         | Warner Bros.                                |          2
+      6354 | James           | Caan           | Castle Rock Entertainment                   |          2
+      5146 | Jay             | Baruchel       | DreamWorks Animation                        |          3
+      6310 | Sandra          | Bullock        | Columbia Pictures                           |          2
+      6413 | Tony Chiu-Wai   | Leung          | Block 2 Pictures                            |          2
+      4238 | Matt            | Damon          | Miramax                                     |          2
+       957 | Gene            | Wilder         | Columbia Pictures                           |          2
+       710 | Denzel          | Washington     | Touchstone Pictures                         |          2
+      7346 | FranÃ§ois       | Cluzet         | TrÃ©sor Films                               |          2
+      2787 | Tom             | Hanks          | Walt Disney Pictures                        |          2
+      1144 | Jackie          | Chan           | Golden Harvest Company                      |          6
+      7122 | Elliot          | Page           | Fox Searchlight Pictures                    |          2
+      8417 | Paul            | Bettany        | Screen Gems                                 |          2
+      1881 | Mel             | Gibson         | Touchstone Pictures                         |          2
+      6924 | Sean            | Astin          | TriStar Pictures                            |          2
+      6231 | Jeff            | Bridges        | Columbia Pictures                           |          2
+      6331 | Sam             | Worthington    | Warner Bros.                                |          2
+      6196 | John            | Travolta       | Touchstone Pictures                         |          2
+      6402 | Matthew         | McConaughey    | Universal Pictures                          |          2
+      6277 | Michael         | Keaton         | Universal Pictures                          |          3
+      2787 | Tom             | Hanks          | TriStar Pictures                            |          2
+      6276 | Brad            | Pitt           | Warner Bros.                                |          3
+      1141 | Jack            | Nicholson      | Warner Bros.                                |          3
+      6518 | Robin           | Williams       | Touchstone Pictures                         |          2
+      6374 | Al              | Pacino         | Universal Pictures                          |          4
+       796 | Edward          | Norton         | New Line Cinema                             |          2
+      3857 | Adam            | Sandler        | Universal Pictures                          |          4
+      2396 | Robert          | Redford        | Touchstone Pictures                         |          2
+      2371 | Robert De       | Niro           | TriStar Pictures                            |          2
+      6327 | Mark            | Wahlberg       | Paramount Pictures                          |          6
+      6363 | Kirsten         | Dunst          | Universal Pictures                          |          2
+      7318 | Tina            | Fey            | Broadway Video                              |          2
+       811 | Emilio          | Estevez        | Avnet/Kerner Productions                    |          2
+      7242 | Jean            | Reno           | Gaumont                                     |          2
+      6446 | Robert          | Downey         | Universal Pictures                          |          2
+      7102 | Bette           | Midler         | All Girl Productions                        |          2
+      7949 | Josh            | Stewart        | LD Entertainment                            |          2
+      6357 | Shia            | LaBeouf        | Dreamworks Pictures                         |          4
+      6539 | Jim             | Carrey         | Paramount Pictures                          |          2
+      7257 | Vera            | Farmiga        | New Line Cinema                             |          2
+       710 | Denzel          | Washington     | Columbia Pictures                           |          4
+      2696 | Sylvester       | Stallone       | Lionsgate                                   |          4
+      1172 | James           | Franco         | Twentieth Century Fox                       |          2
+      5158 | Bruce           | Willis         | Twentieth Century Fox                       |          4
+      4955 | Jack            | Black          | Paramount Pictures                          |          2
+       517 | Clint           | Eastwood       | The Malpaso Company                         |          4
+      6951 | Megan           | Fox            | Paramount Pictures                          |          2
+      6429 | Channing        | Tatum          | Warner Bros.                                |          2
+      3956 | Simon           | Pegg           | Universal Pictures                          |          4
+      2050 | Nicolas         | Cage           | Millennium Films                            |          3
+      6316 | Charles         | Bronson        | The Cannon Group                            |          3
+      5158 | Bruce           | Willis         | Summit Entertainment                        |          2
+      6296 | Paul            | Giamatti       | Warner Bros.                                |          2
+      6446 | Robert          | Downey         | Paramount Pictures                          |          2
+       234 | Ben             | Stiller        | Dreamworks Pictures                         |          3
+      6970 | Daniel          | Craig          | Columbia Pictures                           |          2
+      6264 | Johnny          | Depp           | Paramount Pictures                          |          4
+      6264 | Johnny          | Depp           | Twentieth Century Fox                       |          2
+      6229 | Jane            | Fonda          | Columbia Pictures                           |          2
+      6194 | Mandy           | Moore          | Warner Bros.                                |          2
+      6573 | Liam            | Neeson         | Warner Bros.                                |          2
+      7310 | George          | Burns          | Warner Bros.                                |          2
+      6395 | Dwayne          | Johnson        | New Line Cinema                             |          3
+      6088 | Owen            | Wilson         | Fox 2000 Pictures                           |          2
+      6534 | Morgan          | Freeman        | Paramount Pictures                          |          2
+      6519 | Richard         | Dreyfuss       | Universal Pictures                          |          2
+      6840 | Eddie           | Redmayne       | Working Title Films                         |          2
+       792 | Eddie           | Murphy         | Universal Pictures                          |          2
+      1834 | Martin          | Lawrence       | Twentieth Century Fox                       |          4
+      6246 | Dennis          | Quaid          | Paramount Pictures                          |          2
+      6539 | Jim             | Carrey         | Columbia Pictures                           |          2
+      7248 | Josh            | Gad            | Dreamworks Pictures                         |          2
+      4057 | Steve           | Martin         | Metro-Goldwyn-Mayer (MGM)                   |          3
+      6683 | Scarlett        | Johansson      | BBC Films                                   |          2
+      7357 | Robert          | Hays           | Paramount Pictures                          |          2
+      6539 | Jim             | Carrey         | New Line Cinema                             |          3
+      8106 | Julie           | Walters        | British Screen Productions                  |          2
+      7209 | Elijah          | Wood           | Warner Bros.                                |          2
+      6310 | Sandra          | Bullock        | Castle Rock Entertainment                   |          3
+      6396 | Kristen         | Bell           | Touchstone Pictures                         |          2
+      5553 | Michael         | Palin          | HandMade Films                              |          2
+      6395 | Dwayne          | Johnson        | Columbia Pictures                           |          3
+      6367 | Charlotte       | Rampling       | FidÃ©litÃ© Productions                      |          2
+      6933 | Michael         | Fassbender     | Universal Pictures                          |          2
+      7041 | Kurt            | Russell        | Warner Bros.                                |          2
+      6204 | Will            | Smith          | Twentieth Century Fox                       |          3
+       229 | Ben             | Affleck        | Miramax                                     |          2
+      2050 | Nicolas         | Cage           | Summit Entertainment                        |          2
+      1607 | Kevin           | Costner        | Touchstone Pictures                         |          2
+      6210 | Ashley          | Judd           | Paramount Pictures                          |          2
+      6224 | GÃ©rard         | Depardieu      | Touchstone Pictures                         |          2
+      6285 | Natalie         | Portman        | Fox Searchlight Pictures                    |          2
+      2371 | Robert De       | Niro           | Chartoff-Winkler Productions                |          2
+      8068 | Brian           | Krause         | Columbia Pictures                           |          2
+       710 | Denzel          | Washington     | Paramount Pictures                          |          3
+      6496 | Shah Rukh       | Khan           | Red Chillies Entertainment                  |          2
+      6395 | Dwayne          | Johnson        | Paramount Pictures                          |          3
+      6614 | Jason           | Statham        | EuropaCorp                                  |          4
+      6807 | Freddie         | Prinze         | Warner Bros.                                |          2
+      6803 | Goldie          | Hawn           | Warner Bros.                                |          2
+      6403 | Jennifer        | Aniston        | Universal Pictures                          |          2
+      6276 | Brad            | Pitt           | Dreamworks Pictures                         |          2
+      6706 | James           | McAvoy         | Twentieth Century Fox                       |          3
+      6970 | Daniel          | Craig          | Metro-Goldwyn-Mayer (MGM)                   |          2
+      2787 | Tom             | Hanks          | Warner Bros.                                |          3
+      2050 | Nicolas         | Cage           | Touchstone Pictures                         |          2
+      5212 | Damon           | Wayans         | Columbia Pictures                           |          2
+      7102 | Bette           | Midler         | Touchstone Pictures                         |          2
+       276 | Billy           | Crystal        | Castle Rock Entertainment                   |          6
+      6296 | Paul            | Giamatti       | Fox Searchlight Pictures                    |          2
+      7979 | Sarah Michelle  | Gellar         | Columbia Pictures                           |          2
+      6522 | Bill            | Murray         | Columbia Pictures                           |          5
+       771 | Drew            | Barrymore      | New Line Cinema                             |          2
+      6340 | Amy             | Adams          | Walt Disney Pictures                        |          2
+      6331 | Sam             | Worthington    | Summit Entertainment                        |          2
+      6230 | Meryl           | Streep         | Paramount Pictures                          |          2
+      2461 | Russell         | Crowe          | Lionsgate                                   |          2
+      7200 | Marine          | Vacth          | Mandarin Films                              |          2
+      6447 | Jamie           | Foxx           | Universal Pictures                          |          2
+      6967 | Colin           | Firth          | Channel Four Films                          |          2
+      6271 | Nicole          | Kidman         | Twentieth Century Fox                       |          2
+      6231 | Jeff            | Bridges        | TriStar Pictures                            |          2
+      3774 | Seth            | Rogen          | Universal Pictures                          |          2
+      6580 | John            | Cusack         | Metro-Goldwyn-Mayer (MGM)                   |          2
+      6840 | Eddie           | Redmayne       | Heyday Films                                |          2
+      6204 | Will            | Smith          | Columbia Pictures                           |          8
+        45 | Alan            | Alda           | Universal Pictures                          |          2
+       517 | Clint           | Eastwood       | Malpaso Productions                         |          3
+      6193 | Jennifer        | Lopez          | Columbia Pictures                           |          2
+      7236 | Frankie         | Muniz          | Alcon Entertainment                         |          2
+      6234 | Julia           | Roberts        | TriStar Pictures                            |          2
+      5594 | Neve            | Campbell       | Dimension Films                             |          3
+      3132 | Kevin           | James          | Columbia Pictures                           |          4
+      6673 | Heath           | Ledger         | Touchstone Pictures                         |          2
+      1607 | Kevin           | Costner        | Tig Productions                             |          2
+      6522 | Bill            | Murray         | Focus Features                              |          3
+      6683 | Scarlett        | Johansson      | Paramount Pictures                          |          2
+      2050 | Nicolas         | Cage           | Warner Bros.                                |          2
+       792 | Eddie           | Murphy         | Eddie Murphy Productions                    |          2
+      6206 | Mickey          | Rourke         | Dino De Laurentiis Company                  |          2
+      6573 | Liam            | Neeson         | StudioCanal                                 |          2
+      6433 | Naomi           | Watts          | Dreamworks Pictures                         |          2
+      1879 | Mel             | Brooks         | Brooksfilms                                 |          4
+      2320 | Richard         | Pryor          | TriStar Pictures                            |          2
+      2696 | Sylvester       | Stallone       | Warner Bros.                                |          5
+      2919 | Woody           | Allen          | Dreamworks Pictures                         |          3
+      2972 | Will            | Ferrell        | Gary Sanchez Productions                    |          2
+      4897 | Emma            | Thompson       | Universal Pictures                          |          2
+      6834 | Chris           | Pratt          | Universal Pictures                          |          2
+      4057 | Steve           | Martin         | Touchstone Pictures                         |          3
+      3857 | Adam            | Sandler        | Columbia Pictures                           |         13
+      2155 | Paul            | Newman         | Touchstone Pictures                         |          2
+      6937 | Ashton          | Kutcher        | Columbia Pictures                           |          2
+      8668 | Donnie          | Yen            | Golden Harvest Company                      |          3
+      5158 | Bruce           | Willis         | Cinergi Pictures Entertainment              |          2
+       792 | Eddie           | Murphy         | Imagine Entertainment                       |          2
+      6193 | Jennifer        | Lopez          | New Line Cinema                             |          2
+      6518 | Robin           | Williams       | Warner Bros.                                |          3
+      6088 | Owen            | Wilson         | Pixar Animation Studios                     |          2
+      1110 | Ice             | Cube           | New Line Cinema                             |          4
+      1144 | Jackie          | Chan           | New Line Cinema                             |          3
+      3559 | Jet             | Li             | Warner Bros.                                |          2
+      6372 | Christopher     | Lambert        | Davis-Panzer Productions                    |          2
+      6479 | Sean            | Connery        | Columbia Pictures                           |          3
+      6834 | Chris           | Pratt          | Marvel Studios                              |          2
+      6449 | Gerard          | Butler         | Warner Bros.                                |          4
+      6396 | Kristen         | Bell           | Walt Disney Animation Studios               |          2
+      6334 | Chevy           | Chase          | Universal Pictures                          |          2
+      6188 | Christian       | Bale           | Warner Bros.                                |          3
+      2972 | Will            | Ferrell        | Universal Pictures                          |          2
+      3559 | Jet             | Li             | Golden Harvest Company                      |          2
+      6224 | GÃ©rard         | Depardieu      | CinÃ© Valse                                 |          2
+      2787 | Tom             | Hanks          | Twentieth Century Fox                       |          2
+      6739 | Ray             | Romano         | Blue Sky Studios                            |          2
+      2787 | Tom             | Hanks          | Dreamworks Pictures                         |          4
+      6290 | Tom             | Cruise         | Paramount Pictures                          |         12
+      6449 | Gerard          | Butler         | Millennium Films                            |          2
+      6163 | Chuck           | Norris         | Golan-Globus Productions                    |          2
+      6479 | Sean            | Connery        | Paramount Pictures                          |          2
+      4432 | Mike            | Myers          | Paramount Pictures                          |          3
+      6799 | Logan           | Lerman         | Summit Entertainment                        |          2
+      6196 | John            | Travolta       | Paramount Pictures                          |          6
+      2050 | Nicolas         | Cage           | Columbia Pictures                           |          3
+      6261 | Arnold          | Schwarzenegger | Dino De Laurentiis Company                  |          2
+      6246 | Dennis          | Quaid          | Touchstone Pictures                         |          2
+       969 | George          | Clooney        | Twentieth Century Fox                       |          2
+      1881 | Mel             | Gibson         | Warner Bros.                                |          7
+      5158 | Bruce           | Willis         | Columbia Pictures                           |          2
+      6949 | Bryan           | Brown          | Orion Pictures                              |          2
+      2014 | Nanni           | Moretti        | Sacher Film                                 |          2
+      6518 | Robin           | Williams       | Walt Disney Pictures                        |          2
+      4057 | Steve           | Martin         | Imagine Entertainment                       |          3
+      6781 | Hilary          | Swank          | Alcon Entertainment                         |          2
+      6171 | Juliette        | Binoche        | MK2 Productions                             |          2
+      1862 | Matthew         | Broderick      | Walt Disney Pictures                        |          2
+      6376 | Saoirse         | Ronan          | Focus Features                              |          2
+      6245 | Gene            | Hackman        | Orion Pictures                              |          2
+      4432 | Mike            | Myers          | DreamWorks Animation                        |          2
+      7721 | Dylan           | O'Brien        | Gotham Group                                |          2
+      6657 | Patrick         | Stewart        | Paramount Pictures                          |          3
+      5158 | Bruce           | Willis         | Universal Pictures                          |          3
+      2787 | Tom             | Hanks          | Columbia Pictures                           |          4
+      6374 | Al              | Pacino         | New Line Cinema                             |          2
+      6795 | Macaulay        | Culkin         | Twentieth Century Fox                       |          3
+      6471 | Shelley         | Long           | Touchstone Pictures                         |          2
+      6931 | Cillian         | Murphy         | DNA Films                                   |          2
+      6616 | Dan             | Monahan        | Astral Bellevue PathÃ©                      |          2
+       969 | George          | Clooney        | Warner Bros.                                |          6
+      1607 | Kevin           | Costner        | Summit Entertainment                        |          2
+       792 | Eddie           | Murphy         | Paramount Pictures                          |          7
+      6635 | Cameron         | Diaz           | Twentieth Century Fox                       |          3
+      7328 | Sam             | Neill          | Universal Pictures                          |          2
+      6501 | Kevin           | Bacon          | Columbia Pictures                           |          4
+      6303 | Daniel          | Radcliffe      | Warner Bros.                                |          8
+      6402 | Matthew         | McConaughey    | Warner Bros.                                |          2
+      2909 | William         | Shatner        | Paramount Pictures                          |          5
+      2789 | Tom             | Holland        | Columbia Pictures                           |          2
+      6776 | Elliott         | Gould          | Walt Disney Productions                     |          2
+      6276 | Brad            | Pitt           | Paramount Pictures                          |          3
+       710 | Denzel          | Washington     | BRON Studios                                |          2
+      6533 | RenÃ©e          | Zellweger      | Universal Pictures                          |          2
+      7132 | Jason James     | Richter        | Warner Bros. Family Entertainment           |          3
+      6277 | Michael         | Keaton         | Warner Bros.                                |          3
+      6580 | John            | Cusack         | Miramax                                     |          2
+      6271 | Nicole          | Kidman         | Columbia Pictures                           |          2
+      6628 | Samuel L.       | Jackson        | New Line Cinema                             |          2
+      6199 | Bill            | Pullman        | Universal Pictures                          |          2
+      6316 | Charles         | Bronson        | Golan-Globus Productions                    |          3
+      6682 | David           | Arquette       | Warner Bros.                                |          2
+      6374 | Al              | Pacino         | Warner Bros.                                |          2
+      7096 | Bruce           | Campbell       | Renaissance Pictures                        |          2
+      6271 | Nicole          | Kidman         | New Line Cinema                             |          2
+      6957 | Zachary         | Gordon         | Fox 2000 Pictures                           |          2
+       234 | Ben             | Stiller        | Miramax                                     |          2
+      6781 | Hilary          | Swank          | Warner Bros.                                |          2
+      6740 | Jesse           | Eisenberg      | Columbia Pictures                           |          3
+      6471 | Shelley         | Long           | Paramount Pictures                          |          2
+      7631 | Oakes           | Fegley         | Amazon Studios                              |          2
+       771 | Drew            | Barrymore      | Dino De Laurentiis Company                  |          2
+      6532 | Wesley          | Snipes         | Warner Bros.                                |          3
+      4238 | Matt            | Damon          | Twentieth Century Fox                       |          3
+      6230 | Meryl           | Streep         | Columbia Pictures                           |          2
+      6925 | Pauly           | Shore          | Hollywood Pictures                          |          2
+      6828 | Chris           | Farley         | Broadway Pictures                           |          2
+      6638 | Kang-ho         | Song           | CJ Entertainment                            |          3
+      6885 | Donald          | Sutherland     | Paramount Pictures                          |          2
+      4955 | Jack            | Black          | DreamWorks Animation                        |          2
+      2461 | Russell         | Crowe          | Universal Pictures                          |          4
+       140 | Andy            | Garcia         | Paramount Pictures                          |          2
+      4989 | Kevin           | Hart           | LStar Capital                               |          2
+      7458 | Frank           | Grillo         | Universal Pictures                          |          2
+      6458 | Val             | Kilmer         | Metro-Goldwyn-Mayer (MGM)                   |          2
+      7590 | Michelle        | Pfeiffer       | Orion Pictures                              |          2
+      2919 | Woody           | Allen          | Sweetland Films                             |          2
+      7645 | John            | Belushi        | Universal Pictures                          |          2
+      6289 | Chris           | Pine           | Paramount Pictures                          |          4
+      7635 | Noah            | Taylor         | Kennedy Miller Productions                  |          2
+      6276 | Brad            | Pitt           | Columbia Pictures                           |          2
+      7063 | Jackie          | Gleason        | Universal Pictures                          |          2
+      6724 | Brendan         | Fraser         | New Line Cinema                             |          2
+      6150 | Kristy          | McNichol       | Metro-Goldwyn-Mayer (MGM)                   |          2
+      6274 | Ethan           | Hawke          | Universal Pictures                          |          2
+      6402 | Matthew         | McConaughey    | Lionsgate                                   |          2
+      2696 | Sylvester       | Stallone       | Carolco Pictures                            |          2
+      7275 | Keira           | Knightley      | Universal Pictures                          |          2
+      7438 | Sissy           | Spacek         | Universal Pictures                          |          2
+      7649 | Roger           | Moore          | Eon Productions                             |          2
+      2972 | Will            | Ferrell        | Columbia Pictures                           |          5
+      6796 | Hugh            | Grant          | Universal Pictures                          |          2
+      6209 | Richard         | Gere           | Paramount Pictures                          |          4
+       175 | Antonio         | Banderas       | Columbia Pictures                           |          3
+      2787 | Tom             | Hanks          | Pixar Animation Studios                     |          2
+      7675 | Jesse           | Bradford       | Twentieth Century Fox                       |          2
+      6245 | Gene            | Hackman        | TriStar Pictures                            |          2
+      6815 | Peter           | Weller         | Orion Pictures                              |          2
+      2409 | Roberto         | Benigni        | Melampo Cinematografica                     |          2
+      7676 | Jim             | Varney         | Touchstone Pictures                         |          2
+       517 | Clint           | Eastwood       | Warner Bros.                                |         10
+      2787 | Tom             | Hanks          | Castle Rock Entertainment                   |          2
+      6580 | John            | Cusack         | A&M Films                                   |          2
+      6700 | Gwyneth         | Paltrow        | Miramax                                     |          3
+      6503 | Diane           | Lane           | Warner Bros.                                |          2
+      6770 | Judi            | Dench          | Blueprint Pictures                          |          2
+      6355 | Charlotte       | Gainsbourg     | Zentropa Entertainments                     |          2
+      7074 | Kevin           | Conroy         | Warner Bros. Animation                      |          2
+      6486 | John            | Goodman        | Universal Pictures                          |          5
+      2919 | Woody           | Allen          | Jack Rollins & Charles H. Joffe Productions |          5
+      7213 | William         | Hurt           | Warner Bros.                                |          2
+      6410 | Tobey           | Maguire        | Universal Pictures                          |          2
+      4432 | Mike            | Myers          | New Line Cinema                             |          2
+      6189 | Charlie         | Sheen          | Twentieth Century Fox                       |          3
+      7152 | Anna            | Kendrick       | Brownstone Productions (II)                 |          2
+      2812 | Tommy Lee       | Jones          | EuropaCorp                                  |          2
+      6673 | Heath           | Ledger         | Columbia Pictures                           |          2
+       957 | Gene            | Wilder         | Orion Pictures                              |          2
+      6232 | Harrison        | Ford           | Columbia Pictures                           |          3
+      1607 | Kevin           | Costner        | Universal Pictures                          |          3
+      6395 | Dwayne          | Johnson        | Walt Disney Pictures                        |          2
+       841 | Ewan            | McGregor       | Channel Four Films                          |          2
+      2476 | Sally           | Field          | Paramount Pictures                          |          2
+      6233 | Kevin           | Kline          | Fox Searchlight Pictures                    |          2
+       368 | Burt            | Reynolds       | Universal Pictures                          |          4
+      6811 | Oscar           | Isaac          | Metro-Goldwyn-Mayer (MGM)                   |          2
+      6234 | Julia           | Roberts        | Universal Pictures                          |          2
+      6855 | Yves            | Montand        | DD Productions                              |          2
+      6321 | Ellen           | Burstyn        | Universal Pictures                          |          2
+      6824 | Pat             | Morita         | Columbia Pictures                           |          2
+      6410 | Tobey           | Maguire        | Columbia Pictures                           |          3
+      6470 | Martha          | Higareda       | Neverending Media                           |          2
+(585 rows)
+

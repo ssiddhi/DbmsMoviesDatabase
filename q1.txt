@@ -1,0 +1,16 @@
+List 10 movies released between the years 2000 and 2010 with the longest duration.
+select name,year, runtime from movies where year>2000 and year<2010 ORDER BY runtime DESC limit 10;
+                     name                      | year | runtime 
+-----------------------------------------------+------+---------
+ The Best of Youth                             | 2003 |     366
+ Lagaan: Once Upon a Time in India             | 2001 |     224
+ Gods and Generals                             | 2003 |     219
+ Kabhi Khushi Kabhie Gham...                   | 2001 |     210
+ The Lord of the Rings: The Return of the King | 2003 |     201
+ Kabhi Alvida Naa Kehna                        | 2006 |     193
+ Veer-Zaara                                    | 2004 |     192
+ Grindhouse                                    | 2007 |     191
+ Swades                                        | 2004 |     189
+ King Kong                                     | 2005 |     187
+(10 rows)
+

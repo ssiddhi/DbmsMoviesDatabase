@@ -1,0 +1,7 @@
+How many movies that have score greater than 7 also have at least 10,000 user votes?
+SELECT COUNT(*) FROM Reviews AS R WHERE R.score>7 AND votes>=10000;
+ count 
+-------
+  1763
+(1 row)
+

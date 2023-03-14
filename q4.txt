@@ -1,0 +1,1765 @@
+List all the ‘Comedy’ movies released between 1986 and 2016?
+select name,genre,year from movies where year>1986 and year<2016 and genre=Comedy;
+                                        name                                         | genre  | year 
+-------------------------------------------------------------------------------------+--------+------
+ Boyfriends and Girlfriends                                                          | Comedy | 1987
+ Four Adventures of Reinette and Mirabelle                                           | Comedy | 1987
+ A Tale of Springtime                                                                | Comedy | 1990
+ A Summer's Tale                                                                     | Comedy | 1996
+ Date Movie                                                                          | Comedy | 2006
+ Dirty Girl                                                                          | Comedy | 2010
+ It's Pat: the Movie                                                                 | Comedy | 1994
+ Definitely, Maybe                                                                   | Comedy | 2008
+ Hatchet                                                                             | Comedy | 2006
+ Anchorman: The Legend of Ron Burgundy                                               | Comedy | 2004
+ Talladega Nights: the Ballad of Ricky Bobby                                         | Comedy | 2006
+ Step Brothers                                                                       | Comedy | 2008
+ Anchorman 2: the Legend Continues                                                   | Comedy | 2013
+ Detroit Rock City                                                                   | Comedy | 1999
+ The Wedding Planner                                                                 | Comedy | 2001
+ Bringing Down the House                                                             | Comedy | 2003
+ Hairspray                                                                           | Comedy | 2007
+ Rock of Ages                                                                        | Comedy | 2012
+ Big Stone Gap                                                                       | Comedy | 2014
+ Waitress                                                                            | Comedy | 2007
+ Hot Rod                                                                             | Comedy | 2007
+ The Watch                                                                           | Comedy | 2012
+ A New Life                                                                          | Comedy | 1988
+ Betsy's Wedding                                                                     | Comedy | 1990
+ Rita, Sue and Bob Too                                                               | Comedy | 1987
+ Dead Man on Campus                                                                  | Comedy | 1998
+ The Anniversary Party                                                               | Comedy | 2001
+ Moving                                                                              | Comedy | 1988
+ Police Academy: Mission to Moscow                                                   | Comedy | 1994
+ Police Academy 5: Assignment: Miami Beach                                           | Comedy | 1988
+ The Commitments                                                                     | Comedy | 1991
+ The Road to Wellville                                                               | Comedy | 1994
+ The Back-up Plan                                                                    | Comedy | 2010
+ Made in Heaven                                                                      | Comedy | 1987
+ Love at Large                                                                       | Comedy | 1990
+ Breakfast of Champions                                                              | Comedy | 1999
+ Defending Your Life                                                                 | Comedy | 1991
+ Birdman or (The Unexpected Virtue of Ignorance)                                     | Comedy | 2014
+ With Honors                                                                         | Comedy | 1994
+ A Good Old Fashioned Orgy                                                           | Comedy | 2011
+ People Like Us                                                                      | Comedy | 2012
+ Citizen Ruth                                                                        | Comedy | 1996
+ Election                                                                            | Comedy | 1999
+ About Schmidt                                                                       | Comedy | 2002
+ Sideways                                                                            | Comedy | 2004
+ The Descendants                                                                     | Comedy | 2011
+ Piranha 3D                                                                          | Comedy | 2010
+ Horns                                                                               | Comedy | 2013
+ In the Soup                                                                         | Comedy | 1992
+ SÃ³lo con tu pareja                                                                 | Comedy | 1991
+ Me and Earl and the Dying Girl                                                      | Comedy | 2015
+ Saving Face                                                                         | Comedy | 2004
+ Caddyshack II                                                                       | Comedy | 1988
+ Pump Up the Volume                                                                  | Comedy | 1990
+ The Gun in Betty Lou's Handbag                                                      | Comedy | 1992
+ Empire Records                                                                      | Comedy | 1995
+ Grace of My Heart                                                                   | Comedy | 1996
+ Look Who's Talking                                                                  | Comedy | 1989
+ Look Who's Talking Too                                                              | Comedy | 1990
+ Clueless                                                                            | Comedy | 1995
+ Loser                                                                               | Comedy | 2000
+ Vamps                                                                               | Comedy | 2012
+ Leap Year                                                                           | Comedy | 2010
+ The Green Butchers                                                                  | Comedy | 2003
+ Adam's Apples                                                                       | Comedy | 2005
+ Men & Chicken                                                                       | Comedy | 2015
+ The Freshman                                                                        | Comedy | 1990
+ Honeymoon in Vegas                                                                  | Comedy | 1992
+ It Could Happen to You                                                              | Comedy | 1994
+ Striptease                                                                          | Comedy | 1996
+ Pride and Prejudice                                                                 | Comedy | 2003
+ Threesome                                                                           | Comedy | 1994
+ Dick                                                                                | Comedy | 1999
+ Nancy Drew                                                                          | Comedy | 2007
+ Barefoot                                                                            | Comedy | 2014
+ S1m0ne                                                                              | Comedy | 2002
+ Little Big League                                                                   | Comedy | 1994
+ Leave It to Beaver                                                                  | Comedy | 1997
+ Chasing Liberty                                                                     | Comedy | 2004
+ She's the Man                                                                       | Comedy | 2006
+ The Game Plan                                                                       | Comedy | 2007
+ You Again                                                                           | Comedy | 2010
+ Parental Guidance                                                                   | Comedy | 2012
+ It Takes Two                                                                        | Comedy | 1995
+ Fools Rush In                                                                       | Comedy | 1997
+ Ever After: A Cinderella Story                                                      | Comedy | 1998
+ Sweet Home Alabama                                                                  | Comedy | 2002
+ Hitch                                                                               | Comedy | 2005
+ The Wedding Banquet                                                                 | Comedy | 1993
+ Eat Drink Man Woman                                                                 | Comedy | 1994
+ It's Kind of a Funny Story                                                          | Comedy | 2010
+ Mississippi Grind                                                                   | Comedy | 2015
+ 27 Dresses                                                                          | Comedy | 2008
+ The Proposal                                                                        | Comedy | 2009
+ The Guilt Trip                                                                      | Comedy | 2012
+ Better Than Chocolate                                                               | Comedy | 1999
+ Pumpkin                                                                             | Comedy | 2002
+ Hurlyburly                                                                          | Comedy | 1998
+ Waxwork                                                                             | Comedy | 1988
+ Truly Madly Deeply                                                                  | Comedy | 1990
+ Mr. Wonderful                                                                       | Comedy | 1993
+ You, Me and Dupree                                                                  | Comedy | 2006
+ An American Werewolf in Paris                                                       | Comedy | 1997
+ Mad Love                                                                            | Comedy | 1995
+ Crazy in Alabama                                                                    | Comedy | 1999
+ Barfi!                                                                              | Comedy | 2012
+ The DUFF                                                                            | Comedy | 2015
+ The Chumscrubber                                                                    | Comedy | 2005
+ A Very Brady Sequel                                                                 | Comedy | 1996
+ I'll Be Home for Christmas                                                          | Comedy | 1998
+ In the Loop                                                                         | Comedy | 2009
+ Cross My Heart                                                                      | Comedy | 1987
+ Outrageous Fortune                                                                  | Comedy | 1987
+ See No Evil, Hear No Evil                                                           | Comedy | 1989
+ Taking Care of Business                                                             | Comedy | 1990
+ Carpool                                                                             | Comedy | 1996
+ Drop Dead Fred                                                                      | Comedy | 1991
+ The Adjuster                                                                        | Comedy | 1991
+ Under the Tuscan Sun                                                                | Comedy | 2003
+ Barfly                                                                              | Comedy | 1987
+ The Mirror Has Two Faces                                                            | Comedy | 1996
+ Straight Talk                                                                       | Comedy | 1992
+ Tin Men                                                                             | Comedy | 1987
+ Wag the Dog                                                                         | Comedy | 1997
+ Liberty Heights                                                                     | Comedy | 1999
+ Bandits                                                                             | Comedy | 2001
+ Envy                                                                                | Comedy | 2004
+ What Just Happened                                                                  | Comedy | 2008
+ Rock the Kasbah                                                                     | Comedy | 2015
+ Mistress                                                                            | Comedy | 1992
+ Mean Machine                                                                        | Comedy | 2001
+ The Addams Family                                                                   | Comedy | 1991
+ Addams Family Values                                                                | Comedy | 1993
+ For Love or Money                                                                   | Comedy | 1993
+ Get Shorty                                                                          | Comedy | 1995
+ Big Trouble                                                                         | Comedy | 2002
+ The Ringer                                                                          | Comedy | 2005
+ Strictly Ballroom                                                                   | Comedy | 1992
+ To Wong Foo Thanks for Everything, Julie Newmar                                     | Comedy | 1995
+ The Idiots                                                                          | Comedy | 1998
+ Bridget Jones: The Edge of Reason                                                   | Comedy | 2004
+ Tammy                                                                               | Comedy | 2014
+ The Inbetweeners                                                                    | Comedy | 2011
+ Reality Bites                                                                       | Comedy | 1994
+ The Cable Guy                                                                       | Comedy | 1996
+ Zoolander                                                                           | Comedy | 2001
+ Prime                                                                               | Comedy | 2005
+ Factotum                                                                            | Comedy | 2005
+ Meet Bill                                                                           | Comedy | 2007
+ Too Beautiful for You                                                               | Comedy | 1989
+ The Brady Bunch Movie                                                               | Comedy | 1995
+ Doctor Dolittle                                                                     | Comedy | 1998
+ 28 Days                                                                             | Comedy | 2000
+ John Tucker Must Die                                                                | Comedy | 2006
+ Miss Pettigrew Lives for a Day                                                      | Comedy | 2008
+ JamÃ³n, JamÃ³n                                                                      | Comedy | 1992
+ Two If by Sea                                                                       | Comedy | 1996
+ Ed                                                                                  | Comedy | 1996
+ A Rage in Harlem                                                                    | Comedy | 1991
+ Sister Act 2: Back in the Habit                                                     | Comedy | 1993
+ Beautiful Creatures                                                                 | Comedy | 2000
+ Tapeheads                                                                           | Comedy | 1988
+ Housekeeping                                                                        | Comedy | 1987
+ Being Human                                                                         | Comedy | 1994
+ Return to Horror High                                                               | Comedy | 1987
+ Beauty Shop                                                                         | Comedy | 2005
+ Mr. Saturday Night                                                                  | Comedy | 1992
+ Forget Paris                                                                        | Comedy | 1995
+ Scotland, Pa.                                                                       | Comedy | 2001
+ Blind Date                                                                          | Comedy | 1987
+ Skin Deep                                                                           | Comedy | 1989
+ Switch                                                                              | Comedy | 1991
+ Son of the Pink Panther                                                             | Comedy | 1993
+ Uptown Girls                                                                        | Comedy | 2003
+ Parents                                                                             | Comedy | 1989
+ My Boyfriend's Back                                                                 | Comedy | 1993
+ From the Hip                                                                        | Comedy | 1987
+ My Summer Story                                                                     | Comedy | 1994
+ Baby Geniuses                                                                       | Comedy | 1999
+ Superbabies: Baby Geniuses 2                                                        | Comedy | 2004
+ The Banger Sisters                                                                  | Comedy | 2002
+ Hiding Out                                                                          | Comedy | 1987
+ Plump Fiction                                                                       | Comedy | 1997
+ Repossessed                                                                         | Comedy | 1990
+ Let's Go to Prison                                                                  | Comedy | 2006
+ The Brothers Solomon                                                                | Comedy | 2007
+ Man Trouble                                                                         | Comedy | 1992
+ Dirty Work                                                                          | Comedy | 1998
+ Spice World                                                                         | Comedy | 1997
+ Kingpin                                                                             | Comedy | 1996
+ There's Something About Mary                                                        | Comedy | 1998
+ Me, Myself & Irene                                                                  | Comedy | 2000
+ Shallow Hal                                                                         | Comedy | 2001
+ Stuck on You                                                                        | Comedy | 2003
+ Fever Pitch                                                                         | Comedy | 2005
+ The Heartbreak Kid                                                                  | Comedy | 2007
+ Hall Pass                                                                           | Comedy | 2011
+ The Three Stooges                                                                   | Comedy | 2012
+ Dumb and Dumber to                                                                  | Comedy | 2014
+ Shakes the Clown                                                                    | Comedy | 1991
+ World's Greatest Dad                                                                | Comedy | 2009
+ Return to Me                                                                        | Comedy | 2000
+ Casper                                                                              | Comedy | 1995
+ Out Cold                                                                            | Comedy | 2001
+ I'll See You in My Dreams                                                           | Comedy | 2015
+ The Family Man                                                                      | Comedy | 2000
+ Saved!                                                                              | Comedy | 2004
+ The Bonfire of the Vanities                                                         | Comedy | 1990
+ Still Crazy                                                                         | Comedy | 1998
+ Vice Versa                                                                          | Comedy | 1988
+ The Muppet Christmas Carol                                                          | Comedy | 1992
+ Problem Child 2                                                                     | Comedy | 1991
+ Beethoven                                                                           | Comedy | 1992
+ The Flintstones                                                                     | Comedy | 1994
+ The Flintstones in Viva Rock Vegas                                                  | Comedy | 2000
+ Good Burger                                                                         | Comedy | 1997
+ Varsity Blues                                                                       | Comedy | 1999
+ Ready to Rumble                                                                     | Comedy | 2000
+ The Perfect Score                                                                   | Comedy | 2004
+ Norbit                                                                              | Comedy | 2007
+ A Thousand Words                                                                    | Comedy | 2012
+ Harriet the Spy                                                                     | Comedy | 1996
+ Forces of Nature                                                                    | Comedy | 1999
+ Her Alibi                                                                           | Comedy | 1989
+ Superstar                                                                           | Comedy | 1999
+ Duets                                                                               | Comedy | 2000
+ Withnail & I                                                                        | Comedy | 1987
+ How to Get Ahead in Advertising                                                     | Comedy | 1989
+ The Rum Diary                                                                       | Comedy | 2011
+ View from the Top                                                                   | Comedy | 2003
+ The Bronze                                                                          | Comedy | 2015
+ Career Opportunities                                                                | Comedy | 1991
+ For Richer or Poorer                                                                | Comedy | 1997
+ Johnny Be Good                                                                      | Comedy | 1988
+ Arthur 2: on the Rocks                                                              | Comedy | 1988
+ Igby Goes Down                                                                      | Comedy | 2002
+ 17 Again                                                                            | Comedy | 2009
+ Latter Days                                                                         | Comedy | 2003
+ The Spanish Apartment                                                               | Comedy | 2002
+ Mad Money                                                                           | Comedy | 2008
+ Say Anything                                                                        | Comedy | 1989
+ Singles                                                                             | Comedy | 1992
+ Jerry Maguire                                                                       | Comedy | 1996
+ Elizabethtown                                                                       | Comedy | 2005
+ We Bought a Zoo                                                                     | Comedy | 2011
+ Aloha                                                                               | Comedy | 2015
+ Summer School                                                                       | Comedy | 1987
+ Sibling Rivalry                                                                     | Comedy | 1990
+ Fatal Instinct                                                                      | Comedy | 1993
+ I'm Still Here                                                                      | Comedy | 2010
+ Sex Is Comedy                                                                       | Comedy | 2002
+ A Fish Called Wanda                                                                 | Comedy | 1988
+ Kissing Jessica Stein                                                               | Comedy | 2001
+ Legally Blonde 2                                                                    | Comedy | 2003
+ Air Bud                                                                             | Comedy | 1997
+ Baby Boom                                                                           | Comedy | 1987
+ Father of the Bride                                                                 | Comedy | 1991
+ Father of the Bride Part II                                                         | Comedy | 1995
+ Alfie                                                                               | Comedy | 2004
+ Drumline                                                                            | Comedy | 2002
+ My Demon Lover                                                                      | Comedy | 1987
+ The One I Love                                                                      | Comedy | 2014
+ Passed Away                                                                         | Comedy | 1992
+ Born in East L.A.                                                                   | Comedy | 1987
+ Serious Moonlight                                                                   | Comedy | 2009
+ Heartbreak Hotel                                                                    | Comedy | 1988
+ Home Alone                                                                          | Comedy | 1990
+ Only the Lonely                                                                     | Comedy | 1991
+ Mrs. Doubtfire                                                                      | Comedy | 1993
+ Nine Months                                                                         | Comedy | 1995
+ Stepmom                                                                             | Comedy | 1998
+ Bicentennial Man                                                                    | Comedy | 1999
+ I Love You, Beth Cooper                                                             | Comedy | 2009
+ Before We Go                                                                        | Comedy | 2014
+ Smoke Signals                                                                       | Comedy | 1998
+ A Guy Thing                                                                         | Comedy | 2003
+ Babe                                                                                | Comedy | 1995
+ ATL                                                                                 | Comedy | 2006
+ Head of State                                                                       | Comedy | 2003
+ Top Five                                                                            | Comedy | 2014
+ Down to Earth                                                                       | Comedy | 2001
+ About a Boy                                                                         | Comedy | 2002
+ Love, Rosie                                                                         | Comedy | 2014
+ Sunshine Cleaning                                                                   | Comedy | 2008
+ The Chorus                                                                          | Comedy | 2004
+ Jeffrey                                                                             | Comedy | 1995
+ Gone Fishin'                                                                        | Comedy | 1997
+ Johnson Family Vacation                                                             | Comedy | 2004
+ The Big Picture                                                                     | Comedy | 1989
+ Waiting for Guffman                                                                 | Comedy | 1996
+ Best in Show                                                                        | Comedy | 2000
+ A Mighty Wind                                                                       | Comedy | 2003
+ For Your Consideration                                                              | Comedy | 2006
+ Teen Wolf Too                                                                       | Comedy | 1987
+ The Englishman Who Went Up a Hill But Came Down a Mountain                          | Comedy | 1995
+ Four Lions                                                                          | Comedy | 2010
+ Severance                                                                           | Comedy | 2006
+ How to Deal                                                                         | Comedy | 2003
+ The Wedding Date                                                                    | Comedy | 2005
+ Rough Magic                                                                         | Comedy | 1995
+ Choke                                                                               | Comedy | 2008
+ Coming Soon                                                                         | Comedy | 1999
+ House of Angels                                                                     | Comedy | 1992
+ Safety Not Guaranteed                                                               | Comedy | 2012
+ Just Before I Go                                                                    | Comedy | 2014
+ Footloose                                                                           | Comedy | 2011
+ Lars and the Real Girl                                                              | Comedy | 2007
+ Fright Night                                                                        | Comedy | 2011
+ Wonder Boys                                                                         | Comedy | 2000
+ In Her Shoes                                                                        | Comedy | 2005
+ Party Girl                                                                          | Comedy | 1995
+ Madeline                                                                            | Comedy | 1998
+ Love Potion No. 9                                                                   | Comedy | 1992
+ Wild Tales                                                                          | Comedy | 2014
+ East Is East                                                                        | Comedy | 1999
+ Three to Tango                                                                      | Comedy | 1999
+ Nothing But Trouble                                                                 | Comedy | 1991
+ I Give It a Year                                                                    | Comedy | 2013
+ Naked in New York                                                                   | Comedy | 1993
+ Feds                                                                                | Comedy | 1988
+ In the Army Now                                                                     | Comedy | 1994
+ Life of Crime                                                                       | Comedy | 2013
+ Rookie of the Year                                                                  | Comedy | 1993
+ Sex and Death 101                                                                   | Comedy | 2007
+ No Man's Land                                                                       | Comedy | 2001
+ A Life Less Ordinary                                                                | Comedy | 1997
+ Millions                                                                            | Comedy | 2004
+ Throw Momma from the Train                                                          | Comedy | 1987
+ The War of the Roses                                                                | Comedy | 1989
+ Matilda                                                                             | Comedy | 1996
+ Death to Smoochy                                                                    | Comedy | 2002
+ Duplex                                                                              | Comedy | 2003
+ Dude, Where's My Car?                                                               | Comedy | 2000
+ Diary of a Mad Black Woman                                                          | Comedy | 2005
+ Jawbreaker                                                                          | Comedy | 1999
+ The Experts                                                                         | Comedy | 1989
+ Novocaine                                                                           | Comedy | 2001
+ Pass the Ammo                                                                       | Comedy | 1987
+ It Takes Two                                                                        | Comedy | 1988
+ Maps to the Stars                                                                   | Comedy | 2014
+ Clay Pigeons                                                                        | Comedy | 1998
+ Wedding Crashers                                                                    | Comedy | 2005
+ Fred Claus                                                                          | Comedy | 2007
+ The Change-Up                                                                       | Comedy | 2011
+ Fever Pitch                                                                         | Comedy | 1997
+ Miami Rhapsody                                                                      | Comedy | 1995
+ The Devil Wears Prada                                                               | Comedy | 2006
+ Marley & Me                                                                         | Comedy | 2008
+ The Big Year                                                                        | Comedy | 2011
+ Hope Springs                                                                        | Comedy | 2012
+ The Sitter                                                                          | Comedy | 2011
+ Our Brand Is Crisis                                                                 | Comedy | 2015
+ Buster                                                                              | Comedy | 1988
+ Rude Awakening                                                                      | Comedy | 1989
+ Dorm Daze                                                                           | Comedy | 2003
+ Cool as Ice                                                                         | Comedy | 1991
+ Ghost Town                                                                          | Comedy | 2008
+ Wish You Were Here                                                                  | Comedy | 1987
+ Wild at Heart                                                                       | Comedy | 1990
+ Spread                                                                              | Comedy | 2009
+ Things Change                                                                       | Comedy | 1988
+ State and Main                                                                      | Comedy | 2000
+ Coyote Ugly                                                                         | Comedy | 2000
+ The Sandlot                                                                         | Comedy | 1993
+ First Kid                                                                           | Comedy | 1996
+ Barely Legal                                                                        | Comedy | 2003
+ Romy and Michele's High School Reunion                                              | Comedy | 1997
+ Heartbreakers                                                                       | Comedy | 2001
+ Edge of Seventeen                                                                   | Comedy | 1998
+ Spanking the Monkey                                                                 | Comedy | 1994
+ Flirting with Disaster                                                              | Comedy | 1996
+ I Heart Huckabees                                                                   | Comedy | 2004
+ Silver Linings Playbook                                                             | Comedy | 2012
+ Martians Go Home                                                                    | Comedy | 1989
+ Dr. Jekyll and Ms. Hyde                                                             | Comedy | 1995
+ Whatever It Takes                                                                   | Comedy | 2000
+ Major League                                                                        | Comedy | 1989
+ King Ralph                                                                          | Comedy | 1991
+ Major League II                                                                     | Comedy | 1994
+ Down Periscope                                                                      | Comedy | 1996
+ Punchline                                                                           | Comedy | 1988
+ Wet Hot American Summer                                                             | Comedy | 2001
+ Role Models                                                                         | Comedy | 2008
+ Wanderlust                                                                          | Comedy | 2012
+ The Naked Gun: from the Files of Police Squad!                                      | Comedy | 1988
+ The Naked Gun 2Â½: The Smell of Fear                                                | Comedy | 1991
+ BASEketball                                                                         | Comedy | 1998
+ Scary Movie 3                                                                       | Comedy | 2003
+ My Boss's Daughter                                                                  | Comedy | 2003
+ Scary Movie 4                                                                       | Comedy | 2006
+ Home Fries                                                                          | Comedy | 1998
+ Fun with Dick and Jane                                                              | Comedy | 2005
+ Sordid Lives                                                                        | Comedy | 2000
+ What a Girl Wants                                                                   | Comedy | 2003
+ New York Minute                                                                     | Comedy | 2004
+ Problem Child                                                                       | Comedy | 1990
+ Brain Donors                                                                        | Comedy | 1992
+ Happy Gilmore                                                                       | Comedy | 1996
+ Big Daddy                                                                           | Comedy | 1999
+ Saving Silverman                                                                    | Comedy | 2001
+ The Benchwarmers                                                                    | Comedy | 2006
+ I Now Pronounce You Chuck & Larry                                                   | Comedy | 2007
+ You Don't Mess with the Zohan                                                       | Comedy | 2008
+ Grown Ups                                                                           | Comedy | 2010
+ Just Go with It                                                                     | Comedy | 2011
+ Jack and Jill                                                                       | Comedy | 2011
+ Grown Ups 2                                                                         | Comedy | 2013
+ The Barbarian Invasions                                                             | Comedy | 2003
+ The Joneses                                                                         | Comedy | 2009
+ Slackers                                                                            | Comedy | 2002
+ The Women                                                                           | Comedy | 2008
+ Hanging Up                                                                          | Comedy | 2000
+ The Shrimp on the Barbie                                                            | Comedy | 1990
+ Amazon Women on the Moon                                                            | Comedy | 1987
+ Aria                                                                                | Comedy | 1987
+ Four Rooms                                                                          | Comedy | 1995
+ Paris, je t'aime                                                                    | Comedy | 2006
+ New York, I Love You                                                                | Comedy | 2008
+ The ABCs of Death                                                                   | Comedy | 2012
+ Movie 43                                                                            | Comedy | 2013
+ The Wash                                                                            | Comedy | 2001
+ Hyenas                                                                              | Comedy | 1992
+ Love, Honor and Obey                                                                | Comedy | 2000
+ Bubba Ho-Tep                                                                        | Comedy | 2002
+ John Dies at the End                                                                | Comedy | 2012
+ Seed of Chucky                                                                      | Comedy | 2004
+ The Grand Seduction                                                                 | Comedy | 2013
+ Who's Your Caddy?                                                                   | Comedy | 2007
+ The Opposite of Sex                                                                 | Comedy | 1997
+ The Incredible Burt Wonderstone                                                     | Comedy | 2013
+ Mystic Pizza                                                                        | Comedy | 1988
+ Opportunity Knocks                                                                  | Comedy | 1990
+ Grumpy Old Men                                                                      | Comedy | 1993
+ Richie Rich                                                                         | Comedy | 1994
+ The Favor                                                                           | Comedy | 1994
+ The Associate                                                                       | Comedy | 1996
+ My Favorite Martian                                                                 | Comedy | 1999
+ How to Lose a Guy in 10 Days                                                        | Comedy | 2003
+ Welcome to Mooseport                                                                | Comedy | 2004
+ Just My Luck                                                                        | Comedy | 2006
+ My Life in Ruins                                                                    | Comedy | 2009
+ Teen Witch                                                                          | Comedy | 1989
+ Phat Beach                                                                          | Comedy | 1996
+ Kissing a Fool                                                                      | Comedy | 1998
+ Entourage                                                                           | Comedy | 2015
+ Swingers                                                                            | Comedy | 1996
+ Go                                                                                  | Comedy | 1999
+ Emma                                                                                | Comedy | 1996
+ Quartet                                                                             | Comedy | 2012
+ Little Giants                                                                       | Comedy | 1994
+ Amos & Andrew                                                                       | Comedy | 1993
+ The New Guy                                                                         | Comedy | 2002
+ Harlem Nights                                                                       | Comedy | 1989
+ Shaun of the Dead                                                                   | Comedy | 2004
+ The World's End                                                                     | Comedy | 2013
+ The Brothers McMullen                                                               | Comedy | 1995
+ She's the One                                                                       | Comedy | 1996
+ Keeping the Faith                                                                   | Comedy | 2000
+ Leaving Normal                                                                      | Comedy | 1992
+ Love & Other Drugs                                                                  | Comedy | 2010
+ Tucker and Dale vs Evil                                                             | Comedy | 2010
+ Aquamarine                                                                          | Comedy | 2006
+ Ramona and Beezus                                                                   | Comedy | 2010
+ Pitch Perfect 2                                                                     | Comedy | 2015
+ Chances Are                                                                         | Comedy | 1989
+ Three Men and a Little Lady                                                         | Comedy | 1990
+ Sister Act                                                                          | Comedy | 1992
+ The Way                                                                             | Comedy | 2010
+ Time of the Gypsies                                                                 | Comedy | 1988
+ Arizona Dream                                                                       | Comedy | 1993
+ Underground                                                                         | Comedy | 1995
+ Crna macka, beli macor                                                              | Comedy | 1998
+ Gun Shy                                                                             | Comedy | 2000
+ House Party 3                                                                       | Comedy | 1994
+ If Lucy Fell                                                                        | Comedy | 1996
+ Get Hard                                                                            | Comedy | 2015
+ The Ladykillers                                                                     | Comedy | 2004
+ Burn After Reading                                                                  | Comedy | 2008
+ A Serious Man                                                                       | Comedy | 2009
+ Inside Llewyn Davis                                                                 | Comedy | 2013
+ House II: the Second Story                                                          | Comedy | 1987
+ Once Upon a Crime...                                                                | Comedy | 1992
+ This Is the End                                                                     | Comedy | 2013
+ Friday                                                                              | Comedy | 1995
+ Be Cool                                                                             | Comedy | 2005
+ Dil Chahta Hai                                                                      | Comedy | 2001
+ Intervista                                                                          | Comedy | 1987
+ Belle Epoque                                                                        | Comedy | 1992
+ Woman on Top                                                                        | Comedy | 2000
+ Stand Up Guys                                                                       | Comedy | 2012
+ There Goes My Baby                                                                  | Comedy | 1994
+ Waiting to Exhale                                                                   | Comedy | 1995
+ First Daughter                                                                      | Comedy | 2004
+ Water Drops on Burning Rocks                                                        | Comedy | 2000
+ 8 Women                                                                             | Comedy | 2002
+ Sugar & Spice                                                                       | Comedy | 2001
+ Jack                                                                                | Comedy | 1996
+ Out on a Limb                                                                       | Comedy | 1992
+ Le DÃ®ner de Cons                                                                   | Comedy | 1998
+ Tea with Mussolini                                                                  | Comedy | 1999
+ The Wedding Singer                                                                  | Comedy | 1998
+ The Waterboy                                                                        | Comedy | 1998
+ Click                                                                               | Comedy | 2006
+ Zookeeper                                                                           | Comedy | 2011
+ Blended                                                                             | Comedy | 2014
+ Frankenhooker                                                                       | Comedy | 1990
+ Arachnophobia                                                                       | Comedy | 1990
+ Dirty Rotten Scoundrels                                                             | Comedy | 1988
+ What About Bob?                                                                     | Comedy | 1991
+ HouseSitter                                                                         | Comedy | 1992
+ In & Out                                                                            | Comedy | 1997
+ Bowfinger                                                                           | Comedy | 1999
+ The Stepford Wives                                                                  | Comedy | 2004
+ Death at a Funeral                                                                  | Comedy | 2007
+ Hello Again                                                                         | Comedy | 1987
+ Roxanne                                                                             | Comedy | 1987
+ Mr. Baseball                                                                        | Comedy | 1992
+ Six Degrees of Separation                                                           | Comedy | 1993
+ I.Q.                                                                                | Comedy | 1994
+ Fierce Creatures                                                                    | Comedy | 1997
+ It Runs in the Family                                                               | Comedy | 2003
+ The House Bunny                                                                     | Comedy | 2008
+ Mon pÃ¨re, ce hÃ©ros.                                                               | Comedy | 1991
+ Playing for Keeps                                                                   | Comedy | 2012
+ Mediterraneo                                                                        | Comedy | 1991
+ Overboard                                                                           | Comedy | 1987
+ Beaches                                                                             | Comedy | 1988
+ Pretty Woman                                                                        | Comedy | 1990
+ Frankie and Johnny                                                                  | Comedy | 1991
+ Exit to Eden                                                                        | Comedy | 1994
+ Dear God                                                                            | Comedy | 1996
+ Runaway Bride                                                                       | Comedy | 1999
+ The Other Sister                                                                    | Comedy | 1999
+ The Princess Diaries                                                                | Comedy | 2001
+ The Princess Diaries 2: Royal Engagement                                            | Comedy | 2004
+ Raising Helen                                                                       | Comedy | 2004
+ Georgia Rule                                                                        | Comedy | 2007
+ Valentine's Day                                                                     | Comedy | 2010
+ New Year's Eve                                                                      | Comedy | 2011
+ Dad                                                                                 | Comedy | 1989
+ Must Love Dogs                                                                      | Comedy | 2005
+ Pleasantville                                                                       | Comedy | 1998
+ The Bachelor                                                                        | Comedy | 1999
+ 13 Going on 30                                                                      | Comedy | 2004
+ Bride Wars                                                                          | Comedy | 2009
+ Casual Sex?                                                                         | Comedy | 1988
+ The Sum of Us                                                                       | Comedy | 1994
+ Survival of the Dead                                                                | Comedy | 2009
+ Miami Blues                                                                         | Comedy | 1990
+ The Big Bounce                                                                      | Comedy | 2004
+ Leatherheads                                                                        | Comedy | 2008
+ The Monuments Men                                                                   | Comedy | 2014
+ 29th Street                                                                         | Comedy | 1991
+ Middle Men                                                                          | Comedy | 2009
+ Swimming with Sharks                                                                | Comedy | 1994
+ Trojan War                                                                          | Comedy | 1997
+ House Party 2                                                                       | Comedy | 1991
+ The Witches of Eastwick                                                             | Comedy | 1987
+ Funny Farm                                                                          | Comedy | 1988
+ Soul Food                                                                           | Comedy | 1997
+ 10 Things I Hate About You                                                          | Comedy | 1999
+ Bordello of Blood                                                                   | Comedy | 1996
+ A Simple Twist of Fate                                                              | Comedy | 1994
+ Malena                                                                              | Comedy | 2000
+ Crazy, Stupid, Love.                                                                | Comedy | 2011
+ Focus                                                                               | Comedy | 2015
+ Love Affair                                                                         | Comedy | 1994
+ Picture Perfect                                                                     | Comedy | 1997
+ Wristcutters: A Love Story                                                          | Comedy | 2006
+ Mousehunt                                                                           | Comedy | 1997
+ The Weather Man                                                                     | Comedy | 2005
+ The Men Who Stare at Goats                                                          | Comedy | 2009
+ License to Drive                                                                    | Comedy | 1988
+ The Broken Hearts Club: A Romantic Comedy                                           | Comedy | 2000
+ Life as We Know It                                                                  | Comedy | 2010
+ Employee of the Month                                                               | Comedy | 2006
+ The Daytrippers                                                                     | Comedy | 1996
+ Superbad                                                                            | Comedy | 2007
+ Adventureland                                                                       | Comedy | 2009
+ The Living End                                                                      | Comedy | 1992
+ Totally F***ed Up                                                                   | Comedy | 1993
+ The Doom Generation                                                                 | Comedy | 1995
+ Nowhere                                                                             | Comedy | 1997
+ Smiley Face                                                                         | Comedy | 2007
+ Kaboom                                                                              | Comedy | 2010
+ Short Time                                                                          | Comedy | 1990
+ Buffalo Soldiers                                                                    | Comedy | 2001
+ Magic Mike XXL                                                                      | Comedy | 2015
+ Tomcats                                                                             | Comedy | 2001
+ Addicted to Love                                                                    | Comedy | 1997
+ Practical Magic                                                                     | Comedy | 1998
+ Little White Lies                                                                   | Comedy | 2010
+ Bhaji on the Beach                                                                  | Comedy | 1993
+ Bend It Like Beckham                                                                | Comedy | 2002
+ Bride & Prejudice                                                                   | Comedy | 2004
+ Even Cowgirls Get the Blues                                                         | Comedy | 1993
+ To Die For                                                                          | Comedy | 1995
+ Archangel                                                                           | Comedy | 1990
+ Snatch                                                                              | Comedy | 2000
+ Swept Away                                                                          | Comedy | 2002
+ The Unbelievable Truth                                                              | Comedy | 1989
+ Trust                                                                               | Comedy | 1990
+ A Man Called Ove                                                                    | Comedy | 2015
+ One Night at McCool's                                                               | Comedy | 2001
+ Gummo                                                                               | Comedy | 1997
+ Julien Donkey-Boy                                                                   | Comedy | 1999
+ Groundhog Day                                                                       | Comedy | 1993
+ Multiplicity                                                                        | Comedy | 1996
+ Analyze This                                                                        | Comedy | 1999
+ Bedazzled                                                                           | Comedy | 2000
+ Analyze That                                                                        | Comedy | 2002
+ Year One                                                                            | Comedy | 2009
+ Can't Hardly Wait                                                                   | Comedy | 1998
+ Josie and the Pussycats                                                             | Comedy | 2001
+ House Arrest                                                                        | Comedy | 1996
+ PCU                                                                                 | Comedy | 1994
+ High School High                                                                    | Comedy | 1996
+ Memories of Me                                                                      | Comedy | 1988
+ Cop & Â½                                                                            | Comedy | 1993
+ The Secret of My Success                                                            | Comedy | 1987
+ Steel Magnolias                                                                     | Comedy | 1989
+ My Blue Heaven                                                                      | Comedy | 1990
+ Undercover Blues                                                                    | Comedy | 1993
+ Boys on the Side                                                                    | Comedy | 1995
+ Beautiful Thing                                                                     | Comedy | 1996
+ The Big Green                                                                       | Comedy | 1995
+ Cocktail                                                                            | Comedy | 2012
+ Bloodhounds of Broadway                                                             | Comedy | 1989
+ The Great Outdoors                                                                  | Comedy | 1988
+ Article 99                                                                          | Comedy | 1992
+ Getting Even with Dad                                                               | Comedy | 1994
+ Grumpier Old Men                                                                    | Comedy | 1995
+ The Replacements                                                                    | Comedy | 2000
+ The Whole Ten Yards                                                                 | Comedy | 2004
+ My Best Friend's Girl                                                               | Comedy | 2008
+ Quick Change                                                                        | Comedy | 1990
+ Larger Than Life                                                                    | Comedy | 1996
+ The Dream Team                                                                      | Comedy | 1989
+ My Girl                                                                             | Comedy | 1991
+ My Girl 2                                                                           | Comedy | 1994
+ Burglar                                                                             | Comedy | 1987
+ Guarding Tess                                                                       | Comedy | 1994
+ The First Wives Club                                                                | Comedy | 1996
+ Blast from the Past                                                                 | Comedy | 1998
+ Dudley Do-Right                                                                     | Comedy | 1999
+ Hackers                                                                             | Comedy | 1995
+ The Players Club                                                                    | Comedy | 1998
+ My Twentieth Century                                                                | Comedy | 1989
+ Jab We Met                                                                          | Comedy | 2007
+ Night and the City                                                                  | Comedy | 1992
+ Twins                                                                               | Comedy | 1988
+ Dave                                                                                | Comedy | 1993
+ Junior                                                                              | Comedy | 1994
+ Fathers' Day                                                                        | Comedy | 1997
+ Evolution                                                                           | Comedy | 2001
+ My Super Ex-Girlfriend                                                              | Comedy | 2006
+ No Strings Attached                                                                 | Comedy | 2011
+ American Pie 2                                                                      | Comedy | 2001
+ Say It Isn't So                                                                     | Comedy | 2001
+ Zero Effect                                                                         | Comedy | 1998
+ Orange County                                                                       | Comedy | 2002
+ Walk Hard: the Dewey Cox Story                                                      | Comedy | 2007
+ Bad Teacher                                                                         | Comedy | 2011
+ Sex Tape                                                                            | Comedy | 2014
+ Robot & Frank                                                                       | Comedy | 2012
+ Heart Condition                                                                     | Comedy | 1990
+ Still Breathing                                                                     | Comedy | 1997
+ Who's That Girl                                                                     | Comedy | 1987
+ Slither                                                                             | Comedy | 2006
+ Slaves of New York                                                                  | Comedy | 1989
+ The Divorce                                                                         | Comedy | 2003
+ Broadcast News                                                                      | Comedy | 1987
+ As Good as It Gets                                                                  | Comedy | 1997
+ Spanglish                                                                           | Comedy | 2004
+ How Do You Know                                                                     | Comedy | 2010
+ Life with Mikey                                                                     | Comedy | 1993
+ Kate & Leopold                                                                      | Comedy | 2001
+ SLC Punk!                                                                           | Comedy | 1998
+ Mr. Destiny                                                                         | Comedy | 1990
+ Man of the House                                                                    | Comedy | 1995
+ The Spectacular Now                                                                 | Comedy | 2013
+ Elvira: Mistress of the Dark                                                        | Comedy | 1988
+ The Pick-up Artist                                                                  | Comedy | 1987
+ Two Girls and a Guy                                                                 | Comedy | 1997
+ But I'm a Cheerleader                                                               | Comedy | 1999
+ 10 Years                                                                            | Comedy | 2011
+ For a Good Time, Call...                                                            | Comedy | 2012
+ The Gods Must Be Crazy II                                                           | Comedy | 1989
+ A Shock to the System                                                               | Comedy | 1990
+ Sweetie                                                                             | Comedy | 1989
+ Holy Smoke                                                                          | Comedy | 1999
+ Napoleon Dynamite                                                                   | Comedy | 2004
+ Nacho Libre                                                                         | Comedy | 2006
+ Bad Words                                                                           | Comedy | 2013
+ Bio-Dome                                                                            | Comedy | 1996
+ Disaster Movie                                                                      | Comedy | 2008
+ Meet the Spartans                                                                   | Comedy | 2008
+ Vampires Suck                                                                       | Comedy | 2010
+ Pitch Perfect                                                                       | Comedy | 2012
+ Sisters                                                                             | Comedy | 2015
+ Thank You for Smoking                                                               | Comedy | 2005
+ Juno                                                                                | Comedy | 2007
+ Up in the Air                                                                       | Comedy | 2009
+ Young Adult                                                                         | Comedy | 2011
+ Men, Women & Children                                                               | Comedy | 2014
+ Super Troopers                                                                      | Comedy | 2001
+ Club Dread                                                                          | Comedy | 2004
+ The Dukes of Hazzard                                                                | Comedy | 2005
+ Beerfest                                                                            | Comedy | 2006
+ Cyrus                                                                               | Comedy | 2010
+ UHF                                                                                 | Comedy | 1989
+ Mystery, Alaska                                                                     | Comedy | 1999
+ Meet the Parents                                                                    | Comedy | 2000
+ Meet the Fockers                                                                    | Comedy | 2004
+ Dinner for Schmucks                                                                 | Comedy | 2010
+ The Campaign                                                                        | Comedy | 2012
+ My Dog Skip                                                                         | Comedy | 2000
+ Secret Things                                                                       | Comedy | 2002
+ LÃ©olo                                                                              | Comedy | 1992
+ Demolition                                                                          | Comedy | 2015
+ Les visiteurs                                                                       | Comedy | 1993
+ Cyrano de Bergerac                                                                  | Comedy | 1990
+ AmÃ©lie                                                                             | Comedy | 2001
+ S.F.W.                                                                              | Comedy | 1994
+ Love Stinks                                                                         | Comedy | 1999
+ Booty Call                                                                          | Comedy | 1997
+ Lost & Found                                                                        | Comedy | 1999
+ EuroTrip                                                                            | Comedy | 2004
+ Bad Grandpa                                                                         | Comedy | 2013
+ What We Do in the Shadows                                                           | Comedy | 2014
+ National Lampoon's Christmas Vacation                                               | Comedy | 1989
+ Benny & Joon                                                                        | Comedy | 1993
+ The Wedding Ringer                                                                  | Comedy | 2015
+ Don Juan DeMarco                                                                    | Comedy | 1994
+ Surrender                                                                           | Comedy | 1987
+ The Marrying Man                                                                    | Comedy | 1991
+ Austenland                                                                          | Comedy | 2013
+ How High                                                                            | Comedy | 2001
+ American Wedding                                                                    | Comedy | 2003
+ Kicking & Screaming                                                                 | Comedy | 2005
+ Our Idiot Brother                                                                   | Comedy | 2011
+ Juwanna Mann                                                                        | Comedy | 2002
+ Stick It                                                                            | Comedy | 2006
+ Corrina, Corrina                                                                    | Comedy | 1994
+ Love the Coopers                                                                    | Comedy | 2015
+ Soul Plane                                                                          | Comedy | 2004
+ Birthday Girl                                                                       | Comedy | 2001
+ Clockwatchers                                                                       | Comedy | 1997
+ Big Business                                                                        | Comedy | 1988
+ Welcome Home, Roxy Carmichael                                                       | Comedy | 1990
+ Mafia!                                                                              | Comedy | 1998
+ Police Academy 4: Citizens on Patrol                                                | Comedy | 1987
+ Trick                                                                               | Comedy | 1999
+ She's Out of My League                                                              | Comedy | 2010
+ Butter                                                                              | Comedy | 2011
+ Mystery Train                                                                       | Comedy | 1989
+ Night on Earth                                                                      | Comedy | 1991
+ Coffee and Cigarettes                                                               | Comedy | 2003
+ Broken Flowers                                                                      | Comedy | 2005
+ Only Lovers Left Alive                                                              | Comedy | 2013
+ Head Above Water                                                                    | Comedy | 1996
+ Not of This Earth                                                                   | Comedy | 1988
+ My Best Friend Is a Vampire                                                         | Comedy | 1987
+ Satisfaction                                                                        | Comedy | 1988
+ Crossing Delancey                                                                   | Comedy | 1988
+ Loverboy                                                                            | Comedy | 1989
+ Big Girls Don't Cry... They Get Even                                                | Comedy | 1991
+ How to Make an American Quilt                                                       | Comedy | 1995
+ The Dressmaker                                                                      | Comedy | 2015
+ Home for the Holidays                                                               | Comedy | 1995
+ The Foot Fist Way                                                                   | Comedy | 2006
+ Observe and Report                                                                  | Comedy | 2009
+ The 'Burbs                                                                          | Comedy | 1989
+ Gremlins 2: The New Batch                                                           | Comedy | 1990
+ Matinee                                                                             | Comedy | 1993
+ Sleepover                                                                           | Comedy | 2004
+ Sydney White                                                                        | Comedy | 2007
+ Let It Ride                                                                         | Comedy | 1989
+ Revenge of the Nerds II: Nerds in Paradise                                          | Comedy | 1987
+ Coupe de Ville                                                                      | Comedy | 1990
+ America's Sweethearts                                                               | Comedy | 2001
+ Christmas with the Kranks                                                           | Comedy | 2004
+ Raising Arizona                                                                     | Comedy | 1987
+ Barton Fink                                                                         | Comedy | 1991
+ The Hudsucker Proxy                                                                 | Comedy | 1994
+ The Big Lebowski                                                                    | Comedy | 1998
+ Intolerable Cruelty                                                                 | Comedy | 2003
+ Not Another Teen Movie                                                              | Comedy | 2001
+ Greenfingers                                                                        | Comedy | 2000
+ The Love Punch                                                                      | Comedy | 2013
+ The Lost Boys                                                                       | Comedy | 1987
+ Cousins                                                                             | Comedy | 1989
+ Flawless                                                                            | Comedy | 1999
+ Second Sight                                                                        | Comedy | 1989
+ My Big Fat Greek Wedding                                                            | Comedy | 2002
+ Fat Albert                                                                          | Comedy | 2004
+ Afternoon Delight                                                                   | Comedy | 2013
+ Dirty Love                                                                          | Comedy | 2005
+ Another Stakeout                                                                    | Comedy | 1993
+ Hope and Glory                                                                      | Comedy | 1987
+ Where the Heart Is                                                                  | Comedy | 1990
+ The Tailor of Panama                                                                | Comedy | 2001
+ Hedwig and the Angry Inch                                                           | Comedy | 2001
+ Shortbus                                                                            | Comedy | 2006
+ Begin Again                                                                         | Comedy | 2013
+ Memoirs of an Invisible Man                                                         | Comedy | 1992
+ Almost an Angel                                                                     | Comedy | 1990
+ Intermission                                                                        | Comedy | 2003
+ Sirens                                                                              | Comedy | 1994
+ Brainscan                                                                           | Comedy | 1994
+ Jury Duty                                                                           | Comedy | 1995
+ A Night at the Roxbury                                                              | Comedy | 1998
+ For Keeps?                                                                          | Comedy | 1988
+ Piranha 3DD                                                                         | Comedy | 2012
+ Along Came Polly                                                                    | Comedy | 2004
+ I Love You, Man                                                                     | Comedy | 2009
+ Tales from the Darkside: The Movie                                                  | Comedy | 1990
+ 2 Days in the Valley                                                                | Comedy | 1996
+ The Answer Man                                                                      | Comedy | 2009
+ Good Boy                                                                            | Comedy | 2003
+ Planes, Trains & Automobiles                                                        | Comedy | 1987
+ She's Having a Baby                                                                 | Comedy | 1988
+ Uncle Buck                                                                          | Comedy | 1989
+ Curly Sue                                                                           | Comedy | 1991
+ Man's Best Friend                                                                   | Comedy | 1993
+ Coming to America                                                                   | Comedy | 1988
+ Oscar                                                                               | Comedy | 1991
+ Shakespeare in Love                                                                 | Comedy | 1998
+ The Best Exotic Marigold Hotel                                                      | Comedy | 2011
+ The Second Best Exotic Marigold Hotel                                               | Comedy | 2015
+ Mad Dog and Glory                                                                   | Comedy | 1993
+ The Guard                                                                           | Comedy | 2011
+ The Santa Clause                                                                    | Comedy | 1994
+ Jungle 2 Jungle                                                                     | Comedy | 1997
+ Joe Versus the Volcano                                                              | Comedy | 1990
+ Joe's Apartment                                                                     | Comedy | 1996
+ Ernest Goes to Camp                                                                 | Comedy | 1987
+ Ernest Saves Christmas                                                              | Comedy | 1988
+ Ernest Goes to Jail                                                                 | Comedy | 1990
+ Ernest Scared Stupid                                                                | Comedy | 1991
+ The Next Best Thing                                                                 | Comedy | 2000
+ Drive Me Crazy                                                                      | Comedy | 1999
+ Like Mike                                                                           | Comedy | 2002
+ Romance & Cigarettes                                                                | Comedy | 2005
+ Major League: Back to the Minors                                                    | Comedy | 1998
+ Hairspray                                                                           | Comedy | 1988
+ Cry-Baby                                                                            | Comedy | 1990
+ Serial Mom                                                                          | Comedy | 1994
+ Pecker                                                                              | Comedy | 1998
+ Cecil B. Demented                                                                   | Comedy | 2000
+ A Dirty Shame                                                                       | Comedy | 2004
+ August: Osage County                                                                | Comedy | 2013
+ Burnt                                                                               | Comedy | 2015
+ Calendar Girl                                                                       | Comedy | 1993
+ Malibu's Most Wanted                                                                | Comedy | 2003
+ Big Momma's House 2                                                                 | Comedy | 2006
+ Tune in Tomorrow...                                                                 | Comedy | 1990
+ The Man Who Knew Too Little                                                         | Comedy | 1997
+ Made                                                                                | Comedy | 2001
+ American Reunion                                                                    | Comedy | 2012
+ 21 & Over                                                                           | Comedy | 2013
+ Charlie Bartlett                                                                    | Comedy | 2007
+ Filth                                                                               | Comedy | 2013
+ While You Were Sleeping                                                             | Comedy | 1995
+ The Kid                                                                             | Comedy | 2000
+ Last Vegas                                                                          | Comedy | 2013
+ Spun                                                                                | Comedy | 2002
+ Little Miss Sunshine                                                                | Comedy | 2006
+ Ruby Sparks                                                                         | Comedy | 2012
+ Married to the Mob                                                                  | Comedy | 1988
+ Ricki and the Flash                                                                 | Comedy | 2015
+ Project X                                                                           | Comedy | 1987
+ In the Land of Women                                                                | Comedy | 2007
+ The First Time                                                                      | Comedy | 2012
+ Black Sheep                                                                         | Comedy | 2006
+ The Wackness                                                                        | Comedy | 2008
+ 50/50                                                                               | Comedy | 2011
+ Warm Bodies                                                                         | Comedy | 2013
+ The Night Before                                                                    | Comedy | 2015
+ Nuns on the Run                                                                     | Comedy | 1990
+ My Cousin Vinny                                                                     | Comedy | 1992
+ The Distinguished Gentleman                                                         | Comedy | 1992
+ Greedy                                                                              | Comedy | 1994
+ Sgt. Bilko                                                                          | Comedy | 1996
+ Trial and Error                                                                     | Comedy | 1997
+ The Whole Nine Yards                                                                | Comedy | 2000
+ The Fighting Temptations                                                            | Comedy | 2003
+ Mystery Date                                                                        | Comedy | 1991
+ Ed and His Dead Mother                                                              | Comedy | 1993
+ Don Jon                                                                             | Comedy | 2013
+ Stuck in Love.                                                                      | Comedy | 2012
+ Blades of Glory                                                                     | Comedy | 2007
+ The Switch                                                                          | Comedy | 2010
+ Liberal Arts                                                                        | Comedy | 2012
+ Much Ado About Nothing                                                              | Comedy | 2012
+ The Lemon Sisters                                                                   | Comedy | 1989
+ The 40-Year-Old Virgin                                                              | Comedy | 2005
+ Knocked Up                                                                          | Comedy | 2007
+ Funny People                                                                        | Comedy | 2009
+ This Is 40                                                                          | Comedy | 2012
+ Trainwreck                                                                          | Comedy | 2015
+ Kinky Boots                                                                         | Comedy | 2005
+ The Tempest                                                                         | Comedy | 2010
+ Earth Girls Are Easy                                                                | Comedy | 1988
+ Human Traffic                                                                       | Comedy | 1999
+ Dear White People                                                                   | Comedy | 2014
+ The Big Wedding                                                                     | Comedy | 2013
+ Kuch Kuch Hota Hai                                                                  | Comedy | 1998
+ Chungking Express                                                                   | Comedy | 1994
+ Jennifer's Body                                                                     | Comedy | 2009
+ As It Is in Heaven                                                                  | Comedy | 2004
+ Scary Movie                                                                         | Comedy | 2000
+ Scary Movie 2                                                                       | Comedy | 2001
+ White Chicks                                                                        | Comedy | 2004
+ Little Man                                                                          | Comedy | 2006
+ The Singing Detective                                                               | Comedy | 2003
+ Kids in the Hall: Brain Candy                                                       | Comedy | 1996
+ Mickey Blue Eyes                                                                    | Comedy | 1999
+ He Said, She Said                                                                   | Comedy | 1991
+ The Beautician and the Beast                                                        | Comedy | 1997
+ The Sisterhood of the Traveling Pants                                               | Comedy | 2005
+ License to Wed                                                                      | Comedy | 2007
+ He's Just Not That Into You                                                         | Comedy | 2009
+ Riff-Raff                                                                           | Comedy | 1991
+ The Angels' Share                                                                   | Comedy | 2012
+ The Lair of the White Worm                                                          | Comedy | 1988
+ Delivery Man                                                                        | Comedy | 2013
+ Unfinished Business                                                                 | Comedy | 2015
+ Return of the Living Dead II                                                        | Comedy | 1988
+ Peter's Friends                                                                     | Comedy | 1992
+ Much Ado About Nothing                                                              | Comedy | 1993
+ Short Circuit 2                                                                     | Comedy | 1988
+ Hocus Pocus                                                                         | Comedy | 1993
+ High School Musical 3: Senior Year                                                  | Comedy | 2008
+ Semi-Pro                                                                            | Comedy | 2008
+ Twin Town                                                                           | Comedy | 1997
+ Strictly Business                                                                   | Comedy | 1991
+ Enchanted                                                                           | Comedy | 2007
+ How Stella Got Her Groove Back                                                      | Comedy | 1998
+ Guess Who                                                                           | Comedy | 2005
+ Clerks                                                                              | Comedy | 1994
+ Mallrats                                                                            | Comedy | 1995
+ Chasing Amy                                                                         | Comedy | 1997
+ Jay and Silent Bob Strike Back                                                      | Comedy | 2001
+ Jersey Girl                                                                         | Comedy | 2004
+ Clerks II                                                                           | Comedy | 2006
+ Zack and Miri Make a Porno                                                          | Comedy | 2008
+ Tusk                                                                                | Comedy | 2014
+ Fame                                                                                | Comedy | 2009
+ Night of the Demons                                                                 | Comedy | 1988
+ Teaching Mrs. Tingle                                                                | Comedy | 1999
+ Paper Man                                                                           | Comedy | 2009
+ Texas Chainsaw Massacre: The Next Generation                                        | Comedy | 1994
+ Waking Ned Devine                                                                   | Comedy | 1998
+ Nanny McPhee                                                                        | Comedy | 2005
+ What to Expect When You're Expecting                                                | Comedy | 2012
+ Down to You                                                                         | Comedy | 2000
+ Three Colors: White                                                                 | Comedy | 1994
+ In a World...                                                                       | Comedy | 2013
+ Mad Dog Time                                                                        | Comedy | 1996
+ Masked and Anonymous                                                                | Comedy | 2003
+ Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan | Comedy | 2006
+ BrÃ¼no                                                                              | Comedy | 2009
+ The Dictator                                                                        | Comedy | 2012
+ Wicked Stepmother                                                                   | Comedy | 1989
+ Sour Grapes                                                                         | Comedy | 1998
+ Once Around                                                                         | Comedy | 1991
+ Something to Talk About                                                             | Comedy | 1995
+ Salmon Fishing in the Yemen                                                         | Comedy | 2011
+ The Hundred-Foot Journey                                                            | Comedy | 2014
+ Hunk                                                                                | Comedy | 1987
+ Son of the Mask                                                                     | Comedy | 2005
+ I Love You to Death                                                                 | Comedy | 1990
+ French Kiss                                                                         | Comedy | 1995
+ Mumford                                                                             | Comedy | 1999
+ Staying Together                                                                    | Comedy | 1989
+ The Giant Mechanical Man                                                            | Comedy | 2012
+ Celeste & Jesse Forever                                                             | Comedy | 2012
+ Frank                                                                               | Comedy | 2014
+ Three Men and a Baby                                                                | Comedy | 1987
+ Funny About Love                                                                    | Comedy | 1990
+ Holy Matrimony                                                                      | Comedy | 1994
+ Tokyo!                                                                              | Comedy | 2008
+ Encino Man                                                                          | Comedy | 1992
+ Flubber                                                                             | Comedy | 1997
+ Now and Then                                                                        | Comedy | 1995
+ Bachelorette                                                                        | Comedy | 2012
+ Sleeping with Other People                                                          | Comedy | 2015
+ Shirley Valentine                                                                   | Comedy | 1989
+ Stepping Out                                                                        | Comedy | 1991
+ Everything Is Illuminated                                                           | Comedy | 2005
+ Chasing Papi                                                                        | Comedy | 2003
+ How to Be a Player                                                                  | Comedy | 1997
+ LOL                                                                                 | Comedy | 2012
+ The Kids Are All Right                                                              | Comedy | 2010
+ Manny & Lo                                                                          | Comedy | 1996
+ Committed                                                                           | Comedy | 2000
+ Terror Firmer                                                                       | Comedy | 1999
+ The Meddler                                                                         | Comedy | 2015
+ May Fools                                                                           | Comedy | 1990
+ Angel-A                                                                             | Comedy | 2005
+ The Family                                                                          | Comedy | 2013
+ May                                                                                 | Comedy | 2002
+ La CiÃ©naga                                                                         | Comedy | 2001
+ Born Yesterday                                                                      | Comedy | 1993
+ Show Me Love                                                                        | Comedy | 1998
+ Tillsammans                                                                         | Comedy | 2000
+ The Animal                                                                          | Comedy | 2001
+ The Girl Next Door                                                                  | Comedy | 2004
+ Something Borrowed                                                                  | Comedy | 2011
+ Back to the Beach                                                                   | Comedy | 1987
+ Your Sister's Sister                                                                | Comedy | 2011
+ Laggies                                                                             | Comedy | 2014
+ Wide Awake                                                                          | Comedy | 1998
+ The To Do List                                                                      | Comedy | 2013
+ The Best Man                                                                        | Comedy | 1999
+ Roll Bounce                                                                         | Comedy | 2005
+ Welcome Home, Roscoe Jenkins                                                        | Comedy | 2008
+ Scary Movie V                                                                       | Comedy | 2013
+ Out Cold                                                                            | Comedy | 1989
+ The Boyfriend School                                                                | Comedy | 1990
+ Henry's Crime                                                                       | Comedy | 2010
+ Dr. Giggles                                                                         | Comedy | 1992
+ Delicatessen                                                                        | Comedy | 1991
+ Stranger Than Fiction                                                               | Comedy | 2006
+ Two Weeks Notice                                                                    | Comedy | 2002
+ Music and Lyrics                                                                    | Comedy | 2007
+ Did You Hear About the Morgans?                                                     | Comedy | 2009
+ Dream a Little Dream                                                                | Comedy | 1989
+ 500 Days of Summer                                                                  | Comedy | 2009
+ Summer Storm                                                                        | Comedy | 2004
+ The Love Guru                                                                       | Comedy | 2008
+ Chaos Theory                                                                        | Comedy | 2008
+ Friday After Next                                                                   | Comedy | 2002
+ The Incredibly True Adventure of Two Girls in Love                                  | Comedy | 1995
+ Tortilla Soup                                                                       | Comedy | 2001
+ The Diary of a Teenage Girl                                                         | Comedy | 2015
+ Two Can Play That Game                                                              | Comedy | 2001
+ Good Luck Chuck                                                                     | Comedy | 2007
+ Blame It on the Bellboy                                                             | Comedy | 1992
+ Brassed Off                                                                         | Comedy | 1996
+ Little Voice                                                                        | Comedy | 1998
+ Popcorn                                                                             | Comedy | 1991
+ Happy, Texas                                                                        | Comedy | 1999
+ The Efficiency Expert                                                               | Comedy | 1991
+ The MatchMaker                                                                      | Comedy | 1997
+ Leprechaun                                                                          | Comedy | 1993
+ Rumpelstiltskin                                                                     | Comedy | 1995
+ Little Manhattan                                                                    | Comedy | 2005
+ What's Your Number?                                                                 | Comedy | 2011
+ Penelope                                                                            | Comedy | 2006
+ Going All the Way                                                                   | Comedy | 1997
+ A Cinderella Story                                                                  | Comedy | 2004
+ The Perfect Man                                                                     | Comedy | 2005
+ For the Boys                                                                        | Comedy | 1991
+ Simon Birch                                                                         | Comedy | 1998
+ When in Rome                                                                        | Comedy | 2010
+ Simply Irresistible                                                                 | Comedy | 1999
+ The House of Yes                                                                    | Comedy | 1997
+ Head Over Heels                                                                     | Comedy | 2001
+ Freaky Friday                                                                       | Comedy | 2003
+ Mean Girls                                                                          | Comedy | 2004
+ Just Like Heaven                                                                    | Comedy | 2005
+ Ghosts of Girlfriends Past                                                          | Comedy | 2009
+ Mr. Popper's Penguins                                                               | Comedy | 2011
+ Antonia's Line                                                                      | Comedy | 1995
+ Poolhall Junkies                                                                    | Comedy | 2002
+ Jack the Bear                                                                       | Comedy | 1993
+ Out to Sea                                                                          | Comedy | 1997
+ The Prince and Me                                                                   | Comedy | 2004
+ Gigli                                                                               | Comedy | 2003
+ A Thin Line Between Love and Hate                                                   | Comedy | 1996
+ In Bruges                                                                           | Comedy | 2008
+ Seven Psychopaths                                                                   | Comedy | 2012
+ American Psycho                                                                     | Comedy | 2000
+ The Pallbearer                                                                      | Comedy | 1996
+ Where the Heart Is                                                                  | Comedy | 2000
+ Freeway                                                                             | Comedy | 1996
+ *batteries not included                                                             | Comedy | 1987
+ The Inkwell                                                                         | Comedy | 1994
+ Another You                                                                         | Comedy | 1991
+ Two Night Stand                                                                     | Comedy | 2014
+ Life Stinks                                                                         | Comedy | 1991
+ Dracula: Dead and Loving It                                                         | Comedy | 1995
+ The Tall Guy                                                                        | Comedy | 1989
+ Radioland Murders                                                                   | Comedy | 1994
+ The Baby-Sitters Club                                                               | Comedy | 1995
+ Walk Like a Man                                                                     | Comedy | 1987
+ Fast Food                                                                           | Comedy | 1989
+ Critical Condition                                                                  | Comedy | 1987
+ Princess Caraboo                                                                    | Comedy | 1994
+ Doc Hollywood                                                                       | Comedy | 1991
+ Eulogy                                                                              | Comedy | 2004
+ Outside Providence                                                                  | Comedy | 1999
+ Eight Days a Week                                                                   | Comedy | 1997
+ Hot to Trot                                                                         | Comedy | 1988
+ Krampus                                                                             | Comedy | 2015
+ Take Me Home Tonight                                                                | Comedy | 2011
+ Goon                                                                                | Comedy | 2011
+ What If                                                                             | Comedy | 2013
+ Mannequin                                                                           | Comedy | 1987
+ Some Girls                                                                          | Comedy | 1988
+ Soapdish                                                                            | Comedy | 1991
+ One Fine Day                                                                        | Comedy | 1996
+ A Midsummer Night's Dream                                                           | Comedy | 1999
+ Heathers                                                                            | Comedy | 1988
+ Meet the Applegates                                                                 | Comedy | 1990
+ Airheads                                                                            | Comedy | 1994
+ The Truth About Cats & Dogs                                                         | Comedy | 1996
+ My Giant                                                                            | Comedy | 1998
+ 40 Days and 40 Nights                                                               | Comedy | 2002
+ Because I Said So                                                                   | Comedy | 2007
+ The Santa Clause 2                                                                  | Comedy | 2002
+ Tooth Fairy                                                                         | Comedy | 2010
+ The Object of Beauty                                                                | Comedy | 1991
+ Sex and Zen                                                                         | Comedy | 1991
+ Baby Mama                                                                           | Comedy | 2008
+ Canadian Bacon                                                                      | Comedy | 1995
+ Drop Dead Gorgeous                                                                  | Comedy | 1999
+ Sex and the City                                                                    | Comedy | 2008
+ Sex and the City 2                                                                  | Comedy | 2010
+ The Couch Trip                                                                      | Comedy | 1988
+ Fletch Lives                                                                        | Comedy | 1989
+ Cops and Robbersons                                                                 | Comedy | 1994
+ The Scout                                                                           | Comedy | 1994
+ A Simple Wish                                                                       | Comedy | 1997
+ Disorderlies                                                                        | Comedy | 1987
+ Hello, My Name Is Doris                                                             | Comedy | 2015
+ A Haunted House                                                                     | Comedy | 2013
+ A Haunted House 2                                                                   | Comedy | 2014
+ Summer Catch                                                                        | Comedy | 2001
+ The Nasty Girl                                                                      | Comedy | 1990
+ A Chorus of Disapproval                                                             | Comedy | 1989
+ The Trip                                                                            | Comedy | 2010
+ Human Nature                                                                        | Comedy | 2001
+ Be Kind Rewind                                                                      | Comedy | 2008
+ The Artist                                                                          | Comedy | 2011
+ Cemetery Man                                                                        | Comedy | 1994
+ Critters 2                                                                          | Comedy | 1988
+ L.A. Story                                                                          | Comedy | 1991
+ Chuck & Buck                                                                        | Comedy | 2000
+ Youth in Revolt                                                                     | Comedy | 2009
+ Alexander and the Terrible, Horrible, No Good, Very Bad Day                         | Comedy | 2014
+ Deuce Bigalow: European Gigolo                                                      | Comedy | 2005
+ Indian Summer                                                                       | Comedy | 1993
+ The Upside of Anger                                                                 | Comedy | 2005
+ Office Space                                                                        | Comedy | 1999
+ Extract                                                                             | Comedy | 2009
+ High Hopes                                                                          | Comedy | 1988
+ Life Is Sweet                                                                       | Comedy | 1990
+ Naked                                                                               | Comedy | 1993
+ Secrets & Lies                                                                      | Comedy | 1996
+ Happy-Go-Lucky                                                                      | Comedy | 2008
+ Thumbsucker                                                                         | Comedy | 2005
+ Beginners                                                                           | Comedy | 2010
+ Deuce Bigalow: Male Gigolo                                                          | Comedy | 1999
+ Four Weddings and a Funeral                                                         | Comedy | 1994
+ An Awfully Big Adventure                                                            | Comedy | 1995
+ Pushing Tin                                                                         | Comedy | 1999
+ Working Girl                                                                        | Comedy | 1988
+ Biloxi Blues                                                                        | Comedy | 1988
+ Postcards from the Edge                                                             | Comedy | 1990
+ The Birdcage                                                                        | Comedy | 1996
+ Primary Colors                                                                      | Comedy | 1998
+ What Planet Are You From?                                                           | Comedy | 2000
+ Monsoon Wedding                                                                     | Comedy | 2001
+ Me and You and Everyone We Know                                                     | Comedy | 2005
+ Boat Trip                                                                           | Comedy | 2002
+ Pure Luck                                                                           | Comedy | 1991
+ What Women Want                                                                     | Comedy | 2000
+ Something's Gotta Give                                                              | Comedy | 2003
+ The Holiday                                                                         | Comedy | 2006
+ It's Complicated                                                                    | Comedy | 2009
+ The Intern                                                                          | Comedy | 2015
+ True Love                                                                           | Comedy | 1989
+ Dogfight                                                                            | Comedy | 1991
+ Going the Distance                                                                  | Comedy | 2010
+ The Way Way Back                                                                    | Comedy | 2013
+ The Goods: Live Hard, Sell Hard                                                     | Comedy | 2009
+ Ringmaster                                                                          | Comedy | 1998
+ High Spirits                                                                        | Comedy | 1988
+ We're No Angels                                                                     | Comedy | 1989
+ Breakfast on Pluto                                                                  | Comedy | 2005
+ In the Company of Men                                                               | Comedy | 1997
+ Your Friends and Neighbors                                                          | Comedy | 1998
+ Nurse Betty                                                                         | Comedy | 2000
+ The Shape of Things                                                                 | Comedy | 2003
+ Death at a Funeral                                                                  | Comedy | 2010
+ Keeping Mum                                                                         | Comedy | 2005
+ The Object of My Affection                                                          | Comedy | 1998
+ Forgetting Sarah Marshall                                                           | Comedy | 2008
+ Get Him to the Greek                                                                | Comedy | 2010
+ The Five-Year Engagement                                                            | Comedy | 2012
+ Neighbors                                                                           | Comedy | 2014
+ Grandma's Boy                                                                       | Comedy | 2006
+ The Other Woman                                                                     | Comedy | 2014
+ Tap                                                                                 | Comedy | 1989
+ Dennis the Menace                                                                   | Comedy | 1993
+ Mr. Wrong                                                                           | Comedy | 1996
+ Drowning Mona                                                                       | Comedy | 2000
+ Mini's First Time                                                                   | Comedy | 2006
+ Little Black Book                                                                   | Comedy | 2004
+ Wild Child                                                                          | Comedy | 2008
+ The Perfect Host                                                                    | Comedy | 2010
+ Lovely & Amazing                                                                    | Comedy | 2001
+ Friends with Money                                                                  | Comedy | 2006
+ Enough Said                                                                         | Comedy | 2013
+ Saving Grace                                                                        | Comedy | 2000
+ Calendar Girls                                                                      | Comedy | 2003
+ A Lot Like Love                                                                     | Comedy | 2005
+ Oci ciornie                                                                         | Comedy | 1987
+ Kal Ho Naa Ho                                                                       | Comedy | 2003
+ Project X                                                                           | Comedy | 2012
+ Control                                                                             | Comedy | 2003
+ Kicking and Screaming                                                               | Comedy | 1995
+ Mr. Jealousy                                                                        | Comedy | 1997
+ The Squid and the Whale                                                             | Comedy | 2005
+ Margot at the Wedding                                                               | Comedy | 2007
+ Greenberg                                                                           | Comedy | 2010
+ Frances Ha                                                                          | Comedy | 2012
+ While We're Young                                                                   | Comedy | 2014
+ Sleepless in Seattle                                                                | Comedy | 1993
+ Mixed Nuts                                                                          | Comedy | 1994
+ Michael                                                                             | Comedy | 1996
+ You've Got Mail                                                                     | Comedy | 1998
+ Lucky Numbers                                                                       | Comedy | 2000
+ Bewitched                                                                           | Comedy | 2005
+ Moonstruck                                                                          | Comedy | 1987
+ Other People's Money                                                                | Comedy | 1991
+ Only You                                                                            | Comedy | 1994
+ Tough Guys Don't Dance                                                              | Comedy | 1987
+ Prelude to a Kiss                                                                   | Comedy | 1992
+ Imagine Me & You                                                                    | Comedy | 2005
+ An Ideal Husband                                                                    | Comedy | 1999
+ The Importance of Being Earnest                                                     | Comedy | 2002
+ Irma Vep                                                                            | Comedy | 1996
+ Muriel's Wedding                                                                    | Comedy | 1994
+ My Best Friend's Wedding                                                            | Comedy | 1997
+ Confessions of a Shopaholic                                                         | Comedy | 2009
+ Blow Dry                                                                            | Comedy | 2001
+ Youth                                                                               | Comedy | 2015
+ Don't Be a Menace to South Central While Drinking Your Juice in the Hood            | Comedy | 1996
+ A Long Way Down                                                                     | Comedy | 2014
+ The Hairdresser's Husband                                                           | Comedy | 1990
+ La fille sur le pont                                                                | Comedy | 1999
+ Real Women Have Curves                                                              | Comedy | 2002
+ Mansfield Park                                                                      | Comedy | 1999
+ The Overnight                                                                       | Comedy | 2015
+ Angus                                                                               | Comedy | 1995
+ Unfinished Song                                                                     | Comedy | 2012
+ Blue in the Face                                                                    | Comedy | 1995
+ Scenes from the Class Struggle in Beverly Hills                                     | Comedy | 1989
+ Torch Song Trilogy                                                                  | Comedy | 1988
+ Men Don't Leave                                                                     | Comedy | 1990
+ Bridesmaids                                                                         | Comedy | 2011
+ 18 Again!                                                                           | Comedy | 1988
+ Who's Harry Crumb?                                                                  | Comedy | 1989
+ Clifford                                                                            | Comedy | 1994
+ Moon Over Parador                                                                   | Comedy | 1988
+ Enemies, A Love Story                                                               | Comedy | 1989
+ The Acid House                                                                      | Comedy | 1998
+ The Cutting Edge                                                                    | Comedy | 1992
+ The Air Up There                                                                    | Comedy | 1994
+ Kazaam                                                                              | Comedy | 1996
+ The Pest                                                                            | Comedy | 1997
+ Punch-Drunk Love                                                                    | Comedy | 2002
+ Inherent Vice                                                                       | Comedy | 2014
+ City Slickers II: the Legend of Curly's Gold                                        | Comedy | 1994
+ Made of Honor                                                                       | Comedy | 2008
+ American Pie                                                                        | Comedy | 1999
+ In Good Company                                                                     | Comedy | 2004
+ Little Fockers                                                                      | Comedy | 2010
+ Grandma                                                                             | Comedy | 2015
+ Women on the Verge of a Nervous Breakdown                                           | Comedy | 1988
+ Tie Me Up! Tie Me Down!                                                             | Comedy | 1989
+ High Heels                                                                          | Comedy | 1991
+ Kika                                                                                | Comedy | 1993
+ The Flower of My Secret                                                             | Comedy | 1995
+ Volver                                                                              | Comedy | 2006
+ Wayne's World                                                                       | Comedy | 1992
+ The Beverly Hillbillies                                                             | Comedy | 1993
+ The Little Rascals                                                                  | Comedy | 1994
+ Black Sheep                                                                         | Comedy | 1996
+ Senseless                                                                           | Comedy | 1998
+ Big                                                                                 | Comedy | 1988
+ A League of Their Own                                                               | Comedy | 1992
+ Renaissance Man                                                                     | Comedy | 1994
+ The Preacher's Wife                                                                 | Comedy | 1996
+ Bagdad Cafe                                                                         | Comedy | 1987
+ Rosalie Goes Shopping                                                               | Comedy | 1989
+ Very Bad Things                                                                     | Comedy | 1998
+ Couples Retreat                                                                     | Comedy | 2009
+ Illegally Yours                                                                     | Comedy | 1988
+ Noises Off...                                                                       | Comedy | 1992
+ The Thing Called Love                                                               | Comedy | 1993
+ She's Funny That Way                                                                | Comedy | 2014
+ Police Academy 6: City Under Siege                                                  | Comedy | 1989
+ The Full Monty                                                                      | Comedy | 1997
+ The Rocker                                                                          | Comedy | 2008
+ Hear My Song                                                                        | Comedy | 1991
+ The Mighty                                                                          | Comedy | 1998
+ Serendipity                                                                         | Comedy | 2001
+ Shall We Dance                                                                      | Comedy | 2004
+ Hannah Montana: The Movie                                                           | Comedy | 2009
+ Dutch                                                                               | Comedy | 1991
+ Dumb and Dumber                                                                     | Comedy | 1994
+ Drowning by Numbers                                                                 | Comedy | 1988
+ 8 Â½ Women                                                                          | Comedy | 1999
+ The Country Bears                                                                   | Comedy | 2002
+ Pieces of April                                                                     | Comedy | 2003
+ Dan in Real Life                                                                    | Comedy | 2007
+ The Odd Life of Timothy Green                                                       | Comedy | 2012
+ The Love Letter                                                                     | Comedy | 1999
+ Sliding Doors                                                                       | Comedy | 1998
+ Laws of Attraction                                                                  | Comedy | 2004
+ Side Out                                                                            | Comedy | 1990
+ Dead Alive                                                                          | Comedy | 1992
+ The Frighteners                                                                     | Comedy | 1996
+ Suicide Kings                                                                       | Comedy | 1997
+ Naked Gun 33 1/3: the Final Insult                                                  | Comedy | 1994
+ Nutty Professor II: the Klumps                                                      | Comedy | 2000
+ Anger Management                                                                    | Comedy | 2003
+ 50 First Dates                                                                      | Comedy | 2004
+ The Longest Yard                                                                    | Comedy | 2005
+ Grudge Match                                                                        | Comedy | 2013
+ Nick and Norah's Infinite Playlist                                                  | Comedy | 2008
+ Dead Poets Society                                                                  | Comedy | 1989
+ Green Card                                                                          | Comedy | 1990
+ The Truman Show                                                                     | Comedy | 1998
+ Bring It on                                                                         | Comedy | 2000
+ Down with Love                                                                      | Comedy | 2003
+ The Break-Up                                                                        | Comedy | 2006
+ Yes Man                                                                             | Comedy | 2008
+ In the Mood                                                                         | Comedy | 1987
+ Sneakers                                                                            | Comedy | 1992
+ Three O'Clock High                                                                  | Comedy | 1987
+ Junebug                                                                             | Comedy | 2005
+ All About Steve                                                                     | Comedy | 2009
+ Mamma Mia!                                                                          | Comedy | 2008
+ Rubber                                                                              | Comedy | 2010
+ Man Bites Dog                                                                       | Comedy | 1992
+ Never Been Kissed                                                                   | Comedy | 1999
+ Yours, Mine & Ours                                                                  | Comedy | 2005
+ 3 Idiots                                                                            | Comedy | 2009
+ PK                                                                                  | Comedy | 2014
+ Rang De Basanti                                                                     | Comedy | 2006
+ Money for Nothing                                                                   | Comedy | 1993
+ The Brass Teapot                                                                    | Comedy | 2012
+ Getting It Right                                                                    | Comedy | 1989
+ Class Act                                                                           | Comedy | 1992
+ Houseguest                                                                          | Comedy | 1995
+ The Sixth Man                                                                       | Comedy | 1997
+ Bottle Shock                                                                        | Comedy | 2008
+ Dodgeball: A True Underdog Story                                                    | Comedy | 2004
+ We're the Millers                                                                   | Comedy | 2013
+ City Island                                                                         | Comedy | 2009
+ Curdled                                                                             | Comedy | 1996
+ House Party                                                                         | Comedy | 1990
+ Boomerang                                                                           | Comedy | 1992
+ The Great White Hype                                                                | Comedy | 1996
+ The Ladies Man                                                                      | Comedy | 2000
+ Serving Sara                                                                        | Comedy | 2002
+ Submarine                                                                           | Comedy | 2010
+ The Double                                                                          | Comedy | 2013
+ My Stepmother Is an Alien                                                           | Comedy | 1988
+ Mermaids                                                                            | Comedy | 1990
+ Made in America                                                                     | Comedy | 1993
+ Milk Money                                                                          | Comedy | 1994
+ Mrs. Winterbourne                                                                   | Comedy | 1996
+ Love Actually                                                                       | Comedy | 2003
+ Pirate Radio                                                                        | Comedy | 2009
+ About Time                                                                          | Comedy | 2013
+ Scrooged                                                                            | Comedy | 1988
+ Million Dollar Mystery                                                              | Comedy | 1987
+ Barney's Version                                                                    | Comedy | 2010
+ Southland Tales                                                                     | Comedy | 2006
+ P.S. I Love You                                                                     | Comedy | 2007
+ Slacker                                                                             | Comedy | 1990
+ Dazed and Confused                                                                  | Comedy | 1993
+ SubUrbia                                                                            | Comedy | 1996
+ School of Rock                                                                      | Comedy | 2003
+ Bad News Bears                                                                      | Comedy | 2005
+ Wimbledon                                                                           | Comedy | 2004
+ Leap of Faith                                                                       | Comedy | 1992
+ A Family Thing                                                                      | Comedy | 1996
+ The Matador                                                                         | Comedy | 2005
+ The Wood                                                                            | Comedy | 1999
+ Brown Sugar                                                                         | Comedy | 2002
+ The Invention of Lying                                                              | Comedy | 2009
+ Matchstick Men                                                                      | Comedy | 2003
+ A Good Year                                                                         | Comedy | 2006
+ 200 Cigarettes                                                                      | Comedy | 1999
+ Chicago                                                                             | Comedy | 2002
+ Waiting...                                                                          | Comedy | 2005
+ The Haunted Mansion                                                                 | Comedy | 2003
+ Corky Romano                                                                        | Comedy | 2001
+ When Harry Met Sally...                                                             | Comedy | 1989
+ The American President                                                              | Comedy | 1995
+ The Story of Us                                                                     | Comedy | 1999
+ Rumor Has It...                                                                     | Comedy | 2005
+ Flipped                                                                             | Comedy | 2010
+ The Magic of Belle Isle                                                             | Comedy | 2012
+ And So It Goes                                                                      | Comedy | 2014
+ The Castle                                                                          | Comedy | 1997
+ The Dish                                                                            | Comedy | 2000
+ The Player                                                                          | Comedy | 1992
+ Short Cuts                                                                          | Comedy | 1993
+ Ready to Wear                                                                       | Comedy | 1994
+ Cookie's Fortune                                                                    | Comedy | 1999
+ Dr. T & the Women                                                                   | Comedy | 2000
+ Gosford Park                                                                        | Comedy | 2001
+ Reno 911! Miami                                                                     | Comedy | 2007
+ Balls of Fury                                                                       | Comedy | 2007
+ Nadine                                                                              | Comedy | 1987
+ Nobody's Fool                                                                       | Comedy | 1994
+ Vampire's Kiss                                                                      | Comedy | 1988
+ Hugo Pool                                                                           | Comedy | 1997
+ 976-EVIL                                                                            | Comedy | 1988
+ The Evening Star                                                                    | Comedy | 1996
+ She's All That                                                                      | Comedy | 1999
+ Boys and Girls                                                                      | Comedy | 2000
+ From Justin to Kelly                                                                | Comedy | 2003
+ Psycho Beach Party                                                                  | Comedy | 2000
+ All I Want for Christmas                                                            | Comedy | 1991
+ Legally Blonde                                                                      | Comedy | 2001
+ Win a Date with Tad Hamilton!                                                       | Comedy | 2004
+ Monster-in-Law                                                                      | Comedy | 2005
+ The Ugly Truth                                                                      | Comedy | 2009
+ The Milagro Beanfield War                                                           | Comedy | 1988
+ Book of Love                                                                        | Comedy | 1990
+ Hollywood Shuffle                                                                   | Comedy | 1987
+ B*A*P*S                                                                             | Comedy | 1997
+ Splitting Heirs                                                                     | Comedy | 1993
+ Death Becomes Her                                                                   | Comedy | 1992
+ Johnny Stecchino                                                                    | Comedy | 1991
+ Life Is Beautiful                                                                   | Comedy | 1997
+ Pinocchio                                                                           | Comedy | 2002
+ The Jane Austen Book Club                                                           | Comedy | 2007
+ Like Father Like Son                                                                | Comedy | 1987
+ The Super                                                                           | Comedy | 1991
+ Beethoven's 2nd                                                                     | Comedy | 1993
+ Leprechaun 2                                                                        | Comedy | 1994
+ Idle Hands                                                                          | Comedy | 1999
+ The Rules of Attraction                                                             | Comedy | 2002
+ Cocktail                                                                            | Comedy | 1988
+ Cadillac Man                                                                        | Comedy | 1990
+ The Sweetest Thing                                                                  | Comedy | 2002
+ Just Friends                                                                        | Comedy | 2005
+ Furry Vengeance                                                                     | Comedy | 2010
+ Notting Hill                                                                        | Comedy | 1999
+ Morning Glory                                                                       | Comedy | 2010
+ Turner & Hooch                                                                      | Comedy | 1989
+ And God Created Woman                                                               | Comedy | 1988
+ Carnage                                                                             | Comedy | 2011
+ Parenthood                                                                          | Comedy | 1989
+ The Paper                                                                           | Comedy | 1994
+ Edtv                                                                                | Comedy | 1999
+ How the Grinch Stole Christmas                                                      | Comedy | 2000
+ The Dilemma                                                                         | Comedy | 2011
+ Bull Durham                                                                         | Comedy | 1988
+ White Men Can't Jump                                                                | Comedy | 1992
+ Tin Cup                                                                             | Comedy | 1996
+ Play It to the Bone                                                                 | Comedy | 1999
+ Tremors                                                                             | Comedy | 1990
+ City Slickers                                                                       | Comedy | 1991
+ Heart and Souls                                                                     | Comedy | 1993
+ Bride of Chucky                                                                     | Comedy | 1998
+ Sleep with Me                                                                       | Comedy | 1994
+ Songs from the Second Floor                                                         | Comedy | 2000
+ Force Majeure                                                                       | Comedy | 2014
+ Blank Check                                                                         | Comedy | 1994
+ Fear of a Black Hat                                                                 | Comedy | 1993
+ Surfer, Dude                                                                        | Comedy | 2008
+ Beautiful                                                                           | Comedy | 2000
+ Slumber Party Massacre III                                                          | Comedy | 1990
+ Evil Dead II                                                                        | Comedy | 1987
+ Army of Darkness                                                                    | Comedy | 1992
+ D2: The Mighty Ducks                                                                | Comedy | 1994
+ Bye Bye Love                                                                        | Comedy | 1995
+ The Out-of-Towners                                                                  | Comedy | 1999
+ What's the Worst That Could Happen?                                                 | Comedy | 2001
+ Dickie Roberts: Former Child Star                                                   | Comedy | 2003
+ The Sisterhood of the Traveling Pants 2                                             | Comedy | 2008
+ Confessions of a Teenage Drama Queen                                                | Comedy | 2004
+ Strike!                                                                             | Comedy | 1998
+ Take This Waltz                                                                     | Comedy | 2011
+ How I Got Into College                                                              | Comedy | 1989
+ Behind the Mask: The Rise of Leslie Vernon                                          | Comedy | 2006
+ No Reservations                                                                     | Comedy | 2007
+ Sex Drive                                                                           | Comedy | 2008
+ That's My Boy                                                                       | Comedy | 2012
+ Horrible Bosses 2                                                                   | Comedy | 2014
+ Daddy's Home                                                                        | Comedy | 2015
+ Tangerine                                                                           | Comedy | 2015
+ Cashback                                                                            | Comedy | 2006
+ Bratz                                                                               | Comedy | 2007
+ Tumbledown                                                                          | Comedy | 2015
+ Elektra Luxx                                                                        | Comedy | 2010
+ Four Christmases                                                                    | Comedy | 2008
+ Horrible Bosses                                                                     | Comedy | 2011
+ Identity Thief                                                                      | Comedy | 2013
+ Ted                                                                                 | Comedy | 2012
+ A Million Ways to Die in the West                                                   | Comedy | 2014
+ Ted 2                                                                               | Comedy | 2015
+ Kiss Kiss Bang Bang                                                                 | Comedy | 2005
+ A Room for Romeo Brass                                                              | Comedy | 1999
+ The Nanny Diaries                                                                   | Comedy | 2007
+ The Extra Man                                                                       | Comedy | 2010
+ Bridget Jones's Diary                                                               | Comedy | 2001
+ Cheaper by the Dozen                                                                | Comedy | 2003
+ Just Married                                                                        | Comedy | 2003
+ Date Night                                                                          | Comedy | 2010
+ The Internship                                                                      | Comedy | 2013
+ This Is Where I Leave You                                                           | Comedy | 2014
+ Ladybugs                                                                            | Comedy | 1992
+ Ghost Dad                                                                           | Comedy | 1990
+ Bread and Tulips                                                                    | Comedy | 2000
+ Lightning Jack                                                                      | Comedy | 1994
+ Lost in Translation                                                                 | Comedy | 2003
+ Somewhere                                                                           | Comedy | 2010
+ Being John Malkovich                                                                | Comedy | 1999
+ Adaptation.                                                                         | Comedy | 2002
+ School Daze                                                                         | Comedy | 1988
+ Do the Right Thing                                                                  | Comedy | 1989
+ Crooklyn                                                                            | Comedy | 1994
+ Girl 6                                                                              | Comedy | 1996
+ Bamboozled                                                                          | Comedy | 2000
+ She Hate Me                                                                         | Comedy | 2004
+ The Last Supper                                                                     | Comedy | 1995
+ She's Out of Control                                                                | Comedy | 1989
+ Necessary Roughness                                                                 | Comedy | 1991
+ The Adventures of Priscilla, Queen of the Desert                                    | Comedy | 1994
+ Easy Virtue                                                                         | Comedy | 2008
+ Killer Klowns from Outer Space                                                      | Comedy | 1988
+ CJ7                                                                                 | Comedy | 2008
+ Hero                                                                                | Comedy | 1992
+ The Van                                                                             | Comedy | 1996
+ High Fidelity                                                                       | Comedy | 2000
+ ChÃ©ri                                                                              | Comedy | 2009
+ Tamara Drewe                                                                        | Comedy | 2010
+ Lay the Favorite                                                                    | Comedy | 2012
+ Bright Young Things                                                                 | Comedy | 2003
+ Homegrown                                                                           | Comedy | 1998
+ Don't Tell Mom the Babysitter's Dead                                                | Comedy | 1991
+ The Mighty Ducks                                                                    | Comedy | 1992
+ Holy Man                                                                            | Comedy | 1998
+ Life or Something Like It                                                           | Comedy | 2002
+ Man of the House                                                                    | Comedy | 2005
+ Vegas Vacation                                                                      | Comedy | 1997
+ Wayne's World 2                                                                     | Comedy | 1993
+ Coneheads                                                                           | Comedy | 1993
+ Mr. Bean's Holiday                                                                  | Comedy | 2007
+ Meet the Deedles                                                                    | Comedy | 1998
+ Trees Lounge                                                                        | Comedy | 1996
+ Next Friday                                                                         | Comedy | 2000
+ Dr. Dolittle 2                                                                      | Comedy | 2001
+ Daddy Day Care                                                                      | Comedy | 2003
+ Rebound                                                                             | Comedy | 2005
+ The Fabulous Baker Boys                                                             | Comedy | 1989
+ My Father the Hero                                                                  | Comedy | 1994
+ Accepted                                                                            | Comedy | 2006
+ Hot Tub Time Machine                                                                | Comedy | 2010
+ Hot Tub Time Machine 2                                                              | Comedy | 2015
+ Can't Buy Me Love                                                                   | Comedy | 1987
+ Queens Logic                                                                        | Comedy | 1991
+ Son in Law                                                                          | Comedy | 1993
+ Eddie                                                                               | Comedy | 1996
+ Feeling Minnesota                                                                   | Comedy | 1996
+ Heavyweights                                                                        | Comedy | 1995
+ Little Nicky                                                                        | Comedy | 2000
+ Mr. Deeds                                                                           | Comedy | 2002
+ Walk of Shame                                                                       | Comedy | 2014
+ Hot Pursuit                                                                         | Comedy | 1987
+ Secretary                                                                           | Comedy | 2002
+ Schizopolis                                                                         | Comedy | 1996
+ Out of Sight                                                                        | Comedy | 1998
+ Full Frontal                                                                        | Comedy | 2002
+ Magic Mike                                                                          | Comedy | 2012
+ The Terminal                                                                        | Comedy | 2004
+ Mannequin: on the Move                                                              | Comedy | 1991
+ Thanks for Sharing                                                                  | Comedy | 2012
+ RocketMan                                                                           | Comedy | 1997
+ Making Mr. Right                                                                    | Comedy | 1987
+ She-Devil                                                                           | Comedy | 1989
+ Cookie                                                                              | Comedy | 1989
+ The Producers                                                                       | Comedy | 2005
+ Nanny McPhee Returns                                                                | Comedy | 2010
+ Catch and Release                                                                   | Comedy | 2006
+ Sabrina                                                                             | Comedy | 1995
+ Eagle vs Shark                                                                      | Comedy | 2007
+ Boy                                                                                 | Comedy | 2010
+ The Allnighter                                                                      | Comedy | 1987
+ Slums of Beverly Hills                                                              | Comedy | 1998
+ The Savages                                                                         | Comedy | 2007
+ CB4                                                                                 | Comedy | 1993
+ Billy Madison                                                                       | Comedy | 1995
+ Half Baked                                                                          | Comedy | 1998
+ Crossroads                                                                          | Comedy | 2002
+ The Ref                                                                             | Comedy | 1994
+ Beautiful Girls                                                                     | Comedy | 1996
+ Life                                                                                | Comedy | 1999
+ Switching Channels                                                                  | Comedy | 1988
+ Folks!                                                                              | Comedy | 1992
+ The Fisher King                                                                     | Comedy | 1991
+ The Zero Theorem                                                                    | Comedy | 2013
+ The Butcher's Wife                                                                  | Comedy | 1991
+ Personal Services                                                                   | Comedy | 1987
+ Erik the Viking                                                                     | Comedy | 1989
+ Ghost World                                                                         | Comedy | 2001
+ Bad Santa                                                                           | Comedy | 2003
+ St. Vincent                                                                         | Comedy | 2014
+ Without a Clue                                                                      | Comedy | 1988
+ Big Eden                                                                            | Comedy | 2000
+ The Family Stone                                                                    | Comedy | 2005
+ Miss Firecracker                                                                    | Comedy | 1989
+ So I Married an Axe Murderer                                                        | Comedy | 1993
+ Hotel for Dogs                                                                      | Comedy | 2007
+ Trading Mom                                                                         | Comedy | 1994
+ Beetlejuice                                                                         | Comedy | 1988
+ Mars Attacks!                                                                       | Comedy | 1996
+ Dark Shadows                                                                        | Comedy | 2012
+ Ice Princess                                                                        | Comedy | 2005
+ Max Keeble's Big Move                                                               | Comedy | 2001
+ Secondhand Lions                                                                    | Comedy | 2003
+ Bob Roberts                                                                         | Comedy | 1992
+ Barbershop                                                                          | Comedy | 2002
+ Think Like a Man                                                                    | Comedy | 2012
+ Think Like a Man Too                                                                | Comedy | 2014
+ Jack & Sarah                                                                        | Comedy | 1995
+ The Door in the Floor                                                               | Comedy | 2004
+ Camp                                                                                | Comedy | 2003
+ Krippendorf's Tribe                                                                 | Comedy | 1998
+ Road Trip                                                                           | Comedy | 2000
+ Old School                                                                          | Comedy | 2003
+ Starsky & Hutch                                                                     | Comedy | 2004
+ The Hangover                                                                        | Comedy | 2009
+ Due Date                                                                            | Comedy | 2010
+ The Hangover Part II                                                                | Comedy | 2011
+ The Hangover Part III                                                               | Comedy | 2013
+ Welcome to the Dollhouse                                                            | Comedy | 1995
+ Happiness                                                                           | Comedy | 1998
+ Storytelling                                                                        | Comedy | 2001
+ Palindromes                                                                         | Comedy | 2004
+ The Hot Chick                                                                       | Comedy | 2002
+ The Comebacks                                                                       | Comedy | 2007
+ Bucky Larson: Born to Be a Star                                                     | Comedy | 2011
+ Celtic Pride                                                                        | Comedy | 1996
+ Failure to Launch                                                                   | Comedy | 2006
+ Johnny Suede                                                                        | Comedy | 1991
+ Living in Oblivion                                                                  | Comedy | 1995
+ The Real Blonde                                                                     | Comedy | 1997
+ That Awkward Moment                                                                 | Comedy | 2014
+ Freddy Got Fingered                                                                 | Comedy | 2001
+ That Thing You Do!                                                                  | Comedy | 1996
+ Larry Crowne                                                                        | Comedy | 2011
+ Dragnet                                                                             | Comedy | 1987
+ Delirious                                                                           | Comedy | 1991
+ The Station Agent                                                                   | Comedy | 2003
+ Win Win                                                                             | Comedy | 2011
+ Date with an Angel                                                                  | Comedy | 1987
+ The Hottie & the Nottie                                                             | Comedy | 2008
+ Madhouse                                                                            | Comedy | 1990
+ Look Who's Talking Now                                                              | Comedy | 1993
+ Ace Ventura: Pet Detective                                                          | Comedy | 1994
+ The Nutty Professor                                                                 | Comedy | 1996
+ Liar Liar                                                                           | Comedy | 1997
+ Bruce Almighty                                                                      | Comedy | 2003
+ Evan Almighty                                                                       | Comedy | 2007
+ Freaked                                                                             | Comedy | 1993
+ Rosencrantz & Guildenstern Are Dead                                                 | Comedy | 1990
+ Starter for 10                                                                      | Comedy | 2006
+ What Happens in Vegas                                                               | Comedy | 2008
+ Fright Night Part 2                                                                 | Comedy | 1988
+ Get Over It                                                                         | Comedy | 2001
+ Ella Enchanted                                                                      | Comedy | 2004
+ Dead Snow                                                                           | Comedy | 2009
+ Crazy People                                                                        | Comedy | 1990
+ Duplicity                                                                           | Comedy | 2009
+ Someone Like You                                                                    | Comedy | 2001
+ The Last Kiss                                                                       | Comedy | 2006
+ Twelfth Night                                                                       | Comedy | 1996
+ Orgazmo                                                                             | Comedy | 1997
+ Love Don't Cost a Thing                                                             | Comedy | 2003
+ Jack Frost                                                                          | Comedy | 1998
+ Dumb and Dumberer: When Harry Met Lloyd                                             | Comedy | 2003
+ Madea's Family Reunion                                                              | Comedy | 2006
+ Tyler Perry's Why Did I Get Married?                                                | Comedy | 2007
+ Meet the Browns                                                                     | Comedy | 2008
+ Madea Goes to Jail                                                                  | Comedy | 2009
+ Why Did I Get Married Too?                                                          | Comedy | 2010
+ Love & Sex                                                                          | Comedy | 2000
+ Buffalo '66                                                                         | Comedy | 1998
+ Gridlock'd                                                                          | Comedy | 1997
+ Sorority Boys                                                                       | Comedy | 2002
+ Van Wilder                                                                          | Comedy | 2002
+ Old Dogs                                                                            | Comedy | 2009
+ Bulworth                                                                            | Comedy | 1998
+ The Night We Never Met                                                              | Comedy | 1993
+ Smoke                                                                               | Comedy | 1995
+ Anywhere But Here                                                                   | Comedy | 1999
+ Maid in Manhattan                                                                   | Comedy | 2002
+ Because of Winn-Dixie                                                               | Comedy | 2005
+ Last Holiday                                                                        | Comedy | 2006
+ Bottle Rocket                                                                       | Comedy | 1996
+ Rushmore                                                                            | Comedy | 1998
+ The Royal Tenenbaums                                                                | Comedy | 2001
+ Moonrise Kingdom                                                                    | Comedy | 2012
+ Shocker                                                                             | Comedy | 1989
+ The People Under the Stairs                                                         | Comedy | 1991
+ Vampire in Brooklyn                                                                 | Comedy | 1995
+ Cursed                                                                              | Comedy | 2005
+ Metropolitan                                                                        | Comedy | 1990
+ Barcelona                                                                           | Comedy | 1994
+ The Last Days of Disco                                                              | Comedy | 1998
+ Fired Up!                                                                           | Comedy | 2009
+ Easy A                                                                              | Comedy | 2010
+ Friends with Benefits                                                               | Comedy | 2011
+ Annie                                                                               | Comedy | 2014
+ Worth Winning                                                                       | Comedy | 1989
+ Playing by Heart                                                                    | Comedy | 1998
+ Harry and the Hendersons                                                            | Comedy | 1987
+ Angels in the Outfield                                                              | Comedy | 1994
+ A Night in the Life of Jimmy Reardon                                                | Comedy | 1988
+ Good Bye Lenin!                                                                     | Comedy | 2003
+ Radio Days                                                                          | Comedy | 1987
+ Crimes and Misdemeanors                                                             | Comedy | 1989
+ New York Stories                                                                    | Comedy | 1989
+ Alice                                                                               | Comedy | 1990
+ Shadows and Fog                                                                     | Comedy | 1991
+ Husbands and Wives                                                                  | Comedy | 1992
+ Manhattan Murder Mystery                                                            | Comedy | 1993
+ Bullets Over Broadway                                                               | Comedy | 1994
+ Mighty Aphrodite                                                                    | Comedy | 1995
+ Everyone Says I Love You                                                            | Comedy | 1996
+ Deconstructing Harry                                                                | Comedy | 1997
+ Celebrity                                                                           | Comedy | 1998
+ Sweet and Lowdown                                                                   | Comedy | 1999
+ Small Time Crooks                                                                   | Comedy | 2000
+ The Curse of the Jade Scorpion                                                      | Comedy | 2001
+ Anything Else                                                                       | Comedy | 2003
+ Melinda and Melinda                                                                 | Comedy | 2004
+ Scoop                                                                               | Comedy | 2006
+ Vicky Cristina Barcelona                                                            | Comedy | 2008
+ Whatever Works                                                                      | Comedy | 2009
+ You Will Meet a Tall Dark Stranger                                                  | Comedy | 2010
+ Midnight in Paris                                                                   | Comedy | 2011
+ To Rome with Love                                                                   | Comedy | 2012
+ Blue Jasmine                                                                        | Comedy | 2013
+ Magic in the Moonlight                                                              | Comedy | 2014
+ Irrational Man                                                                      | Comedy | 2015
+ Young Einstein                                                                      | Comedy | 1988
+ Love Me If You Dare                                                                 | Comedy | 2003
+ The Lobster                                                                         | Comedy | 2015
+ Garden State                                                                        | Comedy | 2004
+ Wish I Was Here                                                                     | Comedy | 2014
+ Miss March                                                                          | Comedy | 2009
+ Mr. Magorium's Wonder Emporium                                                      | Comedy | 2007
+ Shag                                                                                | Comedy | 1988
+ Zindagi Na Milegi Dobara                                                            | Comedy | 2011
+(1759 rows)
+

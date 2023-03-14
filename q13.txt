@@ -1,0 +1,7 @@
+Which movie generated the highest revenue in the year 2015?
+select m.movie_id, m.name, m.year, f.gross as revenue from finances f natural join movies m where m.year = 2015 and f.gross is not null order by f.gross desc limit 1;
+ movie_id |                    name                    | year |  revenue   
+----------+--------------------------------------------+------+------------
+     2779 | Star Wars: Episode VII - The Force Awakens | 2015 | 2069521700
+(1 row)
+

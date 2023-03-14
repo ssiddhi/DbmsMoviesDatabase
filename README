@@ -1,0 +1,31 @@
+S486/586 Intorduction to Databases
+Spring 2022
+Final project
+
+Team: Quest Pirates
+Members: Manisha Yadav, Leior Varon, Shreshtha Siddhi, Nikhil Sai, Sayed Sarwary
+
+
+In order to run you first need to export (or source) the following environment variables:
+export CLASS_DB_HOST
+export CLASS_DB_USERNAME
+export CLASS_DB_PASSWORD
+
+Run ./movies.py to source data from movies.csv.
+    This will also organize the data, clean  up the database, create the tables, and fill the dat into the tables
+
+After completing the setup the script will allow you to query the database. Enter your query or 'exit' to finish
+(only queries for selecting data are suppoerted, not for modifying tables etc.)
+
+****Note: this script will drop tables and views created by previous execution of the script****
+If tables with the names used in this project were created externally you may need to manually drop them
+before running this script as the script may not have the neccessary permissions to do so itself.
+
+
+In order to dump contents of the tables and the 20 questions required for the project open the database interpreter
+and source project_dump.sql
+
+Thanks!
+
+
+

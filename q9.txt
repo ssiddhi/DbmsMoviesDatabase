@@ -1,0 +1,155 @@
+How many movies share the same name?
+SELECT name FROM movies GROUP BY name HAVING COUNT(movie_id) >1;
+              name               
+---------------------------------
+ Conan the Barbarian
+ Where the Heart Is
+ Independence Day
+ Running Scared
+ Halloween
+ Prom Night
+ Playing for Keeps
+ Life
+ The Fog
+ Beauty and the Beast
+ Anna
+ Trespass
+ Taxi
+ Bad Boys
+ Sunshine
+ Les MisÃ©rables
+ Hot Pursuit
+ Priest
+ The Avengers
+ Bad Company
+ Shaft
+ No Escape
+ Great Expectations
+ Halloween II
+ Anna Karenina
+ Little Women
+ The Protector
+ The Three Musketeers
+ Rush
+ After the Wedding
+ It Takes Two
+ Sudden Death
+ Heartbreakers
+ Hellboy
+ Proof
+ The Guardian
+ Footloose
+ Man on Fire
+ Night School
+ Scream
+ Annie
+ Ghost in the Shell
+ Pet Sematary
+ Rampage
+ Legend
+ Hairspray
+ The Man Who Wasn't There
+ Clash of the Titans
+ My Little Pony: The Movie
+ Crossroads
+ The Girl with the Dragon Tattoo
+ Dream Lover
+ Oldboy
+ Chocolat
+ Hamlet
+ Overboard
+ The Host
+ The Lion King
+ Red Dawn
+ The Little Mermaid
+ Everybody's Fine
+ No Good Deed
+ Jane Eyre
+ Leviathan
+ Friday the 13th
+ Point Break
+ Neighbors
+ Project X
+ Deadfall
+ Gladiator
+ Beautiful Creatures
+ Teenage Mutant Ninja Turtles
+ The Captain
+ Quartet
+ Parasite
+ Sahara
+ My Bloody Valentine
+ Cocktail
+ The Addams Family
+ The Bear
+ Endless Love
+ RoboCop
+ Crash
+ The Kid
+ Insomnia
+ Venom
+ Masterminds
+ Bliss
+ Possession
+ The Rookie
+ Robin Hood
+ Serenity
+ No Man's Land
+ Safe
+ Much Ado About Nothing
+ Lonely Hearts
+ The Mummy
+ Black Sheep
+ The Island
+ Fearless
+ Aladdin
+ The Unborn
+ Frozen
+ Fantastic Four
+ A Nightmare on Elm Street
+ The Postman
+ Revenge
+ The Hunted
+ Trust
+ Hero
+ The Hitcher
+ Passengers
+ Fair Game
+ Man of the House
+ Fright Night
+ The Phantom of the Opera
+ The Karate Kid
+ Poltergeist
+ Fever Pitch
+ Ghostbusters
+ The Stepfather
+ Nobody's Fool
+ Paradise
+ Flatliners
+ Fame
+ Boiling Point
+ The Jungle Book
+ Twilight
+ Child's Play
+ Wuthering Heights
+ Out Cold
+ The Gift
+ Total Recall
+ Sing
+ Forever Young
+ Death at a Funeral
+ Heat
+ Step Up
+ Promised Land
+ The Adventures of Pinocchio
+ Under Suspicion
+ Godzilla
+ Pulse
+ Unforgettable
+ Control
+ Hercules
+ The Thing
+ The Aviator
+ Impulse
+(149 rows)
+

@@ -1,0 +1,22 @@
+Find the years in which at least five ‘G’ rated movies were released?
+SELECT year,count(*) FROM movies WHERE rating = G group by year having count (rating = G) >= 5;
+ year | count 
+------+-------
+ 2000 |     6
+ 1989 |     6
+ 1993 |     6
+ 2005 |     5
+ 1991 |     6
+ 2008 |     5
+ 2006 |     6
+ 1996 |     7
+ 1998 |     6
+ 1994 |     7
+ 1982 |     5
+ 1995 |     7
+ 2002 |     6
+ 1986 |     6
+ 1985 |     6
+ 1999 |     9
+(16 rows)
+

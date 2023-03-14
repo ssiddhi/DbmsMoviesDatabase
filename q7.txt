@@ -1,0 +1,11 @@
+Which is the most popular star (give your answer in terms of the greatest number of movies starred in)?
+SELECT C.member_id, C.first, C.last, COUNT(S.movie_id) FROM casts C natural join starred_in S GROUP BY C.member_id ORDER BY COUNT(S.movie_id) DESC LIMIT 5;
+ member_id |   first   |    last    | count 
+-----------+-----------+------------+-------
+      2050 | Nicolas   | Cage       |    43
+      2787 | Tom       | Hanks      |    41
+      2371 | Robert De | Niro       |    41
+       710 | Denzel    | Washington |    37
+      6290 | Tom       | Cruise     |    34
+(5 rows)
+

@@ -1,0 +1,7 @@
+Which studio received the highest total revenue in the 1990s?
+SELECT P.company, SUM(F.gross) AS Revenue FROM movies AS M NATURAL JOIN finances AS F NATURAL JOIN produced P WHERE M.year between 1990 and 1999 and F.gross is not null GROUP BY P.company ORDER BY revenue DESC limit 1;
+      company       |  revenue   
+--------------------+------------
+ Universal Pictures | 9474401869
+(1 row)
+

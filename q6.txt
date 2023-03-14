@@ -1,0 +1,11 @@
+List the top 5 stars with highest movie rating between the years 2000 and 2016?
+select distinct C.member_id, C.first, C.last, MAX(r.score) from casts C natural join starred_in S natural join reviews R natural join movies m where m.year between 2000 and 2016 and r.score is not null GROUP BY C.member_id order by MAX(r.score) desc limit 5;
+ member_id |   first   |    last     | max 
+-----------+-----------+-------------+-----
+      6188 | Christian | Bale        | 9.0
+      7209 | Elijah    | Wood        | 8.9
+      6214 | Leonardo  | DiCaprio    | 8.8
+      6402 | Matthew   | McConaughey | 8.6
+      7187 | Alexandre | Rodrigues   | 8.6
+(5 rows)
+

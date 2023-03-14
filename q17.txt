@@ -1,0 +1,25 @@
+Compute the average runtime and count the number of movies for each genre.
+SELECT genre,AVG(runtime), COUNT(name) FROM movies GROUP BY genre;
+   genre   |         avg          | count 
+-----------+----------------------+-------
+ Romance   | 106.6000000000000000 |    10
+ Sport     |  94.0000000000000000 |     1
+ History   |  55.0000000000000000 |     1
+ Mystery   | 115.7500000000000000 |    20
+ Musical   | 145.0000000000000000 |     2
+ Music     | 117.0000000000000000 |     1
+ Fantasy   |  99.3636363636363636 |    44
+ Horror    |  96.3043478260869565 |   322
+ Drama     | 112.9749340369393140 |  1518
+ Biography | 119.8803611738148984 |   443
+ Action    | 110.2112676056338028 |  1705
+ Thriller  |  98.6250000000000000 |    16
+ Western   |  97.3333333333333333 |     3
+ Sci-Fi    | 100.3000000000000000 |    10
+ Comedy    | 101.4917594654788419 |  2245
+ Adventure | 107.9789227166276347 |   427
+ Family    |  99.9090909090909091 |    11
+ Crime     | 111.7527272727272727 |   551
+ Animation |  92.2041420118343195 |   338
+(19 rows)
+

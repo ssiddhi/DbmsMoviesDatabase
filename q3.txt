@@ -1,0 +1,1711 @@
+List all the directors that have directed ‘Action’ movies.
+SELECT first, last, title, name, genre FROM movies natural join directed natural join casts WHERE genre = Action;
+        first        |       last       | title |                           name                           | genre  
+---------------------+------------------+-------+----------------------------------------------------------+--------
+ A.R.                | Murugadoss       |       | Ghajini                                                  | Action
+ Ã‰lie               | Chouraqui        |       | Man on Fire                                              | Action
+ Ã\u0081lex de la    | Iglesia          |       | The Day of the Beast                                     | Action
+ Aaron               | Norris           |       | Braddock: Missing in Action III                          | Action
+ Aaron               | Norris           |       | Delta Force 2: the Colombian Connection                  | Action
+ Aaron               | Norris           |       | The Hitman                                               | Action
+ Aaron               | Norris           |       | Sidekicks                                                | Action
+ Aaron               | Norris           |       | Top Dog                                                  | Action
+ Abhishek            | Chaubey          |       | Sonchiriya                                               | Action
+ Adam                | Green            |       | Hatchet II                                               | Action
+ Adam                | McKay            |       | The Other Guys                                           | Action
+ Adam                | Rifkin           |       | The Chase                                                | Action
+ Adam                | Robitel          |       | Escape Room                                              | Action
+ Adam                | Shankman         |       | The Pacifier                                             | Action
+ Adam                | Wingard          |       | The Guest                                                | Action
+ Adil El             | Arbi             |       | Bad Boys for Life                                        | Action
+ Adrian              | Grunberg         |       | Rambo: Last Blood                                        | Action
+ Akira               | Kurosawa         |       | Ran                                                      | Action
+ Alan J.             | Pakula           |       | The Devil's Own                                          | Action
+ Alan                | Johnson          |       | Solarbabies                                              | Action
+ Alan                | Mehrez           |       | Bloodsport 2                                             | Action
+ Alan                | Taylor           |       | Thor: The Dark World                                     | Action
+ Alan                | Taylor           |       | Terminator Genisys                                       | Action
+ Albert              | Hughes           |       | Dead Presidents                                          | Action
+ Albert              | Hughes           |       | The Book of Eli                                          | Action
+ Albert              | Hughes           |       | Alpha                                                    | Action
+ Albert              | Pyun             |       | The Sword and the Sorcerer                               | Action
+ Albert              | Pyun             |       | Radioactive Dreams                                       | Action
+ Albert              | Pyun             |       | Dangerously Close                                        | Action
+ Albert              | Pyun             |       | Cyborg                                                   | Action
+ Albert              | Pyun             |       | Kickboxer 2: the Road Back                               | Action
+ Albert              | Pyun             |       | Nemesis                                                  | Action
+ Alejandro G.        | IÃ±Ã¡rritu       |       | The Revenant                                             | Action
+ Aleks               | Alifirenko       | Jr.   | The Robinsons                                            | Action
+ Aleksander          | Bach             |       | Hitman: Agent 47                                         | Action
+ Alex                | Cox              |       | Repo Man                                                 | Action
+ Alex                | Cox              |       | Straight to Hell                                         | Action
+ Alex                | Kurtzman         |       | The Mummy                                                | Action
+ Alex                | Proyas           |       | The Crow                                                 | Action
+ Alex                | Proyas           |       | I, Robot                                                 | Action
+ Alex                | Proyas           |       | Knowing                                                  | Action
+ Alex                | Proyas           |       | Gods of Egypt                                            | Action
+ Alexander           | Witt             |       | Resident Evil: Apocalypse                                | Action
+ Alexandre           | Aja              |       | Crawl                                                    | Action
+ Ali Abbas           | Zafar            |       | Bharat                                                   | Action
+ Alister             | Grierson         |       | Sanctum                                                  | Action
+ Allan A.            | Goldstein        |       | Death Wish: The Face of Death                            | Action
+ Allen               | Hughes           |       | Broken City                                              | Action
+ Ana Lily            | Amirpour         |       | The Bad Batch                                            | Action
+ Andrea              | Berloff          |       | The Kitchen                                              | Action
+ Andrew              | Adamson          |       | The Chronicles of Narnia: Prince Caspian                 | Action
+ Andrew              | Davis            |       | Code of Silence                                          | Action
+ Andrew              | Davis            |       | Above the Law                                            | Action
+ Andrew              | Davis            |       | The Package                                              | Action
+ Andrew              | Davis            |       | Under Siege                                              | Action
+ Andrew              | Davis            |       | The Fugitive                                             | Action
+ Andrew              | Davis            |       | Chain Reaction                                           | Action
+ Andrew              | Davis            |       | Collateral Damage                                        | Action
+ Andrew              | Davis            |       | The Guardian                                             | Action
+ Andrew              | Fleming          |       | The in-Laws                                              | Action
+ Andrew              | Lane             |       | Jake Speed                                               | Action
+ Andrew              | Lau              |       | Infernal Affairs                                         | Action
+ Andrew              | Lau              |       | The Captain                                              | Action
+ Andrew              | Morahan          |       | Highlander: The Final Dimension                          | Action
+ Andrew              | Niccol           |       | Lord of War                                              | Action
+ Andrew              | Niccol           |       | In Time                                                  | Action
+ Andrew              | Niccol           |       | The Host                                                 | Action
+ Andrew              | Sipes            |       | Fair Game                                                | Action
+ Andrew              | Stanton          |       | John Carter                                              | Action
+ Andrey              | Konchalovskiy    |       | Runaway Train                                            | Action
+ Andrey              | Konchalovskiy    |       | Tango & Cash                                             | Action
+ Andrzej             | Bartkowiak       |       | Romeo Must Die                                           | Action
+ Andrzej             | Bartkowiak       |       | Exit Wounds                                              | Action
+ Andrzej             | Bartkowiak       |       | Cradle 2 the Grave                                       | Action
+ Andrzej             | Bartkowiak       |       | Doom                                                     | Action
+ Andrzej             | Bartkowiak       |       | Street Fighter: The Legend of Chun-Li                    | Action
+ Andy                | Fickman          |       | Race to Witch Mountain                                   | Action
+ Andy                | Fickman          |       | Paul Blart: Mall Cop 2                                   | Action
+ Andy                | Tennant          |       | Fool's Gold                                              | Action
+ Andy                | Tennant          |       | The Bounty Hunter                                        | Action
+ Ang                 | Lee              |       | Crouching Tiger, Hidden Dragon                           | Action
+ Ang                 | Lee              |       | Hulk                                                     | Action
+ Ang                 | Lee              |       | Billy Lynn's Long Halftime Walk                          | Action
+ Ang                 | Lee              |       | Gemini Man                                               | Action
+ Angela              | Robinson         |       | D.E.B.S.                                                 | Action
+ Angelina            | Jolie            |       | Unbroken                                                 | Action
+ Anna                | Boden            |       | Captain Marvel                                           | Action
+ Anna                | Foerster         |       | Underworld: Blood Wars                                   | Action
+ Anne                | Fletcher         |       | Hot Pursuit                                              | Action
+ Anthony             | Hemingway        |       | Red Tails                                                | Action
+ Anthony             | Hickox           |       | Warlock: The Armageddon                                  | Action
+ Anthony             | Maras            |       | Hotel Mumbai                                             | Action
+ Anthony             | Russo            |       | Captain America: The Winter Soldier                      | Action
+ Anthony             | Russo            |       | Captain America: Civil War                               | Action
+ Anthony             | Russo            |       | Avengers: Infinity War                                   | Action
+ Anthony             | Russo            |       | Avengers: Endgame                                        | Action
+ Antoine             | Fuqua            |       | The Replacement Killers                                  | Action
+ Antoine             | Fuqua            |       | Bait                                                     | Action
+ Antoine             | Fuqua            |       | Tears of the Sun                                         | Action
+ Antoine             | Fuqua            |       | King Arthur                                              | Action
+ Antoine             | Fuqua            |       | Shooter                                                  | Action
+ Antoine             | Fuqua            |       | Brooklyn's Finest                                        | Action
+ Antoine             | Fuqua            |       | Olympus Has Fallen                                       | Action
+ Antoine             | Fuqua            |       | The Equalizer                                            | Action
+ Antoine             | Fuqua            |       | Southpaw                                                 | Action
+ Antoine             | Fuqua            |       | The Magnificent Seven                                    | Action
+ Antoine             | Fuqua            |       | The Equalizer 2                                          | Action
+ Antonio             | Margheriti       |       | Yor, the Hunter from the Future                          | Action
+ Antony              | Hoffman          |       | Red Planet                                               | Action
+ Anurag              | Kashyap          |       | Black Friday                                             | Action
+ Ariel               | Vromen           |       | Criminal                                                 | Action
+ Arne                | Glimcher         |       | Just Cause                                               | Action
+ Arthur Allan        | Seidelman        |       | Rescue Me                                                | Action
+ Asger               | Leth             |       | Man on a Ledge                                           | Action
+ Avi                 | Nesher           |       | Timebomb                                                 | Action
+ Babak               | Najafi           |       | London Has Fallen                                        | Action
+ Baltasar            | KormÃ¡kur        |       | Contraband                                               | Action
+ Baltasar            | KormÃ¡kur        |       | 2 Guns                                                   | Action
+ Baltasar            | KormÃ¡kur        |       | Everest                                                  | Action
+ Baltasar            | KormÃ¡kur        |       | Adrift                                                   | Action
+ Baran bo            | Odar             |       | Sleepless                                                | Action
+ Barbet              | Schroeder        |       | Desperate Measures                                       | Action
+ Barry               | Levinson         |       | Sphere                                                   | Action
+ Barry               | Sonnenfeld       |       | Men in Black                                             | Action
+ Barry               | Sonnenfeld       |       | Wild Wild West                                           | Action
+ Barry               | Sonnenfeld       |       | Men in Black II                                          | Action
+ Barry               | Sonnenfeld       |       | Men in Black 3                                           | Action
+ Bart                | Freundlich       |       | Catch That Kid                                           | Action
+ Ben                 | Affleck          |       | Live by Night                                            | Action
+ Ben                 | Stiller          |       | Tropic Thunder                                           | Action
+ Ben                 | Stiller          |       | Zoolander 2                                              | Action
+ Ben                 | Wheatley         |       | Kill List                                                | Action
+ Ben                 | Wheatley         |       | Free Fire                                                | Action
+ Betty               | Thomas           |       | I Spy                                                    | Action
+ Bill                | Duke             |       | Deep Cover                                               | Action
+ Blake               | Edwards          |       | A Fine Mess                                              | Action
+ Boaz                | Yakin            |       | Safe                                                     | Action
+ Bob                 | Clark            |       | Loose Cannons                                            | Action
+ Bob                 | Spiers           |       | That Darn Cat                                            | Action
+ Bong Joon           | Ho               |       | The Host                                                 | Action
+ Bong Joon           | Ho               |       | Snowpiercer                                              | Action
+ Brad                | Bird             |       | Mission: Impossible - Ghost Protocol                     | Action
+ Brad                | Bird             |       | Tomorrowland                                             | Action
+ Brad                | Peyton           |       | Journey 2: The Mysterious Island                         | Action
+ Brad                | Peyton           |       | San Andreas                                              | Action
+ Brad                | Peyton           |       | Rampage                                                  | Action
+ Brad                | Silberling       |       | Land of the Lost                                         | Action
+ Breck               | Eisner           |       | Sahara                                                   | Action
+ Breck               | Eisner           |       | The Last Witch Hunter                                    | Action
+ Brett               | Leonard          |       | Virtuosity                                               | Action
+ Brett               | Leonard          |       | Man-Thing                                                | Action
+ Brett               | Ratner           |       | Money Talks                                              | Action
+ Brett               | Ratner           |       | Rush Hour                                                | Action
+ Brett               | Ratner           |       | Rush Hour 2                                              | Action
+ Brett               | Ratner           |       | After the Sunset                                         | Action
+ Brett               | Ratner           |       | X-Men: the Last Stand                                    | Action
+ Brett               | Ratner           |       | Rush Hour 3                                              | Action
+ Brett               | Ratner           |       | Tower Heist                                              | Action
+ Brett               | Ratner           |       | Hercules                                                 | Action
+ Brian De            | Palma            |       | Casualties of War                                        | Action
+ Brian De            | Palma            |       | Mission: Impossible                                      | Action
+ Brian               | Helgeland        |       | Payback                                                  | Action
+ Brian               | Helgeland        |       | A Knight's Tale                                          | Action
+ Brian               | Henson           |       | Muppet Treasure Island                                   | Action
+ Brian               | Henson           |       | The Happytime Murders                                    | Action
+ Brian               | Levant           |       | The Spy Next Door                                        | Action
+ Bruce A.            | Evans            |       | Kuffs                                                    | Action
+ Bruce               | Hunt             |       | The Cave                                                 | Action
+ Bruce               | Malmuth          |       | Nighthawks                                               | Action
+ Bruce               | Malmuth          |       | The Man Who Wasn't There                                 | Action
+ Bruce               | Malmuth          |       | Hard to Kill                                             | Action
+ Bryan               | Singer           |       | X-Men                                                    | Action
+ Bryan               | Singer           |       | X2: X-Men United                                         | Action
+ Bryan               | Singer           |       | Superman Returns                                         | Action
+ Bryan               | Singer           |       | X-Men: Days of Future Past                               | Action
+ Bryan               | Singer           |       | X-Men: Apocalypse                                        | Action
+ Bryan               | Spicer           |       | Mighty Morphin Power Rangers: The Movie                  | Action
+ Bryan               | Spicer           |       | McHale's Navy                                            | Action
+ Buddy Van           | Horn             |       | Any Which Way You Can                                    | Action
+ Buddy Van           | Horn             |       | The Dead Pool                                            | Action
+ Buddy Van           | Horn             |       | Pink Cadillac                                            | Action
+ Burr                | Steers           |       | Pride and Prejudice and Zombies                          | Action
+ Burt                | Kennedy          |       | Suburban Commando                                        | Action
+ Burt                | Reynolds         |       | Sharky's Machine                                         | Action
+ Burt                | Reynolds         |       | Stick                                                    | Action
+ Byeong-heon         | Lee              |       | Extreme Job                                              | Action
+ Byung-gil           | Jung             |       | The Villainess                                           | Action
+ Camille             | Delamarre        |       | Brick Mansions                                           | Action
+ Camille             | Delamarre        |       | The Transporter Refueled                                 | Action
+ Carl                | Rinsch           |       | 47 Ronin                                                 | Action
+ Carl                | Schenkel         |       | The Mighty Quinn                                         | Action
+ Carroll             | Ballard          |       | Wind                                                     | Action
+ Catherine           | Hardwicke        |       | Miss Bala                                                | Action
+ Cathy               | Yan              |       | Birds of Prey                                            | Action
+ Cedric              | Nicolas-Troyan   |       | The Huntsman: Winter's War                               | Action
+ Cedric              | Sundstrom        |       | American Ninja 3: Blood Hunt                             | Action
+ Cedric              | Sundstrom        |       | American Ninja 4: The Annihilation                       | Action
+ Chad                | Stahelski        |       | John Wick                                                | Action
+ Chad                | Stahelski        |       | John Wick: Chapter 2                                     | Action
+ Chad                | Stahelski        |       | John Wick: Chapter 3 - Parabellum                        | Action
+ Charles             | Band             |       | Metalstorm: the Destruction of Jared-Syn                 | Action
+ Charles             | Shyer            |       | I Love Trouble                                           | Action
+ Charles Stone       | III              |       | Paid in Full                                             | Action
+ Charles T.          | Kanganis         |       | 3 Ninjas Kick Back                                       | Action
+ Chia-Liang          | Liu              |       | The Legend of Drunken Master                             | Action
+ Chris               | Columbus         |       | Pixels                                                   | Action
+ Chris               | Gorak            |       | The Darkest Hour                                         | Action
+ Chris               | Nahon            |       | Kiss of the Dragon                                       | Action
+ Chris               | Roberts          |       | Wing Commander                                           | Action
+ Christian           | Alvart           |       | Pandorum                                                 | Action
+ Christian           | Duguay           |       | The Assignment                                           | Action
+ Christian           | Duguay           |       | The Art of War                                           | Action
+ Christian           | Gudegast         |       | Den of Thieves                                           | Action
+ Christian           | Rivers           |       | Mortal Engines                                           | Action
+ Christophe          | Gans             |       | Brotherhood of the Wolf                                  | Action
+ Christopher         | Cain             |       | The Principal                                            | Action
+ Christopher         | Cain             |       | Young Guns                                               | Action
+ Christopher         | Cain             |       | The Next Karate Kid                                      | Action
+ Christopher         | Crowe            |       | Off Limits                                               | Action
+ Christopher         | Landon           |       | Scouts Guide to the Zombie Apocalypse                    | Action
+ Christopher         | McQuarrie        |       | The Way of the Gun                                       | Action
+ Christopher         | McQuarrie        |       | Jack Reacher                                             | Action
+ Christopher         | McQuarrie        |       | Mission: Impossible - Rogue Nation                       | Action
+ Christopher         | McQuarrie        |       | Mission: Impossible - Fallout                            | Action
+ Christopher         | Nolan            |       | Batman Begins                                            | Action
+ Christopher         | Nolan            |       | The Dark Knight                                          | Action
+ Christopher         | Nolan            |       | Inception                                                | Action
+ Christopher         | Nolan            |       | The Dark Knight Rises                                    | Action
+ Christopher         | Nolan            |       | Dunkirk                                                  | Action
+ Christopher         | Nolan            |       | Tenet                                                    | Action
+ Christopher         | Smith            |       | Black Death                                              | Action
+ Chuck               | Russell          |       | The Mask                                                 | Action
+ Chuck               | Russell          |       | Eraser                                                   | Action
+ Chuck               | Russell          |       | The Scorpion King                                        | Action
+ Chuck               | Russell          |       | Junglee                                                  | Action
+ Cirio H.            | Santiago         |       | Stryker                                                  | Action
+ Clarence            | Fok              |       | Naked Killer                                             | Action
+ Clark               | Johnson          |       | S.W.A.T.                                                 | Action
+ Clark               | Johnson          |       | The Sentinel                                             | Action
+ Clint               | Eastwood         |       | Bronco Billy                                             | Action
+ Clint               | Eastwood         |       | Firefox                                                  | Action
+ Clint               | Eastwood         |       | Sudden Impact                                            | Action
+ Clint               | Eastwood         |       | The Rookie                                               | Action
+ Clint               | Eastwood         |       | Absolute Power                                           | Action
+ Clint               | Eastwood         |       | Space Cowboys                                            | Action
+ Clint               | Eastwood         |       | Blood Work                                               | Action
+ Clint               | Eastwood         |       | Letters from Iwo Jima                                    | Action
+ Clint               | Eastwood         |       | Flags of Our Fathers                                     | Action
+ Clint               | Eastwood         |       | American Sniper                                          | Action
+ Clive               | Barker           |       | Nightbreed                                               | Action
+ Clive               | Donner           |       | The Nude Bomb                                            | Action
+ Colin               | Strause          |       | Aliens vs. Predator: Requiem                             | Action
+ Colin               | Strause          |       | Skyline                                                  | Action
+ Colin               | Trevorrow        |       | Jurassic World                                           | Action
+ Coralie             | Fargeat          |       | Revenge                                                  | Action
+ Corey               | Yuen             |       | No Retreat, No Surrender                                 | Action
+ Corey               | Yuen             |       | DOA: Dead or Alive                                       | Action
+ Courtney            | Solomon          |       | Dungeons & Dragons                                       | Action
+ Courtney            | Solomon          |       | Getaway                                                  | Action
+ Craig               | Gillespie        |       | The Finest Hours                                         | Action
+ Craig               | Mazin            |       | The Specials                                             | Action
+ Craig               | Mazin            |       | Superhero Movie                                          | Action
+ Craig R.            | Baxley           |       | Action Jackson                                           | Action
+ Craig R.            | Baxley           |       | Dark Angel                                               | Action
+ Craig R.            | Baxley           |       | Stone Cold                                               | Action
+ Crispian            | Mills            |       | Slaughterhouse Rulez                                     | Action
+ D.J.                | Caruso           |       | Eagle Eye                                                | Action
+ D.J.                | Caruso           |       | I Am Number Four                                         | Action
+ D.J.                | Caruso           |       | xXx: Return of Xander Cage                               | Action
+ Dan                 | Bradley          |       | Red Dawn                                                 | Action
+ Dan                 | Trachtenberg     |       | 10 Cloverfield Lane                                      | Action
+ Daniel              | Alfredson        |       | The Girl Who Played with Fire                            | Action
+ Daniel              | Barber           |       | Harry Brown                                              | Action
+ Daniel              | Espinosa         |       | Snabba Cash                                              | Action
+ Daniel              | Espinosa         |       | Safe House                                               | Action
+ Daniel              | Lee              |       | Dragon Blade                                             | Action
+ Daniel              | Petrie           | Jr.   | Toy Soldiers                                             | Action
+ Danny               | Cannon           |       | Judge Dredd                                              | Action
+ Danny               | Pang             |       | Bangkok Dangerous                                        | Action
+ Darren              | Aronofsky        |       | Noah                                                     | Action
+ Dave                | Green            |       | Teenage Mutant Ninja Turtles: Out of the Shadows         | Action
+ David               | Ayer             |       | Harsh Times                                              | Action
+ David               | Ayer             |       | Street Kings                                             | Action
+ David               | Ayer             |       | End of Watch                                             | Action
+ David               | Ayer             |       | Fury                                                     | Action
+ David               | Ayer             |       | Sabotage                                                 | Action
+ David               | Ayer             |       | Suicide Squad                                            | Action
+ David               | Carson           |       | Star Trek: Generations                                   | Action
+ David               | Cronenberg       |       | Eastern Promises                                         | Action
+ David               | Dobkin           |       | Shanghai Knights                                         | Action
+ David F.            | Sandberg         |       | Shazam!                                                  | Action
+ David               | Fincher          |       | Alien 3                                                  | Action
+ David Gordon        | Green            |       | Pineapple Express                                        | Action
+ David               | Green            |       | Fire Birds                                               | Action
+ David               | Hogan            |       | Barb Wire                                                | Action
+ David               | Hogan            |       | Most Wanted                                              | Action
+ David               | Kellogg          |       | Inspector Gadget                                         | Action
+ David               | Kerr             |       | Johnny English Strikes Again                             | Action
+ David               | Koepp            |       | Premium Rush                                             | Action
+ David               | Koepp            |       | Mortdecai                                                | Action
+ David               | Leitch           |       | Atomic Blonde                                            | Action
+ David               | Leitch           |       | Deadpool 2                                               | Action
+ David               | Leitch           |       | Fast & Furious Presents: Hobbs & Shaw                    | Action
+ David               | Lowery           |       | Pete's Dragon                                            | Action
+ David               | Lynch            |       | Dune                                                     | Action
+ David               | Mackenzie        |       | Hell or High Water                                       | Action
+ David               | Mamet            |       | Heist                                                    | Action
+ David               | Mamet            |       | Spartan                                                  | Action
+ David               | McNally          |       | Kangaroo Jack                                            | Action
+ David               | MichÃ´d          |       | The Rover                                                | Action
+ David               | Nelson           |       | Last Plane Out                                           | Action
+ David O.            | Russell          |       | Three Kings                                              | Action
+ David               | Palmer           |       | Hit and Run                                              | Action
+ David R.            | Ellis            |       | Cellular                                                 | Action
+ David R.            | Ellis            |       | Snakes on a Plane                                        | Action
+ David R.            | Ellis            |       | The Final Destination                                    | Action
+ David S.            | Goyer            |       | Blade: Trinity                                           | Action
+ David S.            | Ward             |       | The Program                                              | Action
+ David               | Slade            |       | 30 Days of Night                                         | Action
+ David               | Slade            |       | The Twilight Saga: Eclipse                               | Action
+ David               | Twohy            |       | Pitch Black                                              | Action
+ David               | Twohy            |       | Below                                                    | Action
+ David               | Twohy            |       | The Chronicles of Riddick                                | Action
+ David               | Twohy            |       | Riddick                                                  | Action
+ David Von           | Ancken           |       | Seraphim Falls                                           | Action
+ David Webb          | Peoples          |       | The Blood of Heroes                                      | Action
+ David               | Yates            |       | Harry Potter and the Order of the Phoenix                | Action
+ David               | Yates            |       | Harry Potter and the Half-Blood Prince                   | Action
+ David               | Yates            |       | The Legend of Tarzan                                     | Action
+ Dax                 | Shepard          |       | CHIPS                                                    | Action
+ Dean                | Devlin           |       | Geostorm                                                 | Action
+ Dean                | Israelite        |       | Power Rangers                                            | Action
+ Dean                | Parisot          |       | RED 2                                                    | Action
+ Dean                | Semler           |       | Firestorm                                                | Action
+ Demian              | Lichtenstein     |       | 3000 Miles to Graceland                                  | Action
+ Denis               | Villeneuve       |       | Sicario                                                  | Action
+ Denis               | Villeneuve       |       | Blade Runner 2049                                        | Action
+ Dennis              | Dugan            |       | Beverly Hills Ninja                                      | Action
+ Dennis              | Dugan            |       | National Security                                        | Action
+ Dennis              | Feldman          |       | Real Men                                                 | Action
+ Dennis              | Gansel           |       | Mechanic: Resurrection                                   | Action
+ Dennis              | Hopper           |       | Colors                                                   | Action
+ Dennis              | Hopper           |       | Chasers                                                  | Action
+ Deran               | Sarafian         |       | Death Warrant                                            | Action
+ Deran               | Sarafian         |       | Terminal Velocity                                        | Action
+ Desmond             | Davis            |       | Clash of the Titans                                      | Action
+ Dick                | Lowry            |       | Smokey and the Bandit Part 3                             | Action
+ Dick                | Richards         |       | Heat                                                     | Action
+                     | Director         |       | Let's Get Harry                                          | Action
+ Director            | X.               |       | SuperFly                                                 | Action
+                     | Directors        |       | Godzilla 1985                                            | Action
+                     | Directors        |       | Grindhouse                                               | Action
+ Dito                | Montiel          |       | Fighting                                                 | Action
+ Dominic             | Orlando          |       | Knights of the City                                      | Action
+ Dominic             | Sena             |       | Gone in 60 Seconds                                       | Action
+ Dominic             | Sena             |       | Swordfish                                                | Action
+ Dominic             | Sena             |       | Whiteout                                                 | Action
+ Dominic             | Sena             |       | Season of the Witch                                      | Action
+ Don                 | Coscarelli       |       | The Beastmaster                                          | Action
+ Don                 | Coscarelli       |       | Phantasm II                                              | Action
+ Don Michael         | Paul             |       | Half Past Dead                                           | Action
+ Don                 | Taylor           |       | The Final Countdown                                      | Action
+ Donald              | Petrie           |       | Miss Congeniality                                        | Action
+ Donovan             | Marsh            |       | Hunter Killer                                            | Action
+ Dorothy Ann         | Puzo             |       | Cold Steel                                               | Action
+ Doug                | Lefler           |       | The Last Legion                                          | Action
+ Doug                | Liman            |       | The Bourne Identity                                      | Action
+ Doug                | Liman            |       | Mr. & Mrs. Smith                                         | Action
+ Doug                | Liman            |       | Jumper                                                   | Action
+ Doug                | Liman            |       | Edge of Tomorrow                                         | Action
+ Doug                | Liman            |       | American Made                                            | Action
+ Doug                | Liman            |       | The Wall                                                 | Action
+ Douglas             | Aarniokoski      |       | Highlander: Endgame                                      | Action
+ Drew                | Pearce           |       | Hotel Artemis                                            | Action
+ Duncan              | Gibbins          |       | Eve of Destruction                                       | Action
+ Duncan              | Jones            |       | Source Code                                              | Action
+ Duncan              | Jones            |       | Warcraft                                                 | Action
+ Dwight H.           | Little           |       | Marked for Death                                         | Action
+ Dwight H.           | Little           |       | Rapid Fire                                               | Action
+ Dwight H.           | Little           |       | Murder at 1600                                           | Action
+ Dwight H.           | Little           |       | Anacondas: The Hunt for the Blood Orchid                 | Action
+ Ed                  | Harris           |       | Appaloosa                                                | Action
+ Edgar               | Wright           |       | Hot Fuzz                                                 | Action
+ Edgar               | Wright           |       | Scott Pilgrim vs. the World                              | Action
+ Edgar               | Wright           |       | Baby Driver                                              | Action
+ Edward              | Zwick            |       | Courage Under Fire                                       | Action
+ Edward              | Zwick            |       | The Siege                                                | Action
+ Edward              | Zwick            |       | The Last Samurai                                         | Action
+ Edward              | Zwick            |       | Defiance                                                 | Action
+ Edward              | Zwick            |       | Jack Reacher: Never Go Back                              | Action
+ Elaine              | May              |       | Ishtar                                                   | Action
+ Eli                 | Roth             |       | Death Wish                                               | Action
+ Elliott             | Hong             |       | They Call Me Bruce                                       | Action
+ Ellory              | Elkayem          |       | Eight Legged Freaks                                      | Action
+ Emilio              | Estevez          |       | Men at Work                                              | Action
+ Enzo G.             | Castellari       |       | Escape from the Bronx                                    | Action
+ Eric                | Brevig           |       | Journey to the Center of the Earth                       | Action
+ Eric                | Karson           |       | The Octagon                                              | Action
+ Eric                | Valette          |       | The Prey                                                 | Action
+ Ericson             | Core             |       | Point Break                                              | Action
+ Ernest R.           | Dickerson        |       | Juice                                                    | Action
+ Ernest R.           | Dickerson        |       | Surviving the Game                                       | Action
+ Ernest R.           | Dickerson        |       | Tales from the Crypt: Demon Knight                       | Action
+ Ernest R.           | Dickerson        |       | Bulletproof                                              | Action
+ Ethan               | Maniquis         |       | Machete                                                  | Action
+ Evan                | Goldberg         |       | The Interview                                            | Action
+ F. Gary             | Gray             |       | Set It Off                                               | Action
+ F. Gary             | Gray             |       | The Negotiator                                           | Action
+ F. Gary             | Gray             |       | The Italian Job                                          | Action
+ F. Gary             | Gray             |       | A Man Apart                                              | Action
+ F. Gary             | Gray             |       | Law Abiding Citizen                                      | Action
+ F. Gary             | Gray             |       | The Fate of the Furious                                  | Action
+ F. Gary             | Gray             |       | Men in Black: International                              | Action
+ FÃ©lix EnrÃ­quez    | AlcalÃ¡          |       | Fire Down Below                                          | Action
+ Farah               | Khan             |       | Main Hoon Na                                             | Action
+ Farah               | Khan             |       | Om Shanti Om                                             | Action
+ Farhad              | Mann             |       | Lawnmower Man 2: Beyond Cyberspace                       | Action
+ Farhan              | Akhtar           |       | Lakshya                                                  | Action
+ Fede                | Alvarez          |       | The Girl in the Spider's Web                             | Action
+ Ferdinand           | Fairfax          |       | Nate and Hayes                                           | Action
+ Florent-Emilio      | Siri             |       | Hostage                                                  | Action
+ Florian Henckel von | Donnersmarck     |       | The Tourist                                              | Action
+ Fran Rubel          | Kuzui            |       | Buffy the Vampire Slayer                                 | Action
+ FranÃ§ois           | Simard           |       | Turbo Kid                                                | Action
+ Francis             | Lawrence         |       | Constantine                                              | Action
+ Francis             | Lawrence         |       | I Am Legend                                              | Action
+ Francis             | Lawrence         |       | The Hunger Games: Catching Fire                          | Action
+ Francis             | Lawrence         |       | The Hunger Games: Mockingjay - Part 1                    | Action
+ Francis             | Lawrence         |       | The Hunger Games: Mockingjay - Part 2                    | Action
+ Francis             | Lawrence         |       | Red Sparrow                                              | Action
+ Francis             | Megahy           |       | Taffin                                                   | Action
+ Francis             | Veber            |       | Three Fugitives                                          | Action
+ Franco              | Amurri           |       | Flashback                                                | Action
+ Frank               | Coraci           |       | Around the World in 80 Days                              | Action
+ Frank               | Coraci           |       | Here Comes the Boom                                      | Action
+ Frank               | Harris           |       | Low Blow                                                 | Action
+ Frank               | Marshall         |       | Congo                                                    | Action
+ Frank               | Miller           |       | The Spirit                                               | Action
+ Frank               | Miller           |       | Sin City: A Dame to Kill for                             | Action
+ Frank               | Oz               |       | The Score                                                | Action
+ Frant               | Gwo              |       | The Wandering Earth                                      | Action
+ Fred                | Dekker           |       | The Monster Squad                                        | Action
+ Fred                | Dekker           |       | RoboCop 3                                                | Action
+ Fred Olen           | Ray              |       | Armed Response                                           | Action
+ Fred Olen           | Ray              |       | Cyclone                                                  | Action
+ Frederik Du         | Chau             |       | Underdog                                                 | Action
+ Fredrik             | Bond             |       | Charlie Countryman                                       | Action
+ Fritz               | Kiersch          |       | Tuff Turf                                                | Action
+ GÃ©rard             | Krawczyk         |       | Taxi 2                                                   | Action
+ GÃ©rard             | Krawczyk         |       | Wasabi                                                   | Action
+ GÃ©rard             | Krawczyk         |       | Taxi 3                                                   | Action
+ GÃ©rard             | PirÃ¨s           |       | Taxi                                                     | Action
+ Gareth              | Edwards          |       | Godzilla                                                 | Action
+ Gareth              | Edwards          |       | Rogue One: A Star Wars Story                             | Action
+ Gareth              | Evans            |       | The Raid: Redemption                                     | Action
+ Gareth              | Evans            |       | The Raid 2                                               | Action
+ Garth               | Jennings         |       | Son of Rambow                                            | Action
+ Gary                | Fleder           |       | Homefront                                                | Action
+ Gary                | Goddard          |       | Masters of the Universe                                  | Action
+ Gary                | Hudson           |       | Thunder Run                                              | Action
+ Gary                | McKendry         |       | Killer Elite                                             | Action
+ Gary                | Nelson           |       | Allan Quatermain and the Lost City of Gold               | Action
+ Gary                | Ross             |       | The Hunger Games                                         | Action
+ Gary                | Ross             |       | Free State of Jones                                      | Action
+ Gary                | Ross             |       | Ocean's Eight                                            | Action
+ Gary                | Sherman          |       | Vice Squad                                               | Action
+ Gary                | Sherman          |       | Wanted: Dead or Alive                                    | Action
+ Gary                | Shore            |       | Dracula Untold                                           | Action
+ Gary                | Sinise           |       | Miles from Home                                          | Action
+ Gavin               | Hood             |       | X-Men Origins: Wolverine                                 | Action
+ Gavin               | Hood             |       | Ender's Game                                             | Action
+ Gavin               | Hood             |       | Eye in the Sky                                           | Action
+ Gavin               | O'Connor         |       | Warrior                                                  | Action
+ Gavin               | O'Connor         |       | The Accountant                                           | Action
+ Gene                | Quintano         |       | Loaded Weapon 1                                          | Action
+ Geoff               | Burrowes         |       | Run                                                      | Action
+ Geoff               | Murphy           |       | Young Guns II                                            | Action
+ Geoff               | Murphy           |       | Freejack                                                 | Action
+ Geoff               | Murphy           |       | Under Siege 2: Dark Territory                            | Action
+ Geoffrey            | Sax              |       | Stormbreaker                                             | Action
+ George              | Armitage         |       | Grosse Pointe Blank                                      | Action
+ George              | Lucas            |       | Star Wars: Episode I - The Phantom Menace                | Action
+ George              | Lucas            |       | Star Wars: Episode II - Attack of the Clones             | Action
+ George              | Lucas            |       | Star Wars: Episode III - Revenge of the Sith             | Action
+ George              | Miller           |       | Mad Max 2                                                | Action
+ George              | Miller           |       | Mad Max Beyond Thunderdome                               | Action
+ George              | Miller           |       | Mad Max: Fury Road                                       | Action
+ George P.           | Cosmatos         |       | Rambo: First Blood Part II                               | Action
+ George P.           | Cosmatos         |       | Cobra                                                    | Action
+ George P.           | Cosmatos         |       | Tombstone                                                | Action
+ George              | Tillman          | Jr.   | Faster                                                   | Action
+ Gerard              | McMurray         |       | The First Purge                                          | Action
+ Gideon              | Amir             |       | P.O.W. the Escape                                        | Action
+ Gordon              | Chan             |       | The Medallion                                            | Action
+ Gore                | Verbinski        |       | Pirates of the Caribbean: the Curse of the Black Pearl   | Action
+ Gore                | Verbinski        |       | Pirates of the Caribbean: Dead Man's Chest               | Action
+ Gore                | Verbinski        |       | Pirates of the Caribbean: at World's End                 | Action
+ Gore                | Verbinski        |       | The Lone Ranger                                          | Action
+ Graeme              | Clifford         |       | Gleaming the Cube                                        | Action
+ Graham              | Baker            |       | Alien Nation                                             | Action
+ Greg                | McLean           |       | Rogue                                                    | Action
+ Greg                | Mottola          |       | Keeping Up with the Joneses                              | Action
+ Gregg               | Champion         |       | The Cowboy Way                                           | Action
+ Gregor              | Jordan           |       | Ned Kelly                                                | Action
+ Gregory             | Dark             |       | See No Evil                                              | Action
+ Gregory             | Hoblit           |       | Fallen                                                   | Action
+ Gregory             | Widen            |       | The Prophecy                                             | Action
+ Guillaume           | Canet            |       | Blood Ties                                               | Action
+ Guillermo del       | Toro             |       | Blade II                                                 | Action
+ Guillermo del       | Toro             |       | Hellboy                                                  | Action
+ Guillermo del       | Toro             |       | Hellboy II: the Golden Army                              | Action
+ Guillermo del       | Toro             |       | Pacific Rim                                              | Action
+ Guy                 | Ritchie          |       | Lock, Stock and Two Smoking Barrels                      | Action
+ Guy                 | Ritchie          |       | Revolver                                                 | Action
+ Guy                 | Ritchie          |       | RocknRolla                                               | Action
+ Guy                 | Ritchie          |       | Sherlock Holmes                                          | Action
+ Guy                 | Ritchie          |       | Sherlock Holmes: A Game of Shadows                       | Action
+ Guy                 | Ritchie          |       | The Man from U.N.C.L.E.                                  | Action
+ Guy                 | Ritchie          |       | King Arthur: Legend of the Sword                         | Action
+ Hal                 | Ashby            |       | 8 Million Ways to Die                                    | Action
+ Hal                 | Needham          |       | Smokey and the Bandit II                                 | Action
+ Hal                 | Needham          |       | The Cannonball Run                                       | Action
+ Hal                 | Needham          |       | Megaforce                                                | Action
+ Hal                 | Needham          |       | Stroker Ace                                              | Action
+ Hal                 | Needham          |       | Cannonball Run II                                        | Action
+ Hans Petter         | Moland           |       | Cold Pursuit                                             | Action
+ Hany                | Abu-Assad        |       | The Mountain Between Us                                  | Action
+ Harald              | Zwart            |       | Agent Cody Banks                                         | Action
+ Harald              | Zwart            |       | The Pink Panther 2                                       | Action
+ Harald              | Zwart            |       | The Karate Kid                                           | Action
+ Harald              | Zwart            |       | The Mortal Instruments: City of Bones                    | Action
+ Hark                | Tsui             |       | Once Upon a Time in China III                            | Action
+ Hark                | Tsui             |       | Double Team                                              | Action
+ Hark                | Tsui             |       | Knock Off                                                | Action
+ Harley              | Cokeliss         |       | Black Moon Rising                                        | Action
+ Harley              | Cokeliss         |       | Malone                                                   | Action
+ Harold              | Becker           |       | Mercury Rising                                           | Action
+ Haruki              | Kadokawa         |       | Heaven and Earth                                         | Action
+ Heitor              | Dhalia           |       | Gone                                                     | Action
+ Henry               | Joost            |       | Nerve                                                    | Action
+ Heywood             | Gould            |       | One Good Cop                                             | Action
+ Hideaki             | Anno             |       | Shin Godzilla                                            | Action
+ Howard              | McCain           |       | Outlander                                                | Action
+ Hu                  | Guan             |       | The Eight Hundred                                        | Action
+ Hun                 | Jang             |       | A Taxi Driver                                            | Action
+ Ian                 | Sharp            |       | The Final Option                                         | Action
+ Ilya                | Naishuller       |       | Hardcore Henry                                           | Action
+ Indra               | Kumar            |       | Total Dhamaal                                            | Action
+ Irvin               | Kershner         |       | Star Wars: Episode V - The Empire Strikes Back           | Action
+ Irvin               | Kershner         |       | Never Say Never Again                                    | Action
+ Irvin               | Kershner         |       | RoboCop 2                                                | Action
+ Irwin               | Winkler          |       | The Net                                                  | Action
+ Ivan                | Reitman          |       | Ghostbusters                                             | Action
+ Ivan                | Reitman          |       | Ghostbusters II                                          | Action
+ Ivan                | Reitman          |       | Kindergarten Cop                                         | Action
+ Ivan                | Reitman          |       | Six Days Seven Nights                                    | Action
+ J                   | Blakeson         |       | The 5th Wave                                             | Action
+ J. Lee              | Thompson         |       | The Evil That Men Do                                     | Action
+ J. Lee              | Thompson         |       | King Solomon's Mines                                     | Action
+ J. Lee              | Thompson         |       | Murphy's Law                                             | Action
+ J. Lee              | Thompson         |       | Firewalker                                               | Action
+ J. Lee              | Thompson         |       | Death Wish 4: The Crackdown                              | Action
+ J. Lee              | Thompson         |       | Messenger of Death                                       | Action
+ J. Lee              | Thompson         |       | Kinjite: Forbidden Subjects                              | Action
+ J.A.                | Bayona           |       | Jurassic World: Fallen Kingdom                           | Action
+ J.C.                | Chandor          |       | All Is Lost                                              | Action
+ J.C.                | Chandor          |       | A Most Violent Year                                      | Action
+ J.F.                | Lawton           |       | The Hunted                                               | Action
+ J.J.                | Abrams           |       | Mission: Impossible III                                  | Action
+ J.J.                | Abrams           |       | Star Trek                                                | Action
+ J.J.                | Abrams           |       | Star Trek Into Darkness                                  | Action
+ J.J.                | Abrams           |       | Star Wars: Episode VII - The Force Awakens               | Action
+ J.J.                | Abrams           |       | Star Wars: Episode IX - The Rise of Skywalker            | Action
+ Jack                | Sholder          |       | Renegades                                                | Action
+ Jackie              | Chan             |       | Police Story                                             | Action
+ Jackie              | Chan             |       | Operation Condor                                         | Action
+ Jake                | Kasdan           |       | Jumanji: Welcome to the Jungle                           | Action
+ Jake                | Kasdan           |       | Jumanji: The Next Level                                  | Action
+ Jake                | Scott            |       | Plunkett & Macleane                                      | Action
+ Jalmari             | Helander         |       | Big Game                                                 | Action
+ James B.            | Harris           |       | Boiling Point                                            | Action
+ James               | Cameron          |       | The Terminator                                           | Action
+ James               | Cameron          |       | Aliens                                                   | Action
+ James               | Cameron          |       | Terminator 2: Judgment Day                               | Action
+ James               | Cameron          |       | True Lies                                                | Action
+ James               | Cameron          |       | Avatar                                                   | Action
+ James               | DeMonaco         |       | The Purge: Anarchy                                       | Action
+ James               | DeMonaco         |       | The Purge: Election Year                                 | Action
+ James               | Fargo            |       | Forced Vengeance                                         | Action
+ James               | Foley            |       | The Corruptor                                            | Action
+ James               | Glickenhaus      |       | The Soldier                                              | Action
+ James               | Glickenhaus      |       | The Protector                                            | Action
+ James               | Glickenhaus      |       | Shakedown                                                | Action
+ James               | Glickenhaus      |       | McBain                                                   | Action
+ James               | Goldstone        |       | When Time Ran Out...                                     | Action
+ James               | Gray             |       | We Own the Night                                         | Action
+ James               | Gunn             |       | Super                                                    | Action
+ James               | Gunn             |       | Guardians of the Galaxy                                  | Action
+ James               | Gunn             |       | Guardians of the Galaxy Vol. 2                           | Action
+ James               | Isaac            |       | Jason X                                                  | Action
+ James               | Isaac            |       | Skinwalkers                                              | Action
+ James               | Mangold          |       | 3:10 to Yuma                                             | Action
+ James               | Mangold          |       | Knight and Day                                           | Action
+ James               | Mangold          |       | The Wolverine                                            | Action
+ James               | Mangold          |       | Logan                                                    | Action
+ James               | Mangold          |       | Ford v Ferrari                                           | Action
+ James               | Mather           |       | Lockout                                                  | Action
+ James               | McTeigue         |       | V for Vendetta                                           | Action
+ James               | McTeigue         |       | Ninja Assassin                                           | Action
+ James               | Sbardellati      |       | Deathstalker                                             | Action
+ James               | Wan              |       | Death Sentence                                           | Action
+ James               | Wan              |       | Furious 7                                                | Action
+ James               | Wan              |       | Aquaman                                                  | Action
+ James               | Watkins          |       | The Take                                                 | Action
+ James               | Wong             |       | The One                                                  | Action
+ James               | Wong             |       | Dragonball Evolution                                     | Action
+ James               | Yukich           |       | Double Dragon                                            | Action
+ Jamie M.            | Dagg             |       | Sweet Virginia                                           | Action
+ Jan de              | Bont             |       | Speed                                                    | Action
+ Jan de              | Bont             |       | Twister                                                  | Action
+ Jan de              | Bont             |       | Speed 2: Cruise Control                                  | Action
+ Jan de              | Bont             |       | Lara Croft Tomb Raider: The Cradle of Life               | Action
+ Jason               | Eisener          |       | Hobo with a Shotgun                                      | Action
+ Jason               | Kwan             |       | Chasing the Dragon II: Wild Wild Bunch                   | Action
+ Jaume               | Collet-Serra     |       | Unknown                                                  | Action
+ Jaume               | Collet-Serra     |       | Non-Stop                                                 | Action
+ Jaume               | Collet-Serra     |       | Run All Night                                            | Action
+ Jaume               | Collet-Serra     |       | The Shallows                                             | Action
+ Jaume               | Collet-Serra     |       | The Commuter                                             | Action
+ Jay                 | Roach            |       | Austin Powers: the Spy Who Shagged Me                    | Action
+ Jay                 | Roach            |       | Austin Powers in Goldmember                              | Action
+ Jay                 | Russell          |       | Ladder 49                                                | Action
+ Jazz                | Boon             |       | Line Walker 2: Invisible Spy                             | Action
+ Jean-Claude Van     | Damme            |       | The Quest                                                | Action
+ Jean-FranÃ§ois      | Richet           |       | Assault on Precinct 13                                   | Action
+ Jeannot             | Szwarc           |       | Supergirl                                                | Action
+ Jean-Pierre         | Jeunet           |       | Alien: Resurrection                                      | Action
+ Jee-woon            | Kim              |       | The Good the Bad the Weird                               | Action
+ Jee-woon            | Kim              |       | I Saw the Devil                                          | Action
+ Jee-woon            | Kim              |       | The Last Stand                                           | Action
+ Jeff                | Fowler           |       | Sonic the Hedgehog                                       | Action
+ Jeff                | Kanew            |       | Eddie Macon's Run                                        | Action
+ Jeff                | Kanew            |       | Gotcha!                                                  | Action
+ Jeff                | Kanew            |       | V.I. Warshawski                                          | Action
+ Jeff                | Tomsic           |       | Tag                                                      | Action
+ Jeff                | Wadlow           |       | Never Back Down                                          | Action
+ Jeff                | Wadlow           |       | Kick-Ass 2                                               | Action
+ Jeffrey             | Nachmanoff       |       | Traitor                                                  | Action
+ Jeffrey             | Nicholson        |       | El Coyote                                                | Action
+ Je-kyu              | Kang             |       | Tae Guk Gi: The Brotherhood of War                       | Action
+ Jennifer Yuh        | Nelson           |       | The Darkest Minds                                        | Action
+ Jeong-beom          | Lee              |       | The Man from Nowhere                                     | Action
+ Jeremiah S.         | Chechik          |       | The Avengers                                             | Action
+ Jerry               | Jameson          |       | Raise the Titanic                                        | Action
+ Jerry               | Jameson          |       | Captive                                                  | Action
+ Jerry               | Zucker           |       | First Knight                                             | Action
+ Jerry               | Zucker           |       | Rat Race                                                 | Action
+ Jesse V.            | Johnson          |       | Triple Threat                                            | Action
+ Jim                 | Abrahams         |       | Hot Shots!                                               | Action
+ Jim                 | Abrahams         |       | Hot Shots! Part Deux                                     | Action
+ Jim                 | Drake            |       | Speed Zone                                               | Action
+ Jim                 | Jarmusch         |       | Ghost Dog: The Way of the Samurai                        | Action
+ Jim                 | Kouf             |       | Disorganized Crime                                       | Action
+ Jim                 | Kouf             |       | Gang Related                                             | Action
+ Jim                 | McBride          |       | Breathless                                               | Action
+ Jim                 | Sheridan         |       | Brothers                                                 | Action
+ Jim                 | Wynorski         |       | The Return of Swamp Thing                                | Action
+ Jimmy               | Hayward          |       | Jonah Hex                                                | Action
+ Joachim             | RÃ¸nning         |       | Pirates of the Caribbean: Dead Men Tell No Tales         | Action
+ Joe                 | Carnahan         |       | Smokin' Aces                                             | Action
+ Joe                 | Carnahan         |       | The A-Team                                               | Action
+ Joe                 | Carnahan         |       | The Grey                                                 | Action
+ Joe                 | Cornish          |       | Attack the Block                                         | Action
+ Joe                 | Cornish          |       | The Kid Who Would Be King                                | Action
+ Joe                 | Dante            |       | Innerspace                                               | Action
+ Joe                 | Dante            |       | Small Soldiers                                           | Action
+ Joe                 | Johnston         |       | The Rocketeer                                            | Action
+ Joe                 | Johnston         |       | Jurassic Park III                                        | Action
+ Joe                 | Johnston         |       | Hidalgo                                                  | Action
+ Joe                 | Johnston         |       | Captain America: the First Avenger                       | Action
+ Joe                 | Lynch            |       | Knights of Badassdom                                     | Action
+ Joe                 | Wright           |       | Hanna                                                    | Action
+ Joel                | Schumacher       |       | D.C. Cab                                                 | Action
+ Joel                | Schumacher       |       | Falling Down                                             | Action
+ Joel                | Schumacher       |       | Batman Forever                                           | Action
+ Joel                | Schumacher       |       | Batman & Robin                                           | Action
+ Joel                | Schumacher       |       | Bad Company                                              | Action
+ Joel                | Schumacher       |       | Twelve                                                   | Action
+ John Andreas        | Andersen         |       | The Quake                                                | Action
+ John                | Badham           |       | WarGames                                                 | Action
+ John                | Badham           |       | Blue Thunder                                             | Action
+ John                | Badham           |       | Stakeout                                                 | Action
+ John                | Badham           |       | Bird on a Wire                                           | Action
+ John                | Badham           |       | The Hard Way                                             | Action
+ John                | Badham           |       | Point of No Return                                       | Action
+ John                | Badham           |       | Drop Zone                                                | Action
+ John                | Badham           |       | Nick of Time                                             | Action
+ John                | Bonito           |       | The Marine                                               | Action
+ John                | Boorman          |       | The Emerald Forest                                       | Action
+ John                | Boorman          |       | Beyond Rangoon                                           | Action
+ John                | Bruno            |       | Virus                                                    | Action
+ John                | Carpenter        |       | Escape from New York                                     | Action
+ John                | Carpenter        |       | Big Trouble in Little China                              | Action
+ John                | Carpenter        |       | They Live                                                | Action
+ John                | Carpenter        |       | Escape from L.A.                                         | Action
+ John                | Carpenter        |       | Vampires                                                 | Action
+ John                | Carpenter        |       | Ghosts of Mars                                           | Action
+ John                | Cornell          |       | Crocodile Dundee II                                      | Action
+ John                | Dahl             |       | Kill Me Again                                            | Action
+ John                | Dahl             |       | Joy Ride                                                 | Action
+ John                | Dahl             |       | The Great Raid                                           | Action
+ John Erick          | Dowdle           |       | No Escape                                                | Action
+ John                | Flynn            |       | Best Seller                                              | Action
+ John                | Flynn            |       | Lock Up                                                  | Action
+ John                | Flynn            |       | Out for Justice                                          | Action
+ John Francis        | Daley            |       | Game Night                                               | Action
+ John                | Frankenheimer    |       | The Challenge                                            | Action
+ John                | Frankenheimer    |       | The Holcroft Covenant                                    | Action
+ John                | Frankenheimer    |       | Dead Bang                                                | Action
+ John                | Frankenheimer    |       | Year of the Gun                                          | Action
+ John                | Frankenheimer    |       | Ronin                                                    | Action
+ John                | Frankenheimer    |       | Reindeer Games                                           | Action
+ John G.             | Avildsen         |       | The Karate Kid                                           | Action
+ John G.             | Avildsen         |       | The Karate Kid Part II                                   | Action
+ John G.             | Avildsen         |       | The Karate Kid Part III                                  | Action
+ John                | Glen             |       | For Your Eyes Only                                       | Action
+ John                | Glen             |       | Octopussy                                                | Action
+ John                | Glen             |       | A View to a Kill                                         | Action
+ John                | Glen             |       | The Living Daylights                                     | Action
+ John                | Glen             |       | License to Kill                                          | Action
+ John                | Glen             |       | Aces: Iron Eagle III                                     | Action
+ John                | Gray             |       | The Glimmer Man                                          | Action
+ John                | Guillermin       |       | King Kong Lives                                          | Action
+ John                | Gulager          |       | Feast                                                    | Action
+ John                | Herzfeld         |       | 15 Minutes                                               | Action
+ John                | Hillcoat         |       | Triple 9                                                 | Action
+ John                | Hyams            |       | Universal Soldier: Day of Reckoning                      | Action
+ John                | Irvin            |       | Raw Deal                                                 | Action
+ John                | Irvin            |       | Hamburger Hill                                           | Action
+ John                | Irvin            |       | Next of Kin                                              | Action
+ John                | Landis           |       | The Blues Brothers                                       | Action
+ John                | Landis           |       | Into the Night                                           | Action
+ John                | Landis           |       | Innocent Blood                                           | Action
+ John                | Landis           |       | Beverly Hills Cop III                                    | Action
+ John                | Landis           |       | Blues Brothers 2000                                      | Action
+ John                | Luessenhop       |       | Takers                                                   | Action
+ John                | Mackenzie        |       | The Last of the Finest                                   | Action
+ John                | Maclean          |       | Slow West                                                | Action
+ John                | Madden           |       | Killshot                                                 | Action
+ John                | McTiernan        |       | Predator                                                 | Action
+ John                | McTiernan        |       | Die Hard                                                 | Action
+ John                | McTiernan        |       | The Hunt for Red October                                 | Action
+ John                | McTiernan        |       | Last Action Hero                                         | Action
+ John                | McTiernan        |       | Die Hard with a Vengeance                                | Action
+ John                | McTiernan        |       | The 13th Warrior                                         | Action
+ John                | McTiernan        |       | Rollerball                                               | Action
+ John                | McTiernan        |       | Basic                                                    | Action
+ John                | Milius           |       | Conan the Barbarian                                      | Action
+ John                | Milius           |       | Red Dawn                                                 | Action
+ John                | Milius           |       | Farewell to the King                                     | Action
+ John                | Milius           |       | Flight of the Intruder                                   | Action
+ John                | Moore            |       | Behind Enemy Lines                                       | Action
+ John                | Moore            |       | Flight of the Phoenix                                    | Action
+ John                | Moore            |       | The Omen                                                 | Action
+ John                | Moore            |       | Max Payne                                                | Action
+ John                | Moore            |       | A Good Day to Die Hard                                   | Action
+ John                | Nicolella        |       | Kull the Conqueror                                       | Action
+ John                | Pasquin          |       | Miss Congeniality 2: Armed & Fabulous                    | Action
+ John R.             | Leonetti         |       | Mortal Kombat: Annihilation                              | Action
+ John                | Schlesinger      |       | Honky Tonk Freeway                                       | Action
+ John                | Singleton        |       | Rosewood                                                 | Action
+ John                | Singleton        |       | Shaft                                                    | Action
+ John                | Singleton        |       | 2 Fast 2 Furious                                         | Action
+ John                | Singleton        |       | Four Brothers                                            | Action
+ John                | Singleton        |       | Abduction                                                | Action
+ John                | Stainton         |       | The Crocodile Hunter: Collision Course                   | Action
+ John                | Stockwell        |       | Into the Blue                                            | Action
+ John                | Whitesell        |       | See Spot Run                                             | Action
+ John                | Whitesell        |       | Big Mommas: Like Father, Like Son                        | Action
+ John                | Woo              |       | Hard Target                                              | Action
+ John                | Woo              |       | Broken Arrow                                             | Action
+ John                | Woo              |       | Face/Off                                                 | Action
+ John                | Woo              |       | Mission: Impossible II                                   | Action
+ John                | Woo              |       | Windtalkers                                              | Action
+ John                | Woo              |       | Paycheck                                                 | Action
+ John                | Woo              |       | Red Cliff                                                | Action
+ Jon                 | Amiel            |       | Entrapment                                               | Action
+ Jon                 | Amiel            |       | The Core                                                 | Action
+ Jon                 | Favreau          |       | Zathura: A Space Adventure                               | Action
+ Jon                 | Favreau          |       | Iron Man                                                 | Action
+ Jon                 | Favreau          |       | Iron Man 2                                               | Action
+ Jon                 | Favreau          |       | Cowboys & Aliens                                         | Action
+ Jon                 | Hess             |       | Watchers                                                 | Action
+ Jon M.              | Chu              |       | G.I. Joe: Retaliation                                    | Action
+ Jon M.              | Chu              |       | Now You See Me 2                                         | Action
+ Jon                 | Turteltaub       |       | 3 Ninjas                                                 | Action
+ Jon                 | Turteltaub       |       | National Treasure                                        | Action
+ Jon                 | Turteltaub       |       | National Treasure: Book of Secrets                       | Action
+ Jon                 | Turteltaub       |       | The Sorcerer's Apprentice                                | Action
+ Jon                 | Turteltaub       |       | The Meg                                                  | Action
+ Jon                 | Watts            |       | Spider-Man: Homecoming                                   | Action
+ Jon                 | Watts            |       | Spider-Man: Far from Home                                | Action
+ Jonathan            | Baker            |       | Kin                                                      | Action
+ Jonathan            | Frakes           |       | Star Trek: First Contact                                 | Action
+ Jonathan            | Frakes           |       | Star Trek: Insurrection                                  | Action
+ Jonathan            | Frakes           |       | Clockstoppers                                            | Action
+ Jonathan            | Frakes           |       | Thunderbirds                                             | Action
+ Jonathan            | Hensleigh        |       | The Punisher                                             | Action
+ Jonathan            | Kaplan           |       | Bad Girls                                                | Action
+ Jonathan            | Levine           |       | Snatched                                                 | Action
+ Jonathan            | Liebesman        |       | Battle Los Angeles                                       | Action
+ Jonathan            | Liebesman        |       | Wrath of the Titans                                      | Action
+ Jonathan            | Liebesman        |       | Teenage Mutant Ninja Turtles                             | Action
+ Jonathan            | Lynn             |       | Wild Target                                              | Action
+ Jonathan            | Milott           |       | Cooties                                                  | Action
+ Jonathan            | Mostow           |       | U-571                                                    | Action
+ Jonathan            | Mostow           |       | Terminator 3: Rise of the Machines                       | Action
+ Jonathan            | Mostow           |       | Surrogates                                               | Action
+ Jonathan R.         | Betuel           |       | My Science Project                                       | Action
+ Jonathan            | Sanger           |       | Code Name: Emerald                                       | Action
+ Joo-hwan            | Kim              |       | The Divine Fury                                          | Action
+ Jordan              | Rubin            |       | Zombeavers                                               | Action
+ Jordan              | Vogt-Roberts     |       | Kong: Skull Island                                       | Action
+ Jorma               | Taccone          |       | MacGruber                                                | Action
+ JosÃ©               | Padilha          |       | Elite Squad                                              | Action
+ JosÃ©               | Padilha          |       | RoboCop                                                  | Action
+ JosÃ©               | Padilha          |       | 7 Days in Entebbe                                        | Action
+ Joseph              | Kahn             |       | Torque                                                   | Action
+ Joseph              | Kosinski         |       | TRON: Legacy                                             | Action
+ Joseph              | Kosinski         |       | Oblivion                                                 | Action
+ Joseph              | Kosinski         |       | Only the Brave                                           | Action
+ Joseph              | Ruben            |       | Dreamscape                                               | Action
+ Joseph              | Ruben            |       | Money Train                                              | Action
+ Joseph              | Zito             |       | Missing in Action                                        | Action
+ Joseph              | Zito             |       | Invasion U.S.A.                                          | Action
+ Joseph              | Zito             |       | Red Scorpion                                             | Action
+ Josh                | Trank            |       | Fantastic Four                                           | Action
+ Joss                | Whedon           |       | Serenity                                                 | Action
+ Joss                | Whedon           |       | The Avengers                                             | Action
+ Joss                | Whedon           |       | Avengers: Age of Ultron                                  | Action
+ Julie Anne          | Robinson         |       | One for the Money                                        | Action
+ Julius              | Avery            |       | Son of a Gun                                             | Action
+ Julius              | Avery            |       | Overlord                                                 | Action
+ Jung                | Da-Won           |       | Geolkapseu                                               | Action
+ Just                | Jaeckin          |       | Gwendoline                                               | Action
+ Justin              | Kurzel           |       | Assassin's Creed                                         | Action
+ Justin              | Lin              |       | The Fast and the Furious: Tokyo Drift                    | Action
+ Justin              | Lin              |       | Fast & Furious                                           | Action
+ Justin              | Lin              |       | Fast Five                                                | Action
+ Justin              | Lin              |       | Fast & Furious 6                                         | Action
+ Justin              | Lin              |       | Star Trek Beyond                                         | Action
+ Kabir               | Khan             |       | Bajrangi Bhaijaan                                        | Action
+ Kar-Wai             | Wong             |       | Ashes of Time                                            | Action
+ Kar-Wai             | Wong             |       | The Grandmaster                                          | Action
+ Karyn               | Kusama           |       | Ã†on Flux                                                | Action
+ Karyn               | Kusama           |       | Destroyer                                                | Action
+ Kathryn             | Bigelow          |       | Near Dark                                                | Action
+ Kathryn             | Bigelow          |       | Blue Steel                                               | Action
+ Kathryn             | Bigelow          |       | Point Break                                              | Action
+ Kathryn             | Bigelow          |       | Strange Days                                             | Action
+ Katt                | Shea             |       | Streets                                                  | Action
+ Keanu               | Reeves           |       | Man of Tai Chi                                           | Action
+ Keenen Ivory        | Wayans           |       | I'm Gonna Git You Sucka                                  | Action
+ Keenen Ivory        | Wayans           |       | A Low Down Dirty Shame                                   | Action
+ Ken                 | Russell          |       | The Rainbow                                              | Action
+ Kenneth             | Branagh          |       | Henry V                                                  | Action
+ Kenneth             | Branagh          |       | Thor                                                     | Action
+ Kenneth             | Branagh          |       | Jack Ryan: Shadow Recruit                                | Action
+ Kenneth             | Johnson          |       | Steel                                                    | Action
+ Kerry               | Conran           |       | Sky Captain and the World of Tomorrow                    | Action
+ Kevin               | Bray             |       | All About the Benjamins                                  | Action
+ Kevin               | Bray             |       | Walking Tall                                             | Action
+ Kevin               | Costner          |       | The Postman                                              | Action
+ Kevin               | Costner          |       | Open Range                                               | Action
+ Kevin               | Donovan          |       | The Tuxedo                                               | Action
+ Kevin               | Hooks            |       | Passenger 57                                             | Action
+ Kevin               | Hooks            |       | Fled                                                     | Action
+ Kevin               | Hooks            |       | Black Dog                                                | Action
+ Kevin               | Macdonald        |       | The Eagle                                                | Action
+ Kevin               | Macdonald        |       | How I Live Now                                           | Action
+ Kevin               | Reynolds         |       | Robin Hood: Prince of Thieves                            | Action
+ Kevin               | Reynolds         |       | Rapa Nui                                                 | Action
+ Kevin               | Reynolds         |       | Waterworld                                               | Action
+ Kevin               | Reynolds         |       | The Count of Monte Cristo                                | Action
+ Kevin               | Reynolds         |       | Tristan + Isolde                                         | Action
+ Kevin               | Reynolds         |       | Risen                                                    | Action
+ Kevin               | Smith            |       | Cop Out                                                  | Action
+ Kevin               | Smith            |       | Red State                                                | Action
+ Kinka               | Usher            |       | Mystery Men                                              | Action
+ Kirk                | Wong             |       | Jung on zo                                               | Action
+ Kirk                | Wong             |       | The Big Hit                                              | Action
+ Kristian            | Levring          |       | The Salvation                                            | Action
+ Kriv                | Stenders         |       | Kill Me Three Times                                      | Action
+ Kurt                | Wimmer           |       | Equilibrium                                              | Action
+ Kurt                | Wimmer           |       | Ultraviolet                                              | Action
+ Lamont              | Johnson          |       | Spacehunter: Adventures in the Forbidden Zone            | Action
+ Lana                | Wachowski        |       | The Matrix                                               | Action
+ Lana                | Wachowski        |       | The Matrix Reloaded                                      | Action
+ Lana                | Wachowski        |       | The Matrix Revolutions                                   | Action
+ Lana                | Wachowski        |       | Speed Racer                                              | Action
+ Lana                | Wachowski        |       | Jupiter Ascending                                        | Action
+ Lance               | Hool             |       | Missing in Action 2: The Beginning                       | Action
+ Lance               | Hool             |       | Steel Dawn                                               | Action
+ Lance               | Mungia           |       | Six-String Samurai                                       | Action
+ Larry               | Bishop           |       | Hell Ride                                                | Action
+ Lawrence David      | Foldes           |       | Young Warriors                                           | Action
+ Lawrence            | Guterman         |       | Cats & Dogs                                              | Action
+ Lawrence            | Kasdan           |       | Silverado                                                | Action
+ Lee                 | Tamahori         |       | The Edge                                                 | Action
+ Lee                 | Tamahori         |       | Die Another Day                                          | Action
+ Lee                 | Tamahori         |       | xXx: State of the Union                                  | Action
+ Lee                 | Tamahori         |       | Next                                                     | Action
+ Leigh               | Whannell         |       | Upgrade                                                  | Action
+ Len                 | Wiseman          |       | Underworld                                               | Action
+ Len                 | Wiseman          |       | Underworld: Evolution                                    | Action
+ Len                 | Wiseman          |       | Live Free or Die Hard                                    | Action
+ Len                 | Wiseman          |       | Total Recall                                             | Action
+ Leonard             | Nimoy            |       | Star Trek III: The Search for Spock                      | Action
+ Leonard             | Nimoy            |       | Star Trek IV: The Voyage Home                            | Action
+ Les                 | Mayfield         |       | Blue Streak                                              | Action
+ Les                 | Mayfield         |       | American Outlaws                                         | Action
+ Les                 | Mayfield         |       | The Man                                                  | Action
+ Le-Van              | Kiet             |       | Furie                                                    | Action
+ Lewis               | Teague           |       | Fighting Back                                            | Action
+ Lewis               | Teague           |       | The Jewel of the Nile                                    | Action
+ Lewis               | Teague           |       | Navy Seals                                               | Action
+ Lexi                | Alexander        |       | Punisher: War Zone                                       | Action
+ Lili Fini           | Zanuck           |       | Rush                                                     | Action
+ Louis               | C.K.             |       | Pootie Tang                                              | Action
+ Louis               | Leterrier        |       | The Transporter                                          | Action
+ Louis               | Leterrier        |       | Transporter 2                                            | Action
+ Louis               | Leterrier        |       | Unleashed                                                | Action
+ Louis               | Leterrier        |       | The Incredible Hulk                                      | Action
+ Louis               | Leterrier        |       | Clash of the Titans                                      | Action
+ Louis               | Leterrier        |       | The Brothers Grimsby                                     | Action
+ Louis               | Malle            |       | Alamo Bay                                                | Action
+ Luc                 | Besson           |       | Nikita                                                   | Action
+ Luc                 | Besson           |       | LÃ©on: The Professional                                  | Action
+ Luc                 | Besson           |       | The Fifth Element                                        | Action
+ Luc                 | Besson           |       | Lucy                                                     | Action
+ Luc                 | Besson           |       | Valerian and the City of a Thousand Planets              | Action
+ Luc                 | Besson           |       | Anna                                                     | Action
+ Luis                | Llosa            |       | Sniper                                                   | Action
+ Luis                | Llosa            |       | The Specialist                                           | Action
+ Luis                | Llosa            |       | Anaconda                                                 | Action
+ Luis                | Mandoki          |       | Trapped                                                  | Action
+ Luis                | Prieto           |       | Kidnap                                                   | Action
+ Luke                | Greenfield       |       | Let's Be Cops                                            | Action
+ Luke                | Scott            |       | Morgan                                                   | Action
+ M. Night            | Shyamalan        |       | The Last Airbender                                       | Action
+ M. Night            | Shyamalan        |       | After Earth                                              | Action
+ M.J.                | Bassett          |       | Silent Hill: Revelation                                  | Action
+ MÃ¥ns               | MÃ¥rlind         |       | Underworld: Awakening                                    | Action
+ Mabrouk El          | Mechri           |       | JCVD                                                     | Action
+ Mabrouk El          | Mechri           |       | The Cold Light of Day                                    | Action
+ Malcolm D.          | Lee              |       | Undercover Brother                                       | Action
+ Malik               | Bader            |       | Killerman                                                | Action
+ Marc                | Forster          |       | Quantum of Solace                                        | Action
+ Marc                | Forster          |       | Machine Gun Preacher                                     | Action
+ Marc                | Forster          |       | World War Z                                              | Action
+ Marc                | Webb             |       | The Amazing Spider-Man                                   | Action
+ Marc                | Webb             |       | The Amazing Spider-Man 2                                 | Action
+ Marco               | Brambilla        |       | Demolition Man                                           | Action
+ Marco               | Brambilla        |       | Excess Baggage                                           | Action
+ Marcus              | Nispel           |       | Pathfinder                                               | Action
+ Marcus              | Nispel           |       | Conan the Barbarian                                      | Action
+ Mario Van           | Peebles          |       | New Jack City                                            | Action
+ Mark A.Z.           | DippÃ©           |       | Spawn                                                    | Action
+ Mark                | Buntzman         |       | Exterminator 2                                           | Action
+ Mark                | DiSalle          |       | Kickboxer                                                | Action
+ Mark                | DiSalle          |       | The Perfect Weapon                                       | Action
+ Mark                | Goldblatt        |       | Dead Heat                                                | Action
+ Mark                | Griffiths        |       | A Cry in the Wild                                        | Action
+ Mark L.             | Lester           |       | Firestarter                                              | Action
+ Mark L.             | Lester           |       | Commando                                                 | Action
+ Mark L.             | Lester           |       | Armed and Dangerous                                      | Action
+ Mark L.             | Lester           |       | Class of 1999                                            | Action
+ Mark L.             | Lester           |       | Showdown in Little Tokyo                                 | Action
+ Mark                | Neveldine        |       | Crank                                                    | Action
+ Mark                | Neveldine        |       | Gamer                                                    | Action
+ Mark                | Neveldine        |       | Crank: High Voltage                                      | Action
+ Mark                | Neveldine        |       | Ghost Rider: Spirit of Vengeance                         | Action
+ Mark                | Pellington       |       | Arlington Road                                           | Action
+ Mark Steven         | Johnson          |       | Daredevil                                                | Action
+ Mark Steven         | Johnson          |       | Ghost Rider                                              | Action
+ Mark                | Waters           |       | The Spiderwick Chronicles                                | Action
+ Mark                | Waters           |       | Vampire Academy                                          | Action
+ Martin              | Brest            |       | Beverly Hills Cop                                        | Action
+ Martin              | Brest            |       | Midnight Run                                             | Action
+ Martin              | Campbell         |       | No Escape                                                | Action
+ Martin              | Campbell         |       | GoldenEye                                                | Action
+ Martin              | Campbell         |       | The Mask of Zorro                                        | Action
+ Martin              | Campbell         |       | Vertical Limit                                           | Action
+ Martin              | Campbell         |       | The Legend of Zorro                                      | Action
+ Martin              | Campbell         |       | Casino Royale                                            | Action
+ Martin              | Campbell         |       | Edge of Darkness                                         | Action
+ Martin              | Campbell         |       | Green Lantern                                            | Action
+ Martin              | Campbell         |       | The Foreigner                                            | Action
+ Marvin J.           | Chomsky          |       | Tank                                                     | Action
+ Mathieu             | Kassovitz        |       | Babylon A.D.                                             | Action
+ Matt                | Bettinelli-Olpin |       | Ready or Not                                             | Action
+ Matt                | Reeves           |       | Cloverfield                                              | Action
+ Matt                | Reeves           |       | Dawn of the Planet of the Apes                           | Action
+ Matt                | Reeves           |       | War for the Planet of the Apes                           | Action
+ Matthew             | Robbins          |       | Dragonslayer                                             | Action
+ Matthew             | Robbins          |       | The Legend of Billie Jean                                | Action
+ Matthew             | Vaughn           |       | Layer Cake                                               | Action
+ Matthew             | Vaughn           |       | Kick-Ass                                                 | Action
+ Matthew             | Vaughn           |       | X-Men: First Class                                       | Action
+ Matthew             | Vaughn           |       | Kingsman: The Secret Service                             | Action
+ Matthew             | Vaughn           |       | Kingsman: The Golden Circle                              | Action
+                     | McG              |       | Charlie's Angels                                         | Action
+                     | McG              |       | Charlie's Angels: Full Throttle                          | Action
+                     | McG              |       | Terminator Salvation                                     | Action
+                     | McG              |       | This Means War                                           | Action
+                     | McG              |       | 3 Days to Kill                                           | Action
+ Mel                 | Damski           |       | Yellowbeard                                              | Action
+ Mel                 | Gibson           |       | Apocalypto                                               | Action
+ Menahem             | Golan            |       | The Delta Force                                          | Action
+ Menahem             | Golan            |       | Over the Top                                             | Action
+ Mic                 | Rodgers          |       | Universal Soldier: the Return                            | Action
+ Michael             | Apted            |       | The World Is Not Enough                                  | Action
+ Michael             | Bay              |       | Bad Boys                                                 | Action
+ Michael             | Bay              |       | The Rock                                                 | Action
+ Michael             | Bay              |       | Armageddon                                               | Action
+ Michael             | Bay              |       | Pearl Harbor                                             | Action
+ Michael             | Bay              |       | Bad Boys II                                              | Action
+ Michael             | Bay              |       | The Island                                               | Action
+ Michael             | Bay              |       | Transformers                                             | Action
+ Michael             | Bay              |       | Transformers: Revenge of the Fallen                      | Action
+ Michael             | Bay              |       | Transformers: Dark of the Moon                           | Action
+ Michael             | Bay              |       | Pain & Gain                                              | Action
+ Michael             | Bay              |       | Transformers: Age of Extinction                          | Action
+ Michael             | Bay              |       | 13 Hours                                                 | Action
+ Michael             | Bay              |       | Transformers: The Last Knight                            | Action
+ Michael             | Caton-Jones      |       | Memphis Belle                                            | Action
+ Michael             | Caton-Jones      |       | The Jackal                                               | Action
+ Michael             | Cimino           |       | Year of the Dragon                                       | Action
+ Michael             | Cimino           |       | The Sicilian                                             | Action
+ Michael             | Cimino           |       | Desperate Hours                                          | Action
+ Michael             | Crichton         |       | Runaway                                                  | Action
+ Michael             | Cuesta           |       | American Assassin                                        | Action
+ Michael             | Davis            |       | Shoot 'Em Up                                             | Action
+ Michael             | Dougherty        |       | Godzilla: King of the Monsters                           | Action
+ Michael             | Dowse            |       | Stuber                                                   | Action
+ Michael             | Fischa           |       | Crack House                                              | Action
+ Michael             | Gottlieb         |       | Mr. Nanny                                                | Action
+ Michael             | Herz             |       | The Toxic Avenger Part II                                | Action
+ Michael             | Herz             |       | The Toxic Avenger Part III: The Last Temptation of Toxie | Action
+ Michael             | Katleman         |       | Primeval                                                 | Action
+ Michael             | Lehmann          |       | Hudson Hawk                                              | Action
+ Michael             | Mann             |       | Thief                                                    | Action
+ Michael             | Mann             |       | The Last of the Mohicans                                 | Action
+ Michael             | Mann             |       | Miami Vice                                               | Action
+ Michael             | Mann             |       | Blackhat                                                 | Action
+ Michael             | Miller           |       | Silent Rage                                              | Action
+ Michael             | Pressman         |       | Teenage Mutant Ninja Turtles II: The Secret of the Ooze  | Action
+ Michael             | Ritchie          |       | The Island                                               | Action
+ Michael             | Ritchie          |       | The Golden Child                                         | Action
+ Michael             | Schroeder        |       | Damned River                                             | Action
+ Michael             | Schultz          |       | The Last Dragon                                          | Action
+ Michael             | Spierig          |       | Daybreakers                                              | Action
+ Michael             | Spierig          |       | Predestination                                           | Action
+ Michael             | Winner           |       | Death Wish II                                            | Action
+ Michael             | Winner           |       | Death Wish 3                                             | Action
+ Michel              | Gondry           |       | The Green Hornet                                         | Action
+ Michel              | Hazanavicius     |       | OSS 117: Cairo, Nest of Spies                            | Action
+ Michelle            | Manning          |       | Blue City                                                | Action
+ Mick                | Jackson          |       | The Bodyguard                                            | Action
+ Mick                | Jackson          |       | Volcano                                                  | Action
+ Miguel              | Sapochnik        |       | Repo Men                                                 | Action
+ Mikael              | HÃ¥fstrÃ¶m       |       | Escape Plan                                              | Action
+ Mikael              | Salomon          |       | Hard Rain                                                | Action
+ Mike                | Binder           |       | Blankman                                                 | Action
+ Mike                | Hodges           |       | A Prayer for the Dying                                   | Action
+ Mike                | Marvin           |       | The Wraith                                               | Action
+ Mike                | McCoy            |       | Act of Valor                                             | Action
+ Mike                | Newell           |       | Prince of Persia: the Sands of Time                      | Action
+ Mimi                | Leder            |       | The Peacemaker                                           | Action
+ Mimi                | Leder            |       | Deep Impact                                              | Action
+ Mitchell            | Lichtenstein     |       | Teeth                                                    | Action
+ Morten              | Tyldum           |       | Jo NesbÃ¸'s Headhunters                                  | Action
+ Nash                | Edgerton         |       | Gringo                                                   | Action
+ Neal                | Israel           |       | Surf Ninjas                                              | Action
+ Neil                | Burger           |       | Divergent                                                | Action
+ Neil                | Jordan           |       | The Brave One                                            | Action
+ Neil                | Marshall         |       | Doomsday                                                 | Action
+ Neil                | Marshall         |       | Centurion                                                | Action
+ Neil                | Marshall         |       | Hellboy                                                  | Action
+ Neill               | Blomkamp         |       | District 9                                               | Action
+ Neill               | Blomkamp         |       | Elysium                                                  | Action
+ Neill               | Blomkamp         |       | Chappie                                                  | Action
+ Newt                | Arnold           |       | Bloodsport                                               | Action
+ Nicholas            | Mastandrea       |       | The Breed                                                | Action
+ Nicholas            | Meyer            |       | Star Trek II: The Wrath of Khan                          | Action
+ Nicholas            | Meyer            |       | Star Trek VI: The Undiscovered Country                   | Action
+ Nicholas            | Meyer            |       | Company Business                                         | Action
+ Nick                | Castle           |       | The Last Starfighter                                     | Action
+ Nick                | Love             |       | The Sweeney                                              | Action
+ Nicolai             | Fuglsig          |       | 12 Strong                                                | Action
+ Nicolas Winding     | Refn             |       | Bronson                                                  | Action
+ Nicolas Winding     | Refn             |       | Valhalla Rising                                          | Action
+ Nicolas Winding     | Refn             |       | Only God Forgives                                        | Action
+ Niels Arden         | Oplev            |       | Dead Man Down                                            | Action
+ Nikkhil             | Advani           |       | Batla House                                              | Action
+ Nikolaj             | Arcel            |       | The Dark Tower                                           | Action
+ Nima                | Nourizadeh       |       | American Ultra                                           | Action
+ NimrÃ³d             | Antal            |       | Predators                                                | Action
+ Nitesh              | Tiwari           |       | Dangal                                                   | Action
+ Noam                | Murro            |       | 300: Rise of an Empire                                   | Action
+ Noel                | Nosseck          |       | King of the Mountain                                     | Action
+ Oliver              | Parker           |       | Johnny English Reborn                                    | Action
+ Oliver              | Stone            |       | Heaven & Earth                                           | Action
+ Oliver              | Stone            |       | Natural Born Killers                                     | Action
+ Oliver              | Stone            |       | Alexander                                                | Action
+ Olivier             | Megaton          |       | Transporter 3                                            | Action
+ Olivier             | Megaton          |       | Colombiana                                               | Action
+ Olivier             | Megaton          |       | Taken 2                                                  | Action
+ Olivier             | Megaton          |       | Taken 3                                                  | Action
+ Otto                | Bathurst         |       | Robin Hood                                               | Action
+ Paco                | Cabezas          |       | Mr. Right                                                | Action
+ Park                | Chan-Wook        |       | Oldboy                                                   | Action
+ Park                | Hoon-jung        |       | New World                                                | Action
+ Pat                 | O'Connor         |       | The January Man                                          | Action
+ Pat                 | Proft            |       | Wrongfully Accused                                       | Action
+ Patrick             | Hughes           |       | The Expendables 3                                        | Action
+ Patrick             | Hughes           |       | The Hitman's Bodyguard                                   | Action
+ Patrick             | Lussier          |       | Dracula 2000                                             | Action
+ Patrick             | Lussier          |       | Drive Angry                                              | Action
+ Patrick             | Tatopoulos       |       | Underworld: Rise of the Lycans                           | Action
+ Patty               | Jenkins          |       | Wonder Woman                                             | Action
+ Patty               | Jenkins          |       | Wonder Woman 1984                                        | Action
+ Paul                | Aaron            |       | Deadly Force                                             | Action
+ Paul                | Donovan          |       | DEFCON-4                                                 | Action
+ Paul                | Feig             |       | The Heat                                                 | Action
+ Paul                | Feig             |       | Spy                                                      | Action
+ Paul                | Feig             |       | Ghostbusters                                             | Action
+ Paul                | Greengrass       |       | The Bourne Supremacy                                     | Action
+ Paul                | Greengrass       |       | United 93                                                | Action
+ Paul                | Greengrass       |       | The Bourne Ultimatum                                     | Action
+ Paul                | Greengrass       |       | Green Zone                                               | Action
+ Paul                | Greengrass       |       | Jason Bourne                                             | Action
+ Paul                | Gross            |       | Hyena Road                                               | Action
+ Paul                | Haggis           |       | The Next Three Days                                      | Action
+ Paul                | Hunter           |       | Bulletproof Monk                                         | Action
+ Paul                | Lynch            |       | Bullies                                                  | Action
+ Paul                | McGuigan         |       | Push                                                     | Action
+ Paul Michael        | Glaser           |       | Band of the Hand                                         | Action
+ Paul Michael        | Glaser           |       | The Running Man                                          | Action
+ Paul                | Nicholas         |       | Chained Heat                                             | Action
+ Paul                | Nicholas         |       | The Naked Cage                                           | Action
+ Paul                | Verhoeven        |       | RoboCop                                                  | Action
+ Paul                | Verhoeven        |       | Total Recall                                             | Action
+ Paul                | Verhoeven        |       | Starship Troopers                                        | Action
+ Paul                | Verhoeven        |       | Hollow Man                                               | Action
+ Paul W.S.           | Anderson         |       | Mortal Kombat                                            | Action
+ Paul W.S.           | Anderson         |       | Soldier                                                  | Action
+ Paul W.S.           | Anderson         |       | Resident Evil                                            | Action
+ Paul W.S.           | Anderson         |       | Alien vs. Predator                                       | Action
+ Paul W.S.           | Anderson         |       | Death Race                                               | Action
+ Paul W.S.           | Anderson         |       | Resident Evil: Afterlife                                 | Action
+ Paul W.S.           | Anderson         |       | The Three Musketeers                                     | Action
+ Paul W.S.           | Anderson         |       | Resident Evil: Retribution                               | Action
+ Paul W.S.           | Anderson         |       | Pompeii                                                  | Action
+ Paul W.S.           | Anderson         |       | Resident Evil: The Final Chapter                         | Action
+ Paul                | Weiland          |       | Leonard Part 6                                           | Action
+ Paul                | Weitz            |       | Cirque du Freak: the Vampire's Assistant                 | Action
+ Pete                | Travis           |       | Vantage Point                                            | Action
+ Pete                | Travis           |       | Dredd                                                    | Action
+ Peter               | Atencio          |       | Keanu                                                    | Action
+ Peter               | Berg             |       | The Rundown                                              | Action
+ Peter               | Berg             |       | Friday Night Lights                                      | Action
+ Peter               | Berg             |       | The Kingdom                                              | Action
+ Peter               | Berg             |       | Hancock                                                  | Action
+ Peter               | Berg             |       | Battleship                                               | Action
+ Peter               | Berg             |       | Lone Survivor                                            | Action
+ Peter               | Berg             |       | Deepwater Horizon                                        | Action
+ Peter               | Berg             |       | Patriots Day                                             | Action
+ Peter               | Berg             |       | Mile 22                                                  | Action
+ Peter               | Faiman           |       | Crocodile Dundee                                         | Action
+ Peter               | Hewitt           |       | Zoom                                                     | Action
+ Peter               | Howitt           |       | Antitrust                                                | Action
+ Peter               | Howitt           |       | Johnny English                                           | Action
+ Peter               | Hyams            |       | Outland                                                  | Action
+ Peter               | Hyams            |       | Running Scared                                           | Action
+ Peter               | Hyams            |       | The Presidio                                             | Action
+ Peter               | Hyams            |       | Narrow Margin                                            | Action
+ Peter               | Hyams            |       | Timecop                                                  | Action
+ Peter               | Hyams            |       | Sudden Death                                             | Action
+ Peter               | Hyams            |       | End of Days                                              | Action
+ Peter               | Hyams            |       | The Musketeer                                            | Action
+ Peter               | Hyams            |       | A Sound of Thunder                                       | Action
+ Peter               | Jackson          |       | The Lord of the Rings: The Fellowship of the Ring        | Action
+ Peter               | Jackson          |       | The Lord of the Rings: The Two Towers                    | Action
+ Peter               | Jackson          |       | The Lord of the Rings: The Return of the King            | Action
+ Peter               | Jackson          |       | King Kong                                                | Action
+ Peter               | MacDonald        |       | Rambo III                                                | Action
+ Peter               | MacDonald        |       | Mo' Money                                                | Action
+ Peter               | Manoogian        |       | Eliminators                                              | Action
+ Peter               | Medak            |       | Zorro: The Gay Blade                                     | Action
+ Peter               | Medak            |       | Species II                                               | Action
+ Peter R.            | Hunt             |       | Assassination                                            | Action
+ Peter               | Segal            |       | Get Smart                                                | Action
+ Peter               | Webber           |       | Hannibal Rising                                          | Action
+ Peter               | Weir             |       | Master and Commander: the Far Side of the World          | Action
+ Peter               | Yates            |       | Krull                                                    | Action
+ Peter               | Yates            |       | An Innocent Man                                          | Action
+ Peter               | Yates            |       | Year of the Comet                                        | Action
+ Petter              | NÃ¦ss            |       | Into the White                                           | Action
+ Peyton              | Reed             |       | Ant-Man                                                  | Action
+ Peyton              | Reed             |       | Ant-Man and the Wasp                                     | Action
+ Phil Alden          | Robinson         |       | The Sum of All Fears                                     | Action
+ Phil                | Joanou           |       | State of Grace                                           | Action
+ Phil                | Lord             |       | 21 Jump Street                                           | Action
+ Phil                | Lord             |       | 22 Jump Street                                           | Action
+ Philip G.           | Atwell           |       | War                                                      | Action
+ Philip              | Kaufman          |       | Rising Sun                                               | Action
+ Phillip             | Noyce            |       | Blind Fury                                               | Action
+ Phillip             | Noyce            |       | Patriot Games                                            | Action
+ Phillip             | Noyce            |       | Clear and Present Danger                                 | Action
+ Phillip             | Noyce            |       | The Saint                                                | Action
+ Phillip             | Noyce            |       | Salt                                                     | Action
+ Pierre              | Morel            |       | District B13                                             | Action
+ Pierre              | Morel            |       | Taken                                                    | Action
+ Pierre              | Morel            |       | From Paris with Love                                     | Action
+ Pierre              | Morel            |       | The Gunman                                               | Action
+ Pierre              | Morel            |       | Peppermint                                               | Action
+                     | Pitof            |       | Catwoman                                                 | Action
+ Prachya             | Pinkaew          |       | Ong-Bak: The Thai Warrior                                | Action
+ Prachya             | Pinkaew          |       | The Protector                                            | Action
+ Prachya             | Pinkaew          |       | Chocolate                                                | Action
+ Preston A. Whitmore | II               |       | The Walking Dead                                         | Action
+ Punit               | Malhotra         |       | Student of the Year 2                                    | Action
+ Quentin             | Tarantino        |       | Kill Bill: Vol. 1                                        | Action
+ Quentin             | Tarantino        |       | Kill Bill: Vol. 2                                        | Action
+ Rachel              | Talalay          |       | Tank Girl                                                | Action
+ Raj Kumar           | Gupta            |       | India's Most Wanted                                      | Action
+ Raja                | Gosnell          |       | Home Alone 3                                             | Action
+ Raja                | Gosnell          |       | Big Momma's House                                        | Action
+ Raju                | Patel            |       | In the Shadow of Kilimanjaro                             | Action
+ Rakesh              | Roshan           |       | Kaho Naa... Pyaar Hai                                    | Action
+ Randall             | Wallace          |       | The Man in the Iron Mask                                 | Action
+ Randall             | Wallace          |       | We Were Soldiers                                         | Action
+ Rawson Marshall     | Thurber          |       | Central Intelligence                                     | Action
+ Rawson Marshall     | Thurber          |       | Skyscraper                                               | Action
+ Reggie Rock         | Bythewood        |       | Biker Boyz                                               | Action
+ Renny               | Harlin           |       | Born American                                            | Action
+ Renny               | Harlin           |       | Die Hard 2                                               | Action
+ Renny               | Harlin           |       | The Adventures of Ford Fairlane                          | Action
+ Renny               | Harlin           |       | Cliffhanger                                              | Action
+ Renny               | Harlin           |       | Cutthroat Island                                         | Action
+ Renny               | Harlin           |       | The Long Kiss Goodnight                                  | Action
+ Renny               | Harlin           |       | Deep Blue Sea                                            | Action
+ Renny               | Harlin           |       | Driven                                                   | Action
+ Renny               | Harlin           |       | The Covenant                                             | Action
+ Renny               | Harlin           |       | 12 Rounds                                                | Action
+ Renny               | Harlin           |       | The Legend of Hercules                                   | Action
+ Rian                | Johnson          |       | Brick                                                    | Action
+ Rian                | Johnson          |       | The Brothers Bloom                                       | Action
+ Rian                | Johnson          |       | Looper                                                   | Action
+ Rian                | Johnson          |       | Star Wars: Episode VIII - The Last Jedi                  | Action
+ Ric Roman           | Waugh            |       | Snitch                                                   | Action
+ Ric Roman           | Waugh            |       | Angel Has Fallen                                         | Action
+ Richard             | Benjamin         |       | City Heat                                                | Action
+ Richard             | Benjamin         |       | Downtown                                                 | Action
+ Richard             | Correll          |       | Ski Patrol                                               | Action
+ Richard             | Donner           |       | Lethal Weapon                                            | Action
+ Richard             | Donner           |       | Lethal Weapon 2                                          | Action
+ Richard             | Donner           |       | Lethal Weapon 3                                          | Action
+ Richard             | Donner           |       | Maverick                                                 | Action
+ Richard             | Donner           |       | Assassins                                                | Action
+ Richard             | Donner           |       | Conspiracy Theory                                        | Action
+ Richard             | Donner           |       | Lethal Weapon 4                                          | Action
+ Richard             | Donner           |       | Timeline                                                 | Action
+ Richard             | Donner           |       | 16 Blocks                                                | Action
+ Richard             | Fleischer        |       | Conan the Destroyer                                      | Action
+ Richard             | Fleischer        |       | Red Sonja                                                | Action
+ Richard             | Franklin         |       | Cloak & Dagger                                           | Action
+ Richard             | Franklin         |       | F/X2                                                     | Action
+ Richard             | Lester           |       | Superman II                                              | Action
+ Richard             | Lester           |       | Superman III                                             | Action
+ Richard             | Linklater        |       | The Newton Boys                                          | Action
+ Richard             | Loncraine        |       | Firewall                                                 | Action
+ Richard             | Marquand         |       | Star Wars: Episode VI - Return of the Jedi               | Action
+ Richard             | Rush             |       | The Stunt Man                                            | Action
+ Richard             | Tuggle           |       | Out of Bounds                                            | Action
+ Rick                | Friedberg        |       | Spy Hard                                                 | Action
+ Rick                | Jacobson         |       | Bitch Slap                                               | Action
+ Ridley              | Scott            |       | Blade Runner                                             | Action
+ Ridley              | Scott            |       | Black Rain                                               | Action
+ Ridley              | Scott            |       | G.I. Jane                                                | Action
+ Ridley              | Scott            |       | Gladiator                                                | Action
+ Ridley              | Scott            |       | Kingdom of Heaven                                        | Action
+ Ridley              | Scott            |       | Body of Lies                                             | Action
+ Ridley              | Scott            |       | Robin Hood                                               | Action
+ Ridley              | Scott            |       | Exodus: Gods and Kings                                   | Action
+ Riley               | Stearns          |       | The Art of Self-Defense                                  | Action
+ Ringo               | Lam              |       | Twin Dragons                                             | Action
+ Ringo               | Lam              |       | Maximum Risk                                             | Action
+ Roar                | Uthaug           |       | The Wave                                                 | Action
+ Roar                | Uthaug           |       | Tomb Raider                                              | Action
+ Rob                 | Bowman           |       | Reign of Fire                                            | Action
+ Rob                 | Bowman           |       | Elektra                                                  | Action
+ Rob                 | Cohen            |       | Dragon                                                   | Action
+ Rob                 | Cohen            |       | DragonHeart                                              | Action
+ Rob                 | Cohen            |       | Daylight                                                 | Action
+ Rob                 | Cohen            |       | The Skulls                                               | Action
+ Rob                 | Cohen            |       | The Fast and the Furious                                 | Action
+ Rob                 | Cohen            |       | xXx                                                      | Action
+ Rob                 | Cohen            |       | Stealth                                                  | Action
+ Rob                 | Cohen            |       | The Mummy: Tomb of the Dragon Emperor                    | Action
+ Rob                 | Cohen            |       | Alex Cross                                               | Action
+ Rob                 | Letterman        |       | PokÃ©mon Detective Pikachu                               | Action
+ Rob                 | Marshall         |       | Pirates of the Caribbean: on Stranger Tides              | Action
+ Rob                 | Minkoff          |       | The Forbidden Kingdom                                    | Action
+ Robbie              | Grewal           |       | Romeo Akbar Walter                                       | Action
+ Robert              | Butler           |       | Turbulence                                               | Action
+ Robert              | Clouse           |       | Gymkata                                                  | Action
+ Robert              | Harmon           |       | The Hitcher                                              | Action
+ Robert              | Harmon           |       | Nowhere to Run                                           | Action
+ Robert              | Lieberman        |       | D3: The Mighty Ducks                                     | Action
+ Robert              | Longo            |       | Johnny Mnemonic                                          | Action
+ Robert              | Luketic          |       | Killers                                                  | Action
+ Robert              | Mandel           |       | F/X                                                      | Action
+ Robert              | Mandel           |       | The Substitute                                           | Action
+ Robert              | Radler           |       | Best of the Best                                         | Action
+ Robert              | Radler           |       | Best of the Best II                                      | Action
+ Robert              | Rodriguez        |       | El Mariachi                                              | Action
+ Robert              | Rodriguez        |       | Desperado                                                | Action
+ Robert              | Rodriguez        |       | From Dusk Till Dawn                                      | Action
+ Robert              | Rodriguez        |       | Spy Kids                                                 | Action
+ Robert              | Rodriguez        |       | Spy Kids 2: Island of Lost Dreams                        | Action
+ Robert              | Rodriguez        |       | Once Upon a Time in Mexico                               | Action
+ Robert              | Rodriguez        |       | Spy Kids 3-D: Game Over                                  | Action
+ Robert              | Rodriguez        |       | The Adventures of Sharkboy and Lavagirl 3-D              | Action
+ Robert              | Rodriguez        |       | Machete Kills                                            | Action
+ Robert              | Rodriguez        |       | Alita: Battle Angel                                      | Action
+ Robert              | Schwentke        |       | RED                                                      | Action
+ Robert              | Schwentke        |       | R.I.P.D.                                                 | Action
+ Robert              | Schwentke        |       | The Divergent Series: Insurgent                          | Action
+ Robert              | Schwentke        |       | Allegiant                                                | Action
+ Robert              | Shaye            |       | The Last Mimzy                                           | Action
+ Robert              | Stromberg        |       | Maleficent                                               | Action
+ Robert              | Townsend         |       | The Meteor Man                                           | Action
+ Robert Vincent      | O'Neil           |       | Angel                                                    | Action
+ Robert Vincent      | O'Neil           |       | Avenging Angel                                           | Action
+ Robert              | Wise             |       | Rooftops                                                 | Action
+ Robert              | Zemeckis         |       | Romancing the Stone                                      | Action
+ Robert              | Zemeckis         |       | The Walk                                                 | Action
+ Robert              | Zemeckis         |       | Allied                                                   | Action
+ Rod                 | Daniel           |       | K-9                                                      | Action
+ Rod                 | Lurie            |       | The Last Castle                                          | Action
+ Rod                 | Lurie            |       | Straw Dogs                                               | Action
+ Roger               | Christian        |       | Masterminds                                              | Action
+ Roger               | Christian        |       | Battlefield Earth                                        | Action
+ Roger               | Donaldson        |       | No Way Out                                               | Action
+ Roger               | Donaldson        |       | White Sands                                              | Action
+ Roger               | Donaldson        |       | The Getaway                                              | Action
+ Roger               | Donaldson        |       | Species                                                  | Action
+ Roger               | Donaldson        |       | Dante's Peak                                             | Action
+ Roger               | Donaldson        |       | The Recruit                                              | Action
+ Roger               | Donaldson        |       | The November Man                                         | Action
+ Roger               | Spottiswoode     |       | Shoot to Kill                                            | Action
+ Roger               | Spottiswoode     |       | Air America                                              | Action
+ Roger               | Spottiswoode     |       | Stop! Or My Mom Will Shoot                               | Action
+ Roger               | Spottiswoode     |       | Tomorrow Never Dies                                      | Action
+ Roger               | Spottiswoode     |       | The 6th Day                                              | Action
+ Roger               | Young            |       | Lassiter                                                 | Action
+ Roger               | Young            |       | The Squeeze                                              | Action
+ Roland              | Emmerich         |       | Universal Soldier                                        | Action
+ Roland              | Emmerich         |       | Stargate                                                 | Action
+ Roland              | Emmerich         |       | Independence Day                                         | Action
+ Roland              | Emmerich         |       | Godzilla                                                 | Action
+ Roland              | Emmerich         |       | The Patriot                                              | Action
+ Roland              | Emmerich         |       | The Day After Tomorrow                                   | Action
+ Roland              | Emmerich         |       | 10,000 BC                                                | Action
+ Roland              | Emmerich         |       | 2012                                                     | Action
+ Roland              | Emmerich         |       | White House Down                                         | Action
+ Roland              | Emmerich         |       | Independence Day: Resurgence                             | Action
+ Roman               | Polanski         |       | Pirates                                                  | Action
+ Ron                 | Howard           |       | Willow                                                   | Action
+ Ron                 | Howard           |       | Backdraft                                                | Action
+ Ron                 | Howard           |       | Ransom                                                   | Action
+ Ron                 | Howard           |       | Angels & Demons                                          | Action
+ Ron                 | Howard           |       | Rush                                                     | Action
+ Ron                 | Howard           |       | In the Heart of the Sea                                  | Action
+ Ron                 | Howard           |       | Inferno                                                  | Action
+ Ron                 | Howard           |       | Solo: A Star Wars Story                                  | Action
+ Ron                 | Shelton          |       | Hollywood Homicide                                       | Action
+ Ron                 | Underwood        |       | Mighty Joe Young                                         | Action
+ Ron                 | Underwood        |       | The Adventures of Pluto Nash                             | Action
+ Ronny               | Yu               |       | Warriors of Virtue                                       | Action
+ Ronny               | Yu               |       | Formula 51                                               | Action
+ Ronny               | Yu               |       | Freddy vs. Jason                                         | Action
+ Ronny               | Yu               |       | Fearless                                                 | Action
+ Rowdy               | Herrington       |       | Road House                                               | Action
+ Rowdy               | Herrington       |       | Gladiator                                                | Action
+ Rowdy               | Herrington       |       | Striking Distance                                        | Action
+ Ruben               | Fleischer        |       | 30 Minutes or Less                                       | Action
+ Ruben               | Fleischer        |       | Gangster Squad                                           | Action
+ Ruben               | Fleischer        |       | Venom                                                    | Action
+ Ruben               | Fleischer        |       | Zombieland: Double Tap                                   | Action
+ Ruggero             | Deodato          |       | The Barbarians                                           | Action
+ Rupert              | Sanders          |       | Snow White and the Huntsman                              | Action
+ Rupert              | Sanders          |       | Ghost in the Shell                                       | Action
+ Rupert              | Wyatt            |       | Rise of the Planet of the Apes                           | Action
+ Rupert              | Wyatt            |       | Captive State                                            | Action
+ Russell             | Mulcahy          |       | Highlander                                               | Action
+ Russell             | Mulcahy          |       | Highlander II: The Quickening                            | Action
+ Russell             | Mulcahy          |       | Ricochet                                                 | Action
+ Russell             | Mulcahy          |       | The Shadow                                               | Action
+ Russell             | Mulcahy          |       | Resident Evil: Extinction                                | Action
+ Ryan                | Coogler          |       | Black Panther                                            | Action
+ Ryan                | Little           |       | Saints and Soldiers                                      | Action
+                     | RZA              |       | The Man with the Iron Fists                              | Action
+ S.S.                | Rajamouli        |       | Baahubali: The Beginning                                 | Action
+ S.S.                | Rajamouli        |       | Baahubali 2: The Conclusion                              | Action
+ Sam                 | Firstenberg      |       | Revenge of the Ninja                                     | Action
+ Sam                 | Firstenberg      |       | Ninja III: The Domination                                | Action
+ Sam                 | Firstenberg      |       | American Warrior                                         | Action
+ Sam                 | Firstenberg      |       | Avenging Force                                           | Action
+ Sam                 | Firstenberg      |       | American Ninja 2: The Confrontation                      | Action
+ Sam                 | Levinson         |       | Assassination Nation                                     | Action
+ Sam                 | Mendes           |       | Jarhead                                                  | Action
+ Sam                 | Mendes           |       | Skyfall                                                  | Action
+ Sam                 | Mendes           |       | Spectre                                                  | Action
+ Sam                 | Peckinpah        |       | The Osterman Weekend                                     | Action
+ Sam                 | Raimi            |       | Darkman                                                  | Action
+ Sam                 | Raimi            |       | The Quick and the Dead                                   | Action
+ Sam                 | Raimi            |       | Spider-Man                                               | Action
+ Sam                 | Raimi            |       | Spider-Man 2                                             | Action
+ Sam                 | Raimi            |       | Spider-Man 3                                             | Action
+ Sam                 | Weisman          |       | George of the Jungle                                     | Action
+ Sammo Kam-Bo        | Hung             |       | Mr. Nice Guy                                             | Action
+ Sang-Geun           | Lee              |       | Exit                                                     | Action
+ Sang-ho             | Yeon             |       | Train to Busan                                           | Action
+ Sang-hoon           | Ahn              |       | Empire of Lust                                           | Action
+ Sang-ok             | Shin             |       | 3 Ninjas: Knuckle Up                                     | Action
+ Sanjay              | Gadhvi           |       | Dhoom                                                    | Action
+ Sanjay Leela        | Bhansali         |       | Bajirao Mastani                                          | Action
+ Scott               | Cooper           |       | Out of the Furnace                                       | Action
+ Scott               | Derrickson       |       | Deliver Us from Evil                                     | Action
+ Scott               | Derrickson       |       | Doctor Strange                                           | Action
+ Scott               | Frank            |       | A Walk Among the Tombstones                              | Action
+ Scott               | Kalvert          |       | Deuces Wild                                              | Action
+ Scott               | Sanders          |       | Black Dynamite                                           | Action
+ Scott               | Silver           |       | The Mod Squad                                            | Action
+ Scott               | Stewart          |       | Legion                                                   | Action
+ Scott               | Stewart          |       | Priest                                                   | Action
+ Scott               | Waugh            |       | Need for Speed                                           | Action
+ Scott               | Wiper            |       | The Condemned                                            | Action
+ Sean                | Ellis            |       | Anthropoid                                               | Action
+ Sean                | McNamara         |       | 3 Ninjas: High Noon at Mega Mountain                     | Action
+ Sean S.             | Cunningham       |       | DeepStar Six                                             | Action
+ SebastiÃ¡n          | Cordero          |       | Europa Report                                            | Action
+ Sebastian           | Gutierrez        |       | Rise: Blood Hunter                                       | Action
+ Sergei              | Bodrov           |       | Mongol: The Rise of Genghis Khan                         | Action
+ Sergei              | Bodrov           |       | Seventh Son                                              | Action
+ Seth                | Gordon           |       | Baywatch                                                 | Action
+ Shane               | Black            |       | Iron Man 3                                               | Action
+ Shane               | Black            |       | The Nice Guys                                            | Action
+ Shane               | Black            |       | The Predator                                             | Action
+ Shawn               | Levy             |       | Real Steel                                               | Action
+ Shekhar             | Kapur            |       | The Four Feathers                                        | Action
+ Sheldon             | Lettich          |       | Lionheart                                                | Action
+ Sheldon             | Lettich          |       | Double Impact                                            | Action
+ Sheldon             | Lettich          |       | Only the Strong                                          | Action
+ Shinji              | Higuchi          |       | Attack on Titan Part 1                                   | Action
+ Shin'ya             | Tsukamoto        |       | Tetsuo II: Body Hammer                                   | Action
+ Shin-yeon           | Won              |       | Memoir of a Murderer                                     | Action
+ Shuki               | Levy             |       | Turbo: A Power Rangers Movie                             | Action
+ Sidney J.           | Furie            |       | Iron Eagle                                               | Action
+ Sidney J.           | Furie            |       | Superman IV: The Quest for Peace                         | Action
+ Sidney J.           | Furie            |       | Iron Eagle II                                            | Action
+ Sidney J.           | Furie            |       | The Taking of Beverly Hills                              | Action
+ Sidney              | Poitier          |       | Hanky Panky                                              | Action
+ Sig                 | Shore            |       | Sudden Death                                             | Action
+ Simon               | Kinberg          |       | X-Men: Dark Phoenix                                      | Action
+ Simon               | Wells            |       | The Time Machine                                         | Action
+ Simon               | West             |       | Con Air                                                  | Action
+ Simon               | West             |       | Lara Croft: Tomb Raider                                  | Action
+ Simon               | West             |       | The Mechanic                                             | Action
+ Simon               | West             |       | The Expendables 2                                        | Action
+ Simon               | West             |       | Stolen                                                   | Action
+ Simon               | West             |       | Wild Card                                                | Action
+ Simon               | Wincer           |       | Quigley Down Under                                       | Action
+ Simon               | Wincer           |       | Harley Davidson and the Marlboro Man                     | Action
+ Simon               | Wincer           |       | Operation Dumbo Drop                                     | Action
+ Simon               | Wincer           |       | The Phantom                                              | Action
+ Simon               | Wincer           |       | Crocodile Dundee in Los Angeles                          | Action
+ Skip                | Woods            |       | Thursday                                                 | Action
+ Sngmoo              | Lee              |       | The Warrior's Way                                        | Action
+ Spike               | Lee              |       | Oldboy                                                   | Action
+ StÃ©phane           | Rybojad          |       | Special Forces                                           | Action
+ Stanley             | Tong             |       | Supercop                                                 | Action
+ Stanley             | Tong             |       | Rumble in the Bronx                                      | Action
+ Stanley             | Tong             |       | First Strike                                             | Action
+ Stefano             | Sollima          |       | Sicario: Day of the Soldado                              | Action
+ Stefen              | Fangmeier        |       | Eragon                                                   | Action
+ Stephen             | Chow             |       | Shaolin Soccer                                           | Action
+ Stephen             | Chow             |       | Kung Fu Hustle                                           | Action
+ Stephen             | Cornwell         |       | Philadelphia Experiment II                               | Action
+ Stephen             | Gyllenhaal       |       | Certain Fury                                             | Action
+ Stephen             | Herek            |       | The Three Musketeers                                     | Action
+ Stephen             | Hopkins          |       | Predator 2                                               | Action
+ Stephen             | Hopkins          |       | Judgment Night                                           | Action
+ Stephen             | Hopkins          |       | Blown Away                                               | Action
+ Stephen             | Hopkins          |       | Lost in Space                                            | Action
+ Stephen             | Kay              |       | Get Carter                                               | Action
+ Stephen             | King             |       | Maximum Overdrive                                        | Action
+ Stephen             | Norrington       |       | Death Machine                                            | Action
+ Stephen             | Norrington       |       | Blade                                                    | Action
+ Stephen             | Norrington       |       | The League of Extraordinary Gentlemen                    | Action
+ Stephen             | Sommers          |       | Deep Rising                                              | Action
+ Stephen             | Sommers          |       | The Mummy                                                | Action
+ Stephen             | Sommers          |       | The Mummy Returns                                        | Action
+ Stephen             | Sommers          |       | Van Helsing                                              | Action
+ Stephen             | Sommers          |       | G.I. Joe: The Rise of Cobra                              | Action
+ Steve               | Barron           |       | Teenage Mutant Ninja Turtles                             | Action
+ Steve               | Boyum            |       | Supercross                                               | Action
+ Steve               | Carr             |       | Paul Blart: Mall Cop                                     | Action
+ Steve               | Carver           |       | An Eye for an Eye                                        | Action
+ Steve               | Carver           |       | Lone Wolf McQuade                                        | Action
+ Steve               | Carver           |       | River of Death                                           | Action
+ Steve De            | Jarnatt          |       | Cherry 2000                                              | Action
+ Steve De            | Jarnatt          |       | Miracle Mile                                             | Action
+ Steve               | Miner            |       | Warlock                                                  | Action
+ Steve               | Miner            |       | Lake Placid                                              | Action
+ Steve               | Miner            |       | Texas Rangers                                            | Action
+ Steve               | Oedekerk         |       | Nothing to Lose                                          | Action
+ Steve               | Oedekerk         |       | Kung Pow: Enter the Fist                                 | Action
+ Steven              | Brill            |       | Drillbit Taylor                                          | Action
+ Steven E. de        | Souza            |       | Street Fighter                                           | Action
+ Steven              | Knight           |       | Redemption                                               | Action
+ Steven              | Lisberger        |       | Tron                                                     | Action
+ Steven              | Quale            |       | Final Destination 5                                      | Action
+ Steven              | Quale            |       | Into the Storm                                           | Action
+ Steven S.           | DeKnight         |       | Pacific Rim: Uprising                                    | Action
+ Steven              | Seagal           |       | On Deadly Ground                                         | Action
+ Steven              | Soderbergh       |       | Haywire                                                  | Action
+ Steven              | Spielberg        |       | Indiana Jones and the Raiders of the Lost Ark            | Action
+ Steven              | Spielberg        |       | Indiana Jones and the Temple of Doom                     | Action
+ Steven              | Spielberg        |       | Empire of the Sun                                        | Action
+ Steven              | Spielberg        |       | Indiana Jones and the Last Crusade                       | Action
+ Steven              | Spielberg        |       | Jurassic Park                                            | Action
+ Steven              | Spielberg        |       | The Lost World: Jurassic Park                            | Action
+ Steven              | Spielberg        |       | Minority Report                                          | Action
+ Steven              | Spielberg        |       | Munich                                                   | Action
+ Steven              | Spielberg        |       | Indiana Jones and the Kingdom of the Crystal Skull       | Action
+ Steven              | Spielberg        |       | War Horse                                                | Action
+ Steven              | Spielberg        |       | Ready Player One                                         | Action
+ Stewart             | Raffill          |       | The Ice Pirates                                          | Action
+ Stuart              | Baird            |       | Executive Decision                                       | Action
+ Stuart              | Baird            |       | U.S. Marshals                                            | Action
+ Stuart              | Baird            |       | Star Trek: Nemesis                                       | Action
+ Stuart              | Beattie          |       | I, Frankenstein                                          | Action
+ Stuart              | Gillard          |       | Teenage Mutant Ninja Turtles III                         | Action
+ Stuart              | Gordon           |       | Robot Jox                                                | Action
+ Stuart              | Gordon           |       | Fortress                                                 | Action
+ Stuart              | Rosenberg        |       | The Pope of Greenwich Village                            | Action
+ Sturla              | Gunnarsson       |       | Beowulf & Grendel                                        | Action
+                     | Sujeeth          |       | Saaho                                                    | Action
+ Susanna             | Fogel            |       | The Spy Who Dumped Me                                    | Action
+ Sylvain             | White            |       | The Losers                                               | Action
+ Sylvester           | Stallone         |       | Rocky Balboa                                             | Action
+ Sylvester           | Stallone         |       | Rambo                                                    | Action
+ Sylvester           | Stallone         |       | The Expendables                                          | Action
+ Sylvio              | Tabet            |       | Beastmaster 2: Through the Portal of Time                | Action
+ Taika               | Waititi          |       | Thor: Ragnarok                                           | Action
+ Takao               | Okawara          |       | Godzilla 2000: Millennium                                | Action
+ Takashi             | Miike            |       | Ichi the Killer                                          | Action
+ Takashi             | Miike            |       | 13 Assassins                                             | Action
+ Takashi             | Miike            |       | Blade of the Immortal                                    | Action
+ Takeshi             | Kitano           |       | Violent Cop                                              | Action
+ Takeshi             | Kitano           |       | Boiling Point                                            | Action
+ Takeshi             | Kitano           |       | The Blind Swordsman: Zatoichi                            | Action
+ Tarsem              | Singh            |       | Immortals                                                | Action
+ Tarsem              | Singh            |       | Self/less                                                | Action
+ Taylor              | Hackford         |       | Against All Odds                                         | Action
+ Taylor              | Hackford         |       | Proof of Life                                            | Action
+ Taylor              | Hackford         |       | Parker                                                   | Action
+ Ted                 | Kotcheff         |       | First Blood                                              | Action
+ Ted                 | Kotcheff         |       | Uncommon Valor                                           | Action
+ Terry               | Gilliam          |       | The Brothers Grimm                                       | Action
+ Terry               | Leonard          |       | Death Before Dishonor                                    | Action
+ Thomas              | Carter           |       | Metro                                                    | Action
+ Thomas J.           | Wright           |       | No Holds Barred                                          | Action
+ Thomas              | Jahn             |       | Knockin' on Heaven's Door                                | Action
+ Thomas K.           | Avildsen         |       | Things Are Tough All Over                                | Action
+ Ti                  | West             |       | In a Valley of Violence                                  | Action
+ Tim                 | Burton           |       | Batman                                                   | Action
+ Tim                 | Burton           |       | Batman Returns                                           | Action
+ Tim                 | Burton           |       | Planet of the Apes                                       | Action
+ Tim                 | Miller           |       | Deadpool                                                 | Action
+ Tim                 | Miller           |       | Terminator: Dark Fate                                    | Action
+ Tim                 | Pope             |       | The Crow: City of Angels                                 | Action
+ Tim                 | Story            |       | Taxi                                                     | Action
+ Tim                 | Story            |       | Fantastic Four                                           | Action
+ Tim                 | Story            |       | Fantastic 4: Rise of the Silver Surfer                   | Action
+ Tim                 | Story            |       | Ride Along                                               | Action
+ Tim                 | Story            |       | Ride Along 2                                             | Action
+ Tim                 | Story            |       | Shaft                                                    | Action
+ Timur               | Bekmambetov      |       | Night Watch                                              | Action
+ Timur               | Bekmambetov      |       | Wanted                                                   | Action
+ Timur               | Bekmambetov      |       | Abraham Lincoln: Vampire Hunter                          | Action
+ Timur               | Bekmambetov      |       | Ben-Hur                                                  | Action
+ Tobe                | Hooper           |       | Lifeforce                                                | Action
+ Tom                 | Dey              |       | Shanghai Noon                                            | Action
+ Tom                 | Dey              |       | Showtime                                                 | Action
+ Tom                 | Holland          |       | Fatal Beauty                                             | Action
+ Tom                 | Tykwer           |       | The International                                        | Action
+ Tom                 | Tykwer           |       | Cloud Atlas                                              | Action
+ Tommy               | Wirkola          |       | Hansel & Gretel: Witch Hunters                           | Action
+ Tony                | Bill             |       | Flyboys                                                  | Action
+ Tony                | Chan             |       | The Bravest                                              | Action
+ Tony                | Gilroy           |       | The Bourne Legacy                                        | Action
+ Tony                | Maylam           |       | Split Second                                             | Action
+ Tony                | Scott            |       | Top Gun                                                  | Action
+ Tony                | Scott            |       | Beverly Hills Cop II                                     | Action
+ Tony                | Scott            |       | Days of Thunder                                          | Action
+ Tony                | Scott            |       | Revenge                                                  | Action
+ Tony                | Scott            |       | The Last Boy Scout                                       | Action
+ Tony                | Scott            |       | Crimson Tide                                             | Action
+ Tony                | Scott            |       | The Fan                                                  | Action
+ Tony                | Scott            |       | Enemy of the State                                       | Action
+ Tony                | Scott            |       | Spy Game                                                 | Action
+ Tony                | Scott            |       | Man on Fire                                              | Action
+ Tony                | Scott            |       | Domino                                                   | Action
+ Tony                | Scott            |       | Deja Vu                                                  | Action
+ Tony                | Scott            |       | The Taking of Pelham 123                                 | Action
+ Tony                | Scott            |       | Unstoppable                                              | Action
+ Tony                | Wash             |       | High on the Hog                                          | Action
+ Travis              | Knight           |       | Bumblebee                                                | Action
+ Trey                | Parker           |       | Team America: World Police                               | Action
+ Troy                | Duffy            |       | The Boondock Saints                                      | Action
+ Troy                | Duffy            |       | The Boondock Saints II: All Saints Day                   | Action
+ Uli                 | Edel             |       | The Baader Meinhof Complex                               | Action
+ Uwe                 | Boll             |       | House of the Dead                                        | Action
+ Uwe                 | Boll             |       | BloodRayne                                               | Action
+ Uwe                 | Boll             |       | Alone in the Dark                                        | Action
+ Uwe                 | Boll             |       | In the Name of the King: A Dungeon Siege Tale            | Action
+ Uwe                 | Boll             |       | Postal                                                   | Action
+ Vic                 | Armstrong        |       | Left Behind                                              | Action
+ Vic                 | Sarin            |       | Left Behind: The Movie                                   | Action
+ Vicente             | Aranda           |       | Lovers: A True Story                                     | Action
+ Wally               | Pfister          |       | Transcendence                                            | Action
+ Walt                | Becker           |       | Wild Hogs                                                | Action
+ Walter              | Hill             |       | Southern Comfort                                         | Action
+ Walter              | Hill             |       | 48 Hrs.                                                  | Action
+ Walter              | Hill             |       | Streets of Fire                                          | Action
+ Walter              | Hill             |       | Extreme Prejudice                                        | Action
+ Walter              | Hill             |       | Red Heat                                                 | Action
+ Walter              | Hill             |       | Another 48 Hrs.                                          | Action
+ Walter              | Hill             |       | Trespass                                                 | Action
+ Walter              | Hill             |       | Wild Bill                                                | Action
+ Walter              | Hill             |       | Last Man Standing                                        | Action
+ Walter              | Hill             |       | Undisputed                                               | Action
+ Walter              | Hill             |       | Bullet to the Head                                       | Action
+ Warren              | Beatty           |       | Dick Tracy                                               | Action
+ Wayne               | Kramer           |       | Running Scared                                           | Action
+ Werner              | Herzog           |       | Rescue Dawn                                              | Action
+ Wes                 | Anderson         |       | The Life Aquatic with Steve Zissou                       | Action
+ Wes                 | Ball             |       | The Maze Runner                                          | Action
+ Wes                 | Ball             |       | Maze Runner: The Scorch Trials                           | Action
+ Wes                 | Ball             |       | Maze Runner: The Death Cure                              | Action
+ Willard             | Huyck            |       | Howard the Duck                                          | Action
+ William A.          | Fraker           |       | The Legend of the Lone Ranger                            | Action
+ William             | Dear             |       | If Looks Could Kill                                      | Action
+ William             | Dear             |       | Wild America                                             | Action
+ William             | Friedkin         |       | To Live and Die in L.A.                                  | Action
+ William             | Friedkin         |       | The Hunted                                               | Action
+ William             | Lustig           |       | Maniac Cop                                               | Action
+ William             | Phelps           |       | North Shore                                              | Action
+ William             | Shatner          |       | Star Trek V: The Final Frontier                          | Action
+ William             | Tannen           |       | Flashpoint                                               | Action
+ William             | Tannen           |       | Hero and the Terror                                      | Action
+ Wilson              | Yip              |       | Ip Man 2                                                 | Action
+ Wilson              | Yip              |       | Ip Man 3                                                 | Action
+ Wilson              | Yip              |       | Ip Man 4: The Finale                                     | Action
+ Wim                 | Wenders          |       | Until the End of the World                               | Action
+ Wing-Cho            | Yip              |       | Mantis Fist Fighter                                      | Action
+ Wolfgang            | Petersen         |       | Enemy Mine                                               | Action
+ Wolfgang            | Petersen         |       | In the Line of Fire                                      | Action
+ Wolfgang            | Petersen         |       | Outbreak                                                 | Action
+ Wolfgang            | Petersen         |       | Air Force One                                            | Action
+ Wolfgang            | Petersen         |       | The Perfect Storm                                        | Action
+ Wolfgang            | Petersen         |       | Poseidon                                                 | Action
+ Won-Tae             | Lee              |       | The Gangster, the Cop, the Devil                         | Action
+ Woo-Ping            | Yuen             |       | Iron Monkey                                              | Action
+ Wych                | Kaosayananda     |       | Ballistic: Ecks vs. Sever                                | Action
+ Xavier              | Gens             |       | Hitman                                                   | Action
+ Yann                | Demange          |       | '71                                                      | Action
+ Yimou               | Zhang            |       | Hero                                                     | Action
+ Yimou               | Zhang            |       | House of Flying Daggers                                  | Action
+ Yimou               | Zhang            |       | Curse of the Golden Flower                               | Action
+ Yimou               | Zhang            |       | The Great Wall                                           | Action
+ Yong-hwa            | Kim              |       | Along With the Gods: The Two Worlds                      | Action
+ Zack                | Snyder           |       | Dawn of the Dead                                         | Action
+ Zack                | Snyder           |       | 300                                                      | Action
+ Zack                | Snyder           |       | Watchmen                                                 | Action
+ Zack                | Snyder           |       | Sucker Punch                                             | Action
+ Zack                | Snyder           |       | Man of Steel                                             | Action
+ Zack                | Snyder           |       | Batman v Superman: Dawn of Justice                       | Action
+ Zack                | Snyder           |       | Justice League                                           | Action
+ Zoran               | Perisic          |       | Sky Bandits                                              | Action
+(1705 rows)
+
